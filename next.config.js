@@ -6,6 +6,9 @@ const nextConfig = {
     SITE_URL: process.env.SITE_URL,
     APP_MODE: process.env.APP_MODE
   },
+  images: {
+    domains: ['tailwindui.com','media.ssyoutube.com'],
+  },
 };
 
 const withPWA = require('next-pwa')({

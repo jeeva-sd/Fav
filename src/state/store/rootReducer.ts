@@ -1,8 +1,8 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import { postsReducer } from '../duck/post';
+import { InstaReducer } from '../duck/instagram';
 
 const rootReducer = combineReducers({
-  posts: postsReducer,
+  instagram: InstaReducer,
 });
 
 export default rootReducer;

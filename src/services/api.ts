@@ -1,5 +1,5 @@
-import { PostService } from './posts';
+import { InstaService } from './instagram';
 
 export const api = {
-  posts: new PostService(),
+  instagram: new InstaService(),
 };
