@@ -1,6 +1,6 @@
-import React from 'react';
 import { useSelector } from 'react-redux';
 import DownloadBox from '~/components/instagram/DownloadBox';
+import QuickPages from '~/components/instagram/QuickPages';
 import { fetchPost } from '~/state/duck/instagram';
 import { AppState, dispatch } from '~/state/store';
 import SearchInput from '~/widgets/SearchInput';
@@ -12,15 +12,17 @@ const Reels = () => {
     dispatch(fetchPost(url));
   };
 
+  // from-slate-50 to-blue-100 bg-slate-100 bg-gradient-to-r from-slate-50 via-slate-100 to-slate-50
+
   return (
     <div className='flex'>
-      <div className='w-full min-h-[100vh] flex text-center items-center bg-slate-100 border'>
-        <div className='w-1/12 border'></div>
+      <div className='flex w-full min-h-[100vh] bg-slate-100 py-28'>
+        <div className='lg:flex md:hidden hidden w-2/12'></div>
 
-        <div className='w-10/12 flex justify-around items-center border'>
-          <div className='w-5/12 border'>
-            <div className='py-5'>
-              <h1 className='text-3xl font-bold'>
+        <div className='lg:w-8/12 md:w-full w-full flex flex-wrap justify-center'>
+          <div className='lg:w-7/12 w-11/12 text-center'>
+            <div className='py-10'>
+              <h1 className='lg:text-3xl md:text-2xl text-xl font-bold'>
                 Instagram
                 {' '}
                 <span className='text-indigo-600'>Thumbnail</span>
@@ -31,13 +33,18 @@ const Reels = () => {
             <div>
               <SearchInput onSearch={onSearch} isRequesting={isRequesting}/>
             </div>
+
+            <div className='py-4'>
+              <QuickPages />
+            </div>
           </div>
-          <div className='w-5/12 border'>
+
+          <div className='lg:w-6/12 md:6/12 w-11/12'>
             <DownloadBox post={post}/>
           </div>
         </div>
 
-        <div className='w-1/12 border'></div>
+        <div className='lg:flex md:hidden hidden w-2/12'></div>
       </div>
     </div>
   );

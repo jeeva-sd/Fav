@@ -20,7 +20,7 @@ const DownloadBox = ({post = {}}:any) => {
 
   return (
     <div className="flex font-sans bg-white rounded-md p-1 shadow-md">
-      <div className="flex-none w-48 relative">
+      <div className="flex-none w-48 relative lg:flex md:flex hidden">
         <Image src={thumbnail || cricket} alt="" width={300} height={289} className="absolute inset-0 max-w-[200px] min-h-[100%] max-h-[100%] object-cover rounded-md" />
       </div>
       <form className="flex-auto p-6" onSubmit={() => window.open(downloadLink, '_blank')}>
