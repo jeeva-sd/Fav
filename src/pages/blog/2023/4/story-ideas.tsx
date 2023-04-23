@@ -20,7 +20,7 @@ const Tips = () => {
                   </div>
                 </div>
               </address>
-              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-3xl dark:text-white"> Creative Ways to Use Instagram Stories</h1>
+              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-3xl dark:text-white">Creative Ways to Use Instagram Stories</h1>
             </header>
 
             <p className="lead">
