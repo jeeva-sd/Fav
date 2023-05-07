@@ -1,10 +1,10 @@
-import Head from 'next/head';
 import { memo } from 'react';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
 import { Inter } from 'next/font/google';
+import InstaView from '~/components/home/InstaView';
 import TopBlue from '~/components/home/TopBlue';
 import BottomBlue from '~/components/home/BottomBlue';
-import InstaView from '~/components/home/InstaView';
-import { useRouter } from 'next/router';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>JusDownload</title>
+        <title>FavInsta</title>
         <meta name='description' content='JusDownload' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
@@ -25,21 +25,21 @@ const Home = () => {
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              FavInsta.com
+                FavInsta.com
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-            Download and share your favorite posts with ease, only on FavInsta.com.
-            share, inspire, and enjoy anytime, anywhere!
+                Download and share your favorite posts with ease, only on FavInsta.com.
+                share, inspire, and enjoy anytime, anywhere!
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <span
                   onClick={() => router.push('/reel')}
                   className="cursor-pointer rounded-md bg-indigo-600 hover:bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-md hover:shadow-sm"
                 >
-                Get started
+                  Get started
                 </span>
                 <span className="text-sm font-semibold leading-6 text-gray-900">
-                PWA App <span aria-hidden="true">→</span>
+                  PWA App <span aria-hidden="true">→</span>
                 </span>
               </div>
             </div>

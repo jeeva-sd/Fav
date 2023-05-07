@@ -1,7 +1,7 @@
 import { FaFacebook, FaTwitter, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 const ShareButtons = ({ url }: any) => {
-  const encodedUrl = encodeURIComponent(url);
+  const encodedUrl = encodeURIComponent(`https://www.favinsta.com/${url}`);
 
   const shareOnFacebook = () => {
     window.open(
@@ -38,7 +38,7 @@ const ShareButtons = ({ url }: any) => {
   return (
     <div className="flex flex-wrap w-full mt-10 gap-5">
       <div className="w-full font-light text-sm">
-                If you found this post helpful, please share it on social media!
+        If you found this post helpful, please share it on social media!
       </div>
 
       <button onClick={shareOnFacebook}>

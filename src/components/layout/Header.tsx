@@ -5,11 +5,11 @@ import {IoIosCodeDownload} from 'react-icons/io';
 import Link from 'next/link';
 
 const pages = [
-  { name: 'Reel', href: '/reel' },
-  { name: 'Video', href: '/video' },
-  { name: 'Photo', href: '/photo' },
-  { name: 'Thumbnail', href: '/thumbnail' },
-  { name: 'Stories', href: '/story' },
+  // { name: 'Reel', href: '/reel' },
+  // { name: 'Video', href: '/video' },
+  // { name: 'Photo', href: '/photo' },
+  // { name: 'Thumbnail', href: '/thumbnail' },
+  // { name: 'Stories', href: '/story' },
   { name: 'About us', href: '/about' },
   { name: 'Contact us', href: '/contact' },
 ];
@@ -35,18 +35,18 @@ const Header = () => {
               <AiOutlineBars className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-12">
+          <div className="hidden lg:flex lg:gap-x-6  lg:justify-end">
             {pages.map((item) => (
               <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-500">
                 {item.name}
               </a>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+          {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
-          </div>
+          </div> */}
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />

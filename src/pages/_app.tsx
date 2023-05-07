@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { Inter } from 'next/font/google';
 import { store } from '~/state/store';
 import Header from '../components/layout/Header';
+import Footer from '~/components/layout/Footer';
 import '~/styles/globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -12,9 +13,8 @@ const App = ({ Component, pageProps }: AppProps) => {
   return <Provider store={store}>
     <div className={inter.className}>
       <Header />
-      <div>
-        <Component {...pageProps} />
-      </div>
+      <Component {...pageProps} />
+      <Footer />
     </div>
   </Provider>;
 };
