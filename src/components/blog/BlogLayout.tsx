@@ -17,7 +17,7 @@ const BlogLayout = ({ children }: React.PropsWithChildren) => {
         {/* <Image src={grid} alt="" className="fixed -translate-x-2/4 -translate-y-28 w-[1000px] h-full opacity-5" />
         <Image src={grid} alt="" className="fixed translate-x-2/4 -translate-y-28 w-[1000px] h-full opacity-5" /> */}
         <Image src={Dgrid} alt="" className="fixed w-full -translate-y-44 h-full opacity-5" />
-        <div className="relative lg:w-7/12 md:w-7/12 w-full p-2 bg-white rounded shadow-xl shadow-slate-700/20 ring-1 ring-gray-900/5">
+        <div className="relative lg:w-7/12 md:w-10/12 w-full p-2 bg-white rounded shadow-xl shadow-slate-700/20 ring-1 ring-gray-900/5">
           <div className='mx-auto flex lg:justify-start md:justify-center justify-start lg:px-6 md:px-6 px-6 mt-14 w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert'>
             <BreadCrumbs />
           </div>

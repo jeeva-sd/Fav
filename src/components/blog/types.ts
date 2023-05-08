@@ -3,7 +3,7 @@ import { StaticImageData } from 'next/image';
 export interface Posts {
     title: string;
     description: string;
-    image: string | StaticImageData;
+    image: null | StaticImageData;
     path: string;
     category: string;
     rewards: string;
