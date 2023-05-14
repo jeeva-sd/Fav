@@ -28,18 +28,17 @@ const Home = () => {
                 FavInsta.com
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Download and share your favorite posts with ease, only on FavInsta.com.
-                share, inspire, and enjoy anytime, anywhere!
+              Discover the latest trends, and updates to skyrocket your Instagram success.  Explore the latest features and updates Instagram has rolled out, ensuring you&apos;re always one step ahead in leveraging full potential.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <span
-                  onClick={() => router.push('/reel')}
+                {/* <span
+                  onClick={() => router.push('/blog')}
                   className="cursor-pointer rounded-md bg-indigo-600 hover:bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-md hover:shadow-sm"
                 >
                   Get started
-                </span>
-                <span className="text-sm font-semibold leading-6 text-gray-900">
-                  PWA App <span aria-hidden="true">→</span>
+                </span> */}
+                <span onClick={() => router.push('/blog')} className="text-sm font-semibold leading-6 border rounded-xl py-1 px-3 hover:border-indigo-600 hover:text-indigo-600 transition-all cursor-pointer text-gray-900">
+                Discover More <span aria-hidden="true">→</span>
                 </span>
               </div>
             </div>

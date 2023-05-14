@@ -2,6 +2,9 @@ import hacksImage from '../../assets/images/ten_hacks.jpg';
 import tips from '../../assets/images/instagram_tips.jpg';
 import stroyImage from '../../assets/images/story_ideas.jpg';
 import { Posts } from './types';
+// import { GiNinjaHead } from 'react-icons/gi';
+
+// export const image = <GiNinjaHead />;
 
 export const blogRoutes: Posts[] = [{
   title: '10 Instagram hacks, You should know',
