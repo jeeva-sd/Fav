@@ -7,7 +7,7 @@ const nextConfig = {
     APP_MODE: process.env.APP_MODE
   },
   images: {
-    domains: ['tailwindui.com','media.ssyoutube.com'],
+    domains: ['tailwindui.com','media.ssyoutube.com', 'flowbite.s3.amazonaws.com'],
   },
 };
 

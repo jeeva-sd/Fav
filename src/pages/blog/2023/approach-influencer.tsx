@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { memo } from 'react';
+import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
-import Image from 'next/image';
 import BlogLayout from '~/components/blog/BlogLayout';
-import tips from '../../../assets/images/instagram_tips.jpg';
-import ShareButtons from '~/components/common/Share';
+
+const ShareButtons = dynamic(() => import('~/components/common/Share'));
+const AuthorSection = dynamic(() => import('~/components/common/AuthorSection'));
 
 const Container = ({ children }: React.PropsWithChildren) => <div className='
 mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert
@@ -18,7 +19,7 @@ const List = ({ children }: React.PropsWithChildren) => <div className='
 list-disc
 list-inside
 mb-5
-'><ul className="list-disc list-inside mb-4">{children}</ul></div>;
+'><ul className='list-disc list-inside mb-4'>{children}</ul></div>;
 
 const ListItem = ({ children }: React.PropsWithChildren) => <div className='
 mb-3 border p-4 rounded-md bg-white shadow-md
@@ -33,20 +34,11 @@ const ApproachInfluencers = () => {
 
   return (
     <BlogLayout>
-      <main className="pt-8 pb-16 lg:pt-16 lg:px-5 md:px-10 px-5 lg:pb-24 bg-white dark:bg-gray-900">
+      <main className='pt-8 pb-16 lg:pt-16 lg:px-5 md:px-10 px-5 lg:pb-24 bg-white dark:bg-gray-900'>
         <Container>
-          <header className="mb-4 lg:mb-6 not-format">
-            <address className="flex items-center mb-6 not-italic">
-              <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
-                <Image height={16} width={16} className="mr-4 w-16 h-16 rounded-full" src={tips} alt="Jese Leos" />
-                <div>
-                  <a href="#" rel="author" className="text-xl font-bold text-gray-900 dark:text-white">Jeeva B</a>
-                  <p className="text-base font-light text-gray-500 dark:text-gray-400">Software Developer</p>
-                  <p className="text-base font-light text-gray-500 dark:text-gray-400"><time title="February 8th, 2022">May 05, 2023</time></p>
-                </div>
-              </div>
-            </address>
-            <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">How to Approach Instagram Influencers for Your Business</h1>
+          <header className='mb-4 lg:mb-6 not-format'>
+            <AuthorSection />
+            <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white'>How to Approach Instagram Influencers for Your Business</h1>
           </header>
           <Paragraph>
                         Instagram influencers have turned out to be an critical part of many groups&apos; marketing strategies.
@@ -55,7 +47,7 @@ const ApproachInfluencers = () => {
                         In this blog post, we&apos;re going to speak a way to method Instagram influencers in your business and construct a courting with them that advantages both events.
           </Paragraph>
 
-          <div className='bg-slate-100 p-10 rounded-md my-10'>
+          <div className='lg:bg-slate-50 lg:border lg:my-10 lg:p-10 rounded-md'>
             <SubHeading>Do&apos;s and Don&apos;ts While Approaching Influencers</SubHeading>
             <List>
               <ListItem>1. Do your research and identify influencers in your niche or industry who align with your brand&apos;s values and aesthetics.</ListItem>
@@ -69,22 +61,22 @@ const ApproachInfluencers = () => {
           </div>
 
           <Paragraph>
-            <h3 className="text-xl font-bold mb-2">Advantages of Choosing a Good Influencer</h3>
-            <ul className="list-disc list-inside mb-10">
+            <h3 className='text-xl font-bold mb-2'>Advantages of Choosing a Good Influencer</h3>
+            <ul className='list-disc list-inside mb-10'>
               <li>Increased brand awareness and credibility</li>
               <li>Opportunities for product or service sales</li>
-              <li>Potential for long-term partnerships and collaborations</li>
-              <li>Authentic and relatable content that resonates with the influencer&apos;s followers</li>
+              <li className='my-2'>Potential for long-term partnerships and collaborations</li>
+              <li className='my-2'>Authentic and relatable content that resonates with the influencer&apos;s followers</li>
               <li className='mb-3'>Good influencers can help you reach a large and engaged audience, improve your brand credibility, and drive sales and conversions.</li>
             </ul>
 
-            <h3 className="text-xl font-bold mb-2">Disadvantages of Choosing a Bad Influencer</h3>
-            <ul className="list-disc list-inside mb-10">
+            <h3 className='text-xl font-bold mb-2'>Disadvantages of Choosing a Bad Influencer</h3>
+            <ul className='list-disc list-inside mb-10'>
               <li>Poor return on investment</li>
               <li>Authenticity concerns and disengaged followers</li>
-              <li>Risk of negative feedback or backlash from the influencer&apos;s followers</li>
-              <li>Bad influencers can hurt your brand reputation and even lead to legal issues.</li>
-              <li className='mb-3'>It&apos;s important to choose influencers who align with your brand values, have a genuine following and engagement, and create high-quality and authentic content.</li>
+              <li className='my-2'>Risk of negative feedback or backlash from the influencer&apos;s followers</li>
+              <li className='my-2'>Bad influencers can hurt your brand reputation and even lead to legal issues.</li>
+              <li className='my-2'>It&apos;s important to choose influencers who align with your brand values, have a genuine following and engagement, and create high-quality and authentic content.</li>
             </ul>
             <span className='font-medium text-lg'>In conclusion,</span> Choosing the right influencer can make a huge difference in the success of your marketing campaign.
                         Good influencers can help you reach a large and engaged audience, improve your brand credibility, and drive sales and conversions.
@@ -103,4 +95,4 @@ const ApproachInfluencers = () => {
   );
 };
 
-export default ApproachInfluencers;
+export default memo(ApproachInfluencers);

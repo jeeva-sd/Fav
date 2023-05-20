@@ -36,22 +36,22 @@ const ShareButtons = ({ url }: any) => {
   };
 
   return (
-    <div className="flex flex-wrap w-full mt-10 gap-5">
-      <div className="w-full font-light text-sm">
+    <div className='flex flex-wrap w-full mt-10 gap-5'>
+      <div className='w-full font-light text-sm'>
         If you found this post helpful, please share it on social media!
       </div>
 
       <button onClick={shareOnFacebook}>
-        <FaFacebook fontSize={30} className="fill-indigo-700" />
+        <FaFacebook fontSize={30} className='fill-indigo-700' />
       </button>
       <button onClick={shareOnTwitter}>
-        <FaTwitter fontSize={30} className="fill-sky-400" />
+        <FaTwitter fontSize={30} className='fill-sky-400' />
       </button>
       <button onClick={shareOnLinkedIn}>
-        <FaLinkedin fontSize={30} className="fill-sky-800" />
+        <FaLinkedin fontSize={30} className='fill-sky-800' />
       </button>
       <button onClick={shareOnWhatsApp}>
-        <FaWhatsapp fontSize={30} className="fill-green-500" />
+        <FaWhatsapp fontSize={30} className='fill-green-500' />
       </button>
     </div>
   );

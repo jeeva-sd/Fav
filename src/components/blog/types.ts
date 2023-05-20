@@ -10,5 +10,5 @@ export interface Posts {
     createdAt: string;
     type: string;
     author: string;
-    authorImage: string | null;
+    authorImage: StaticImageData | null;
 }

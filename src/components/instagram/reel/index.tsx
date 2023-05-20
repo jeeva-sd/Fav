@@ -12,8 +12,6 @@ const Reels = () => {
     dispatch(fetchPost(url));
   };
 
-  // from-slate-50 to-blue-100 bg-slate-100 bg-gradient-to-r from-slate-50 via-slate-100 to-slate-50
-
   return (
     <div className='flex'>
       <div className='flex w-full min-h-[100vh] bg-slate-100 py-28'>

@@ -1,22 +1,27 @@
-import { memo } from 'react';
+import React, { memo } from 'react';
+import dynamic from 'next/dynamic';
 import type { AppProps } from 'next/app';
-import { Provider } from 'react-redux';
 import { Inter } from 'next/font/google';
+import { Provider } from 'react-redux';
 import { store } from '~/state/store';
-import Header from '../components/layout/Header';
-import Footer from '~/components/layout/Footer';
 import '~/styles/globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
+const Header = dynamic(() => import('~/components/layout/Header'));
+const Footer = dynamic(() => import('~/components/layout/Footer'));
 
 const App = ({ Component, pageProps }: AppProps) => {
-  return <Provider store={store}>
-    <div className={inter.className}>
-      <Header />
-      <Component {...pageProps} />
-      <Footer />
-    </div>
-  </Provider>;
+  return (
+    <Provider store={store}>
+      <div className={`${inter.className} antialiased`}>
+        <Header />
+        <React.Suspense fallback={<div className='flex w-full justify-center h-screen items-center'>Loading...</div>}>
+          <Component {...pageProps} />
+        </React.Suspense>
+        <Footer />
+      </div>
+    </Provider>
+  );
 };
 
 export default memo(App);
