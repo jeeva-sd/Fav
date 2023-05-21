@@ -1,8 +1,10 @@
 import { memo } from 'react';
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
+import Headsection from '~/components/seo/Headsection';
 import BlogLayout from '~/components/blog/BlogLayout';
-import hacksImage from '../../../assets/images/ten_hacks.jpg';
+import { SeoParams } from '~/components/seo/types';
+import hacksImage from '~/assets/images/ten_hacks.jpg';
 
 const DynamicImage = dynamic(() => import('next/image'));
 const DynamicAuthorSection = dynamic(() => import('~/components/common/AuthorSection'));
@@ -11,14 +13,23 @@ const DynamicShareButtons = dynamic(() => import('~/components/common/Share'));
 const TenHacks = () => {
   const { pathname } = useRouter();
 
+  const seoParams: SeoParams= {
+    title: '10 Instagram Hacks Every User Should Know | Boost Your Instagram Game',
+    description: 'Discover 10 ingenious Instagram hacks that will elevate your Instagram game. From automating scheduling and posting to analyzing performance with Instagram Insights, this article covers a range of tips and tricks to help you unlock the true potential of the platform.',
+    keywords: 'Instagram hacks, Instagram tips and tricks, social media, brand promotion, personal branding, Instagram Insights, Instagram ads, shopping features, Instagram algorithm, engaging stories, influencer marketing, hashtags, location tagging, Instagram vs TikTok, Explore tab',
+    pageUrl: pathname,
+  };
+
   return (
     <>
+      <Headsection seoParams={seoParams} />
+
       <BlogLayout>
         <main className='pt-8 pb-16 lg:pt-16 lg:px-5 md:px-10 px-5 lg:pb-24 bg-white dark:bg-gray-900'>
           <article className='mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert'>
             <header className='mb-4 lg:mb-6 not-format'>
               <DynamicAuthorSection />
-              <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white'>10 Instagram Hacks Every User Should Know</h1>
+              <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white'>10 Instagram Hacks Every User Should Know | Boost Your Instagram Game</h1>
             </header>
             <p className='lead'>
               Instagram has emerged as one of the most popular and sought-after social media platforms, known for its unique features for sharing images, videos, and stories. It&apos;s a powerful tool that offers immense potential for social connection, brand promotion, and personal branding, boasting a colossal user base of over 1 billion active users worldwide. However, despite its widespread popularity, there&apos;s an evident lack of awareness among the majority of users regarding the complete range of tools and tricks that Instagram has to offer.

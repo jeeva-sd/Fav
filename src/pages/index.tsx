@@ -1,8 +1,9 @@
 import { memo } from 'react';
 import dynamic from 'next/dynamic';
-import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { Inter } from 'next/font/google';
+import Headsection from '~/components/seo/Headsection';
+import { SeoParams } from '~/components/seo/types';
 
 const InstaView = dynamic(() => import('~/components/home/InstaView'));
 const TopBlue = dynamic(() => import('~/components/home/TopBlue'));
@@ -11,16 +12,20 @@ const BottomBlue = dynamic(() => import('~/components/home/BottomBlue'));
 const inter = Inter({ subsets: ['latin'] });
 
 const Home = () => {
-  const router = useRouter();
+  const {pathname, push} = useRouter();
+
+  const seoParams: SeoParams= {
+    title: 'Discover the Latest Instagram Trends and Updates and Generate Instagram Hastags | Fav Insta',
+    description: 'Explore the latest trends and updates on Instagram and get related contents like Instagram tips, Instagram marketing, instagram influencers, influencer marketing, Hastag generators.',
+    keywords: 'Instagram tips, Instagram marketing, instagram influencers, influencer marketing, Hastag generators, Instagram Stories, Instagram Stories.',
+    pageUrl: pathname,
+    canonical: false
+  };
 
   return (
     <>
-      <Head>
-        <title>FavInsta</title>
-        <meta name='description' content='JusDownload' />
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
+      <Headsection seoParams={seoParams}/>
+
       <main className={inter.className}>
         <div className='flex items-center isolate px-6 pt-14 lg:px-8 min-h-[100vh] max-h-[100vh] -100 via-white to-slate-100'>
           <TopBlue />
@@ -33,7 +38,7 @@ const Home = () => {
                 Discover the latest trends and updates to skyrocket your Instagram success. Explore the latest features and updates Instagram has rolled out, ensuring you&apos;re always one step ahead in leveraging its full potential.
               </p>
               <div className='mt-10 flex items-center justify-center gap-x-6'>
-                <span onClick={() => router.push('/blog')} className='text-sm font-semibold leading-6 border rounded-xl py-1 px-3 hover:border-indigo-600 hover:text-indigo-600 transition-all cursor-pointer text-gray-900'>
+                <span onClick={() => push('/blog')} className='text-sm font-semibold leading-6 border rounded-xl py-1 px-3 hover:border-indigo-600 hover:text-indigo-600 transition-all cursor-pointer text-gray-900'>
                   Discover More <span aria-hidden='true'>→</span>
                 </span>
               </div>

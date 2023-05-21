@@ -1,8 +1,10 @@
 import { memo } from 'react';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
+import Headsection from '~/components/seo/Headsection';
 import BlogLayout from '~/components/blog/BlogLayout';
-import stroyImage from '../../../assets/images/story_ideas.jpg';
+import { SeoParams } from '~/components/seo/types';
+import stroyImage from '~/assets/images/story_ideas.jpg';
 
 const Image = dynamic(() => import('next/image'));
 const ShareButtons = dynamic(() => import('~/components/common/Share'));
@@ -11,14 +13,23 @@ const AuthorSection = dynamic(() => import('~/components/common/AuthorSection'))
 const StoryIdeas = () => {
   const { pathname } = useRouter();
 
+  const seoParams: SeoParams= {
+    title: 'How to Use Instagram Stories Creatively to Increase Engagement and Reach',
+    description: 'Discover creative techniques to leverage Instagram Stories for increased engagement and reach. Learn how to showcase products, host Q&A sessions, and use interactive polls and quizzes.',
+    keywords: 'instagram, stories, creative, tips, tricks, engagement, polls, quizzes, behind-the-scenes, Increase reach, sales, q&a, products, services, visuals, calls-to-action',
+    pageUrl: pathname,
+  };
+
   return (
     <>
+      <Headsection seoParams={seoParams}/>
+
       <BlogLayout>
         <main className='pt-8 pb-16 lg:pt-16 lg:px-5 md:px-10 px-5 lg:pb-24 bg-white dark:bg-gray-900'>
           <article className='mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert'>
             <header className='mb-4 lg:mb-6 not-format'>
               <AuthorSection />
-              <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-3xl dark:text-white'>Creative Ways to Use Instagram Stories</h1>
+              <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-3xl dark:text-white'>How to Use Instagram Stories Creatively to Increase Engagement and Reach</h1>
             </header>
 
             <p className='lead'>
