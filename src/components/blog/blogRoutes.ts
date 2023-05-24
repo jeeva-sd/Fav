@@ -64,4 +64,16 @@ export const blogRoutes: Posts[] = [{
   author: 'Black Ninja',
   authorImage: authProfile,
 },
+{
+  title: 'Instagram Notes - Sharing Personal Updates',
+  description: 'Instagram Notes are an clean way for users to percentage updates with their fans or a choose institution of human beings. These brief messages appear at the top of their followers, inboxes, like a thought bubble above their profile photo or icon.',
+  path: '/blog/2023/about-instagram-notes',
+  image: null,
+  category: 'InstaTips',
+  rewards: 'recent',
+  createdAt: '30 April 2023',
+  type: 'Article',
+  author: 'blackninja',
+  authorImage: authProfile,
+},
 ];
