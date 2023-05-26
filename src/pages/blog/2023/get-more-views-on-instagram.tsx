@@ -26,7 +26,7 @@ const MoreViews = () => {
         <main className='pt-8 pb-16 lg:pt-16 lg:px-5 md:px-10 px-5 lg:pb-24 bg-white dark:bg-gray-900'>
           <Container>
             <header className='mb-4 lg:mb-6 not-format'>
-              <AuthorSection />
+              <AuthorSection date={'23 May 2023'}/>
               <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white'>
                             How to get more views and followers in Instagram ?
               </h1>

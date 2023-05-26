@@ -5,9 +5,10 @@ import { Inter } from 'next/font/google';
 import Headsection from '~/components/seo/Headsection';
 import { SeoParams } from '~/components/seo/types';
 
-const InstaView = dynamic(() => import('~/components/home/InstaView'));
 const TopBlue = dynamic(() => import('~/components/home/TopBlue'));
 const BottomBlue = dynamic(() => import('~/components/home/BottomBlue'));
+const ExploreFav = dynamic(() => import('~/components/home/ExploreFav'));
+const NewsLetter = dynamic(() => import('~/components/home/NewsLetter'));
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -27,7 +28,7 @@ const Home = () => {
       <Headsection seoParams={seoParams}/>
 
       <main className={inter.className}>
-        <div className='flex items-center isolate px-6 pt-14 lg:px-8 min-h-[100vh] max-h-[100vh] -100 via-white to-slate-100'>
+        <div className='flex items-center isolate px-6 pt-14 lg:px-8 min-h-[100vh] max-h-[100vh]'>
           <TopBlue />
           <div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-56'>
             <div className='text-center'>
@@ -46,7 +47,9 @@ const Home = () => {
           </div>
           <BottomBlue />
         </div>
-        <InstaView />
+
+        <div className='bg-gradient-to-r from-pink-50 via-white to-indigo-100'><ExploreFav /></div>
+        <NewsLetter />
       </main>
     </>
   );

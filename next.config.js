@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
-  hideSourceMaps: true,
   devtool: 'hidden-source-map',
   env: {
     API_BASE_URL: process.env.API_BASE_URL,

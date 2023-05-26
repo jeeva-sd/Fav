@@ -54,7 +54,6 @@ const ContactUs: React.FC = () => {
             If you prefer to reach out to us online, you can fill out the contact form below, and we will get back to you as soon as possible.
               </p>
               <ContactForm />
-              {/* Add your contact form component here */}
             </div>
           </div>
         </div>

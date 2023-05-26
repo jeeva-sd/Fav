@@ -1,46 +1,35 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
+import { contactRequest } from '~/state/duck/instagram';
+import { AppState, dispatch } from '~/state/store';
 
 const ContactForm: React.FC = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [submitError, setSubmitError] = useState('');
 
+  const {sent, sending, submitted, error} = useSelector((state: AppState) => state.instagram.contact);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-
-    setIsSubmitting(true);
-    setSubmitSuccess(false);
-    setSubmitError('');
-
-    try {
-      const response = await fetch('/api/send-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ name, email, message }),
-      });
-
-      if (response.ok) {
-        setSubmitSuccess(true);
-        setName('');
-        setEmail('');
-        setMessage('');
-      } else {
-        setSubmitError('An error occurred while sending the message. Please try again later.');
-      }
-    } catch (error) {
-      setSubmitError('An error occurred while sending the message. Please try again later.');
-    }
-
-    setIsSubmitting(false);
+    dispatch(contactRequest({ name, email, message }));
   };
 
+  useEffect(() => {
+    if (sent) {
+      setName('');
+      setEmail('');
+      setMessage('');
+      setSubmitSuccess(true);
+    }
+
+    if(error) setSubmitError('An error occurred while sending the message. Please try again later.');
+  }, [sent, sending, submitted, error]);
+
   return (
-    <form onSubmit={handleSubmit} className='w-full py-10 bg-gradient-to-t from-bg-slate-50 from-bg-slate-100 px-10 rounded-md mt-10'>
+    <form onSubmit={handleSubmit} className='w-full py-10 lg:bg-slate-100 md:bg-slate-100 lg:px-10 px-2 rounded-md mt-10'>
       <div className='mb-4'>
         <label htmlFor='name' className='block text-gray-700 font-bold mb-2'>
           Name
@@ -88,10 +77,10 @@ const ContactForm: React.FC = () => {
       <div className='w-full'>
         <button
           type='submit'
-          disabled={isSubmitting}
+          disabled={sending}
           className='px-4 py-2 w-full bg-indigo-600 text-white rounded-lg disabled:bg-gray-400 disabled:cursor-not-allowed'
         >
-          {isSubmitting ? 'Submitting...' : 'Submit'}
+          {sending ? 'Submitting...' : 'Submit'}
         </button>
       </div>
     </form>

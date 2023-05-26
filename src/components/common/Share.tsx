@@ -6,32 +6,28 @@ const ShareButtons = ({ url }: any) => {
   const shareOnFacebook = () => {
     window.open(
       `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
-      'pop',
-      'width=600, height=400, scrollbars=no'
+      '_blank'
     );
   };
 
   const shareOnTwitter = () => {
     window.open(
       `https://twitter.com/intent/tweet?url=${encodedUrl}`,
-      'pop',
-      'width=600, height=400, scrollbars=no'
+      '_blank'
     );
   };
 
   const shareOnLinkedIn = () => {
     window.open(
       `https://www.linkedin.com/shareArticle?url=${encodedUrl}`,
-      'pop',
-      'width=600, height=400, scrollbars=no'
+      '_blank'
     );
   };
 
   const shareOnWhatsApp = () => {
     window.open(
       `https://wa.me/?text=${encodedUrl}`,
-      'pop',
-      'width=600, height=400, scrollbars=no'
+      '_blank'
     );
   };
 

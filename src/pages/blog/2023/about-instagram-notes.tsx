@@ -15,13 +15,13 @@ const InstaNotes = () => {
 
   return (
     <BlogLayout>
-      <main className="pt-8 pb-16 lg:pt-16 lg:px-5 md:px-10 px-5 lg:pb-24 bg-white dark:bg-gray-900">
+      <main className='pt-8 pb-16 lg:pt-16 lg:px-5 md:px-10 px-5 lg:pb-24 bg-white dark:bg-gray-900'>
 
         <BlogContainer>
-          <header className="mb-4 lg:mb-6 not-format">
-            <AuthorSection />
+          <header className='mb-4 lg:mb-6 not-format'>
+            <AuthorSection date={'30 May 2023'}/>
 
-            <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
+            <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white'>
                     Instagram Notes: A Guide to Using and Sharing Personal Updates
             </h1>
 
@@ -59,22 +59,22 @@ const InstaNotes = () => {
               <li className='my-3'>Don&apos;t sense forced to use Notes all of the time - they are simply some other device for sharing updates, not a demand.</li>
             </ul>
 
-            <h2 className="text-2xl font-bold mb-4">Advantages of Instagram Notes over Instagram Stories</h2>
-            <ul className="list-disc ml-6 space-y-2">
+            <h2 className='text-2xl font-bold mb-4'>Advantages of Instagram Notes over Instagram Stories</h2>
+            <ul className='list-disc ml-6 space-y-2'>
               <li className='pb-5'>
-                <span className="font-bold">Personalization:</span> Instagram Notes allow you to share short updates with specific people, while Stories are visible to all your followers. This means that Notes provide a more personalized way to communicate with your close friends or family.
+                <span className='font-bold'>Personalization:</span> Instagram Notes allow you to share short updates with specific people, while Stories are visible to all your followers. This means that Notes provide a more personalized way to communicate with your close friends or family.
               </li>
               <li className='pb-5'>
-                <span className="font-bold">Longer lifespan:</span> Instagram Stories are only visible for 24 hours, after which they disappear. Notes, on the other hand, remain visible until you delete them. This means that your message will be available to your intended audience for a longer time frame.
+                <span className='font-bold'>Longer lifespan:</span> Instagram Stories are only visible for 24 hours, after which they disappear. Notes, on the other hand, remain visible until you delete them. This means that your message will be available to your intended audience for a longer time frame.
               </li>
               <li className='pb-5'>
-                <span className="font-bold">Direct messaging:</span> Notes can be used as a starting point for direct messaging with your friends. If someone replies to your Note, you can continue the conversation through direct messaging, allowing for more intimate and focused communication.
+                <span className='font-bold'>Direct messaging:</span> Notes can be used as a starting point for direct messaging with your friends. If someone replies to your Note, you can continue the conversation through direct messaging, allowing for more intimate and focused communication.
               </li>
               <li className='pb-5'>
-                <span className="font-bold">Improved organization:</span> Instagram Notes are organized in a separate section in your inbox, making them easier to find and manage. You can access all your Notes in one place and respond to them at your convenience.
+                <span className='font-bold'>Improved organization:</span> Instagram Notes are organized in a separate section in your inbox, making them easier to find and manage. You can access all your Notes in one place and respond to them at your convenience.
               </li>
               <li className='pb-5'>
-                <span className="font-bold">Increased privacy:</span> Notes are visible only to the people you choose to share them with. This means that you can share updates with close friends and family without broadcasting them to your entire follower base.
+                <span className='font-bold'>Increased privacy:</span> Notes are visible only to the people you choose to share them with. This means that you can share updates with close friends and family without broadcasting them to your entire follower base.
               </li>
             </ul>
           </div>

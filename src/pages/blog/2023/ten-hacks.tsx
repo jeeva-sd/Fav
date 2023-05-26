@@ -28,7 +28,7 @@ const TenHacks = () => {
         <main className='pt-8 pb-16 lg:pt-16 lg:px-5 md:px-10 px-5 lg:pb-24 bg-white dark:bg-gray-900'>
           <article className='mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert'>
             <header className='mb-4 lg:mb-6 not-format'>
-              <DynamicAuthorSection />
+              <DynamicAuthorSection date={'17 April 2023'}/>
               <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white'>10 Instagram Hacks Every User Should Know | Boost Your Instagram Game</h1>
             </header>
             <p className='lead'>

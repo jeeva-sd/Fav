@@ -29,6 +29,7 @@ const AboutHastag = () => {
               />
             </div>
           </div>
+
           <div className='grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8'>
             <div className='h-64 w-44 overflow-hidden rounded-lg'>
               <Image
@@ -52,6 +53,7 @@ const AboutHastag = () => {
               />
             </div>
           </div>
+
           <div className='grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8'>
             <div className='h-64 w-44 overflow-hidden rounded-lg'>
               <Image

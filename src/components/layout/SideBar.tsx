@@ -37,36 +37,36 @@ export default function SideBar({ isOpen, setIsOpen }:any) {
 
   return (
     <Transition.Root show={open} as={Fragment}>
-      <Dialog as="div" className="relative z-[100]" onClose={setOpen}>
+      <Dialog as='div' className='relative z-[100]' onClose={setOpen}>
         <Transition.Child
           as={Fragment}
-          enter="ease-in-out duration-500"
-          enterFrom="opacity-0"
-          enterTo="opacity-100"
-          leave="ease-in-out duration-500"
-          leaveFrom="opacity-100"
-          leaveTo="opacity-0"
+          enter='ease-in-out duration-500'
+          enterFrom='opacity-0'
+          enterTo='opacity-100'
+          leave='ease-in-out duration-500'
+          leaveFrom='opacity-100'
+          leaveTo='opacity-0'
         >
-          <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+          <div className='fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity' />
         </Transition.Child>
 
-        <div className="fixed inset-0 overflow-hidden">
-          <div className="absolute inset-0 overflow-hidden">
-            <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
+        <div className='fixed inset-0 overflow-hidden'>
+          <div className='absolute inset-0 overflow-hidden'>
+            <div className='pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10'>
               <Transition.Child
                 as={Fragment}
-                enter="transform transition ease-in-out duration-500 sm:duration-700"
-                enterFrom="translate-x-full"
-                enterTo="translate-x-0"
-                leave="transform transition ease-in-out duration-500 sm:duration-700"
-                leaveFrom="translate-x-0"
-                leaveTo="translate-x-full"
+                enter='transform transition ease-in-out duration-500 sm:duration-700'
+                enterFrom='translate-x-full'
+                enterTo='translate-x-0'
+                leave='transform transition ease-in-out duration-500 sm:duration-700'
+                leaveFrom='translate-x-0'
+                leaveTo='translate-x-full'
               >
-                <Dialog.Panel className="pointer-events-auto relative w-screen max-w-md">
-                  <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
-                    <div className="px-4 sm:px-6 flex justify-between border-b pb-5">
-                      <Dialog.Title className="text-lg font-bold">HighTool</Dialog.Title>
-                      <Dialog.Title className="text-lg font-medium text-gray-900 cursor-pointer"
+                <Dialog.Panel className='pointer-events-auto relative w-screen max-w-md'>
+                  <div className='flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl'>
+                    <div className='px-4 sm:px-6 flex justify-between border-b pb-5'>
+                      <Dialog.Title className='text-lg font-bold'>HighTool</Dialog.Title>
+                      <Dialog.Title className='text-lg font-medium text-gray-900 cursor-pointer'
                         onClick={() => {
                           setOpen(false);
                           setIsOpen(false);
@@ -75,8 +75,8 @@ export default function SideBar({ isOpen, setIsOpen }:any) {
                       </Dialog.Title>
                     </div>
 
-                    <div className="lg:hidden" id="mobile-menu">
-                      <div className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
+                    <div className='lg:hidden' id='mobile-menu'>
+                      <div className='space-y-1 px-2 pt-2 pb-3 sm:px-3'>
                         {sideBarNavs.map((nav, index) => {
                           return <div
                             key={index}
