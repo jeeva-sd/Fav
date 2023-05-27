@@ -51,7 +51,8 @@ const ApproachInfluencers = () => {
                 height={450}
                 quality={50}
                 loading='lazy'
-                decoding='async'  src={require('~/assets/images/blog/approach.webp')} alt='Approach Instagram Influencers' className='rounded-md aspect-video' />
+                decoding='async'
+                src={require('~/assets/images/blog/approach.webp')} alt='Approach Instagram Influencers' className='rounded-md aspect-video object-cover' />
               <figcaption>
                 Photo by <a href="https://unsplash.com/@jannerboy62?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Fewings</a> on <a href="https://unsplash.com/photos/2ykkF3oQb_c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
               </figcaption>
@@ -71,7 +72,7 @@ const ApproachInfluencers = () => {
             </div>
 
             <Paragraph>
-              <h3 className='text-xl font-bold mb-2'>Advantages of Choosing a Good Influencer</h3>
+              <h2 className='text-xl font-bold mb-2'>Advantages of Choosing a Good Influencer</h2>
               <ul className='list-disc list-inside mb-10'>
                 <li>Increased brand awareness and credibility</li>
                 <li>Opportunities for product or service sales</li>
@@ -80,7 +81,7 @@ const ApproachInfluencers = () => {
                 <li className='mb-3'>Good influencers can help you reach a large and engaged audience, improve your brand credibility, and drive sales and conversions.</li>
               </ul>
 
-              <h3 className='text-xl font-bold mb-2'>Disadvantages of Choosing a Bad Influencer</h3>
+              <h2 className='text-xl font-bold mb-2'>Disadvantages of Choosing a Bad Influencer</h2>
               <ul className='list-disc list-inside mb-10'>
                 <li>Poor return on investment</li>
                 <li>Authenticity concerns and disengaged followers</li>

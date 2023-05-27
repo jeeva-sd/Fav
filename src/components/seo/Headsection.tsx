@@ -42,7 +42,7 @@ const HeadSection: React.FC<HeadSectionProps> = ({seoParams}) => {
       <meta name='twitter:card' content='summary_large_image'/>
       <meta name='twitter:image' content={`${process.env.SITE_URL}/favIcons/android-chrome-192x192.png`}/>
 
-      <link rel='manifest' href='/pwa/manifest.json'/>
+      <link rel='manifest' href='/manifest.json'/>
       <link rel='shortcut icon' href='/favIcons/favicon-16x16.png'/>
       <link rel='icon' type='image/png' sizes='32x32' href='/favIcons/favicon-32x32.png'/>
       <link rel='icon' type='image/png' sizes='16x16' href='/favIcons/favicon-16x16.png'/>

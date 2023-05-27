@@ -53,7 +53,7 @@ const StoryIdeas = () => {
                     quality={50}
                     loading='lazy'
                     decoding='async'
-                    src={stroyImage} alt='Instagram Stories' className='rounded-md aspect-video' />
+                    src={stroyImage} alt='Instagram Stories' className='rounded-md aspect-video object-cover' />
                   <figcaption>
                     Photo by <a href="https://unsplash.com/@emilymorter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emily Morter</a> on <a href="https://unsplash.com/photos/8xAA0f9yQnE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                   </figcaption>
@@ -61,11 +61,13 @@ const StoryIdeas = () => {
 
                 <div className='mb-12'>
                   <span className='font-bold'>Overview</span>
-                  <li>Showcasing Product Demos</li>
-                  <li>About your product</li>
-                  <li>Promoting Events or Sales</li>
-                  <li>Sharing Behind-the-Scenes Content</li>
-                  <li>Q&A Sessions</li>
+                  <ul>
+                    <li>Showcasing Product Demos</li>
+                    <li>About your product</li>
+                    <li>Promoting Events or Sales</li>
+                    <li>Sharing Behind-the-Scenes Content</li>
+                    <li>Q&A Sessions</li>
+                  </ul>
                 </div>
 
                 <p className='mb-4 text-start'>
@@ -94,7 +96,7 @@ const StoryIdeas = () => {
                     quality={50}
                     loading='lazy'
                     decoding='async'
-                    src={require('~/assets/images/blog/question.webp')} alt='Fun and Interactive Polls or Quizzes on Your Instagram Story' className='rounded-md aspect-video' />
+                    src={require('~/assets/images/blog/question.webp')} alt='Fun and Interactive Polls or Quizzes on Your Instagram Story' className='rounded-md aspect-video object-cover' />
                   <figcaption>
                     Photo by <a href="https://unsplash.com/@emilymorter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emily Morter</a> on <a href="https://unsplash.com/photos/8xAA0f9yQnE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                   </figcaption>
@@ -102,10 +104,12 @@ const StoryIdeas = () => {
 
                 <div className='mb-16'>
                   <span className='font-bold'>Overview</span>
-                  <li>Quizzes</li>
-                  <li>Stickers and other Story materials</li>
-                  <li>Polls</li>
-                  <li>Share Results</li>
+                  <ul>
+                    <li>Quizzes</li>
+                    <li>Stickers and other Story materials</li>
+                    <li>Polls</li>
+                    <li>Share Results</li>
+                  </ul>
                 </div>
 
                 <p className='mb-4 text-start'>
@@ -133,7 +137,7 @@ const StoryIdeas = () => {
                     quality={50}
                     loading='lazy'
                     decoding='async'
-                    src={require('~/assets/images/blog/behind_the_scene.webp')} alt='Behind-the-Scenes' className='rounded-md aspect-video' />
+                    src={require('~/assets/images/blog/behind_the_scene.webp')} alt='Behind-the-Scenes' className='rounded-md aspect-video object-cover' />
                   <figcaption>
                     Photo by <a href="https://unsplash.com/@henmankk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Keagan Henman</a> on <a href="https://unsplash.com/photos/pPxJTtxfV1A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                   </figcaption>
@@ -141,13 +145,17 @@ const StoryIdeas = () => {
 
                 <div className='mb-16'>
                   <span className='font-bold'>Overview</span>
-                  <li>Behind The Scenes</li>
-                  <li>Reveal Your Team Members</li>
+                  <ul>
+                    <li>Behind The Scenes</li>
+                    <li>Reveal Your Team Members</li>
+                  </ul>
                 </div>
 
                 <p className='mb-4 text-start'>
-                  <li className='my-5'> The great advantage of the Instagram Stories is to showcase behind-the-scenes content rather than any other source on Instagram. By providing your followers with a behind the scene videos or how to make your content, you can build the stronger connections and gain trust among your audience.</li>
-                  <li className='my-5'> Share photos, videos and their funny moments on your Instagram Story. This is a great way to give your followers a glimpse into your content and to showcase the people behind the products or services.</li>
+                  <ul>
+                    <li className='my-5'> The great advantage of the Instagram Stories is to showcase behind-the-scenes content rather than any other source on Instagram. By providing your followers with a behind the scene videos or how to make your content, you can build the stronger connections and gain trust among your audience.</li>
+                    <li className='my-5'> Share photos, videos and their funny moments on your Instagram Story. This is a great way to give your followers a glimpse into your content and to showcase the people behind the products or services.</li>
+                  </ul>
                 </p>
 
                 <p>

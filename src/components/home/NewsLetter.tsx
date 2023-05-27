@@ -18,7 +18,7 @@ const NewsLetter = () => {
   },[emailRef]);
 
   return (
-    <section className='dark:bg-gray-900 lg:pt-10 lg:pb-16 md:pt-10 md:pb-16 pt-20 pb-24'>
+    <section className='dark:bg-gray-900 lg:pt-10 lg:pb-16 md:pt-10 md:pb-16 pt-20 pb-24 shadow-inner px-4'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6'>
         <div className='mx-auto max-w-screen-md sm:text-center'>
           <h2 className='mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white'>Sign up for our <span className='text-indigo-600'>newsletter</span></h2>

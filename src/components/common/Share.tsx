@@ -1,7 +1,7 @@
 import { FaFacebook, FaTwitter, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 const ShareButtons = ({ url }: any) => {
-  const encodedUrl = encodeURIComponent(`https://www.favinsta.com/${url}`);
+  const encodedUrl = encodeURIComponent(`https://www.favinsta.com${url}`);
 
   const shareOnFacebook = () => {
     window.open(
@@ -37,18 +37,18 @@ const ShareButtons = ({ url }: any) => {
         If you found this post helpful, please share it on social media!
       </div>
 
-      <button onClick={shareOnFacebook}>
+      <div onClick={shareOnFacebook} className='cursor-pointer'>
         <FaFacebook fontSize={30} className='fill-indigo-700' />
-      </button>
-      <button onClick={shareOnTwitter}>
+      </div>
+      <div onClick={shareOnTwitter} className='cursor-pointer'>
         <FaTwitter fontSize={30} className='fill-sky-400' />
-      </button>
-      <button onClick={shareOnLinkedIn}>
+      </div>
+      <div onClick={shareOnLinkedIn} className='cursor-pointer'>
         <FaLinkedin fontSize={30} className='fill-sky-800' />
-      </button>
-      <button onClick={shareOnWhatsApp}>
+      </div>
+      <div onClick={shareOnWhatsApp} className='cursor-pointer'>
         <FaWhatsapp fontSize={30} className='fill-green-500' />
-      </button>
+      </div>
     </div>
   );
 };

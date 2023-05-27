@@ -34,10 +34,9 @@ const BlogIndex = () => {
       <div className='flex flex-wrap justify-center min-h-screen'>
         <div className='flex items-center justify-around w-full h-auto py-40'>
           <Image src={beam} alt='' className='fixed z-[-10] [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] top-40 left-2/4 -translate-x-2/3 -translate-y-1/2 max-w-none' draggable={false}  priority={true} />
-          <Image src={grid} alt='' className='absolute [mask-image:linear-gradient(90deg,white,rgba(255,255,255,0))] top-0 left-0 -translate-y-28 w-[1500px] h-full opacity-5' priority={true} draggable={false}/>
+          <Image src={grid} alt='' className='absolute [mask-image:linear-gradient(90deg,white,rgba(255,255,255,0))] top-0 left-0 -translate-y-28 h-full opacity-5' priority={true} draggable={false} width={1920} height={1080}/>
           <div className='lg:w-6/12 w-full flex justify-center'>
             <div className=' text-indigo-600 absolute lg:top-20 lg:flex hidden pr-96'>
-              {/* <FaInstagramSquare className='origin-center rotate-45' fontSize={300} /> */}
             </div>
             <div className='antialiased text-4xl font-extrabold sm:text-6xl -skew-y-6'>
               <div className='lg:w-fit md:w-full w-full bg-white p-5 rounded-2xl shadow-lg'>
@@ -70,7 +69,7 @@ const BlogIndex = () => {
               <div className='mx-auto max-w-screen-lg text-center lg:mb-16 mb-8'>
                 <h2 className='mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>POSTS</h2>
                 <p className='font-light text-gray-500 sm:text-xl dark:text-gray-400'>
-            we&apos;re passionate about helping you achieve your Instagram goals. Our articles are crafted to provide actionable advice and step-by-step guides, empowering you to increase your followers, engagement, and overall success on this influential platform.
+                  we&apos;re passionate about helping you achieve your Instagram goals. Our articles are crafted to provide actionable advice and step-by-step guides, empowering you to increase your followers, engagement, and overall success on this influential platform.
                 </p>
               </div>
 
@@ -95,7 +94,7 @@ const BlogIndex = () => {
                           </span>
                         </div>
                         <span onClick={() => push(page.path)} className='cursor-pointer inline-flex text-indigo-600 items-center font-medium text-primary-600 dark:text-primary-500 hover:underline'>
-                    Read more
+                          Read more
                           <RightArrow />
                         </span>
                       </div>

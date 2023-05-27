@@ -35,12 +35,14 @@ const MoreViews = () => {
               <div className='my-5'>
                             Instagram is a famous social media platform that has received massive reputation over the years. With over 1 billion monthly active users, it has become a hub for sharing snap shots, motion pictures, and testimonies. Whether you&apos;re a commercial enterprise owner or a casual user, it&apos;s helpful to know some key notes about Instagram. This will help you get the maximum out of the platform. Here are some guidelines and tricks to don&apos;t forget when the usage of Instagram:
                 <div className='my-5 mb-10'>
-                  <li className='p-1 text-gray-800 font-medium'>Keep Your Profile Attractive and Consistent</li>
-                  <li className='p-1 text-gray-800 font-medium'>Use hashtags efficiently</li>
-                  <li className='p-1 text-gray-800 font-medium'>Engage with Your Followers</li>
-                  <li className='p-1 text-gray-800 font-medium'>Post Regularly and on the Optimal Times</li>
-                  <li className='p-1 text-gray-800 font-medium'>Use Instagram Stories</li>
-                  <li className='p-1 text-gray-800 font-medium'>Consider Instagram Ads </li>
+                  <ul>
+                    <li className='p-1 text-gray-800 font-medium'>Keep Your Profile Attractive and Consistent</li>
+                    <li className='p-1 text-gray-800 font-medium'>Use hashtags efficiently</li>
+                    <li className='p-1 text-gray-800 font-medium'>Engage with Your Followers</li>
+                    <li className='p-1 text-gray-800 font-medium'>Post Regularly and on the Optimal Times</li>
+                    <li className='p-1 text-gray-800 font-medium'>Use Instagram Stories</li>
+                    <li className='p-1 text-gray-800 font-medium'>Consider Instagram Ads </li>
+                  </ul>
                 </div>
                 <hr />
               </div>
@@ -48,7 +50,7 @@ const MoreViews = () => {
 
             <div className='mt-10'>
               <div className='mb-4'>
-                <h3 className='text-lg font-bold mb-2'>1. Keep Your Profile Attractive and Consistent</h3>
+                <h2 className='text-lg font-bold mb-2'>1. Keep Your Profile Attractive and Consistent</h2>
                 <figure className='text-sm font-medium mt-5 mb-10'>
                   <Image
                     width={700}
@@ -56,7 +58,7 @@ const MoreViews = () => {
                     quality={50}
                     loading='lazy'
                     decoding='async'
-                    src={require('~/assets/images/blog/insight.webp')} alt='' className='rounded-md' />
+                    src={require('~/assets/images/blog/insight.webp')} alt='' className='rounded-md object-cover' />
                   <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@georgiadelotz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Georgia de Lotz</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
@@ -64,7 +66,7 @@ const MoreViews = () => {
               </div>
 
               <div className='mt-16'>
-                <h3 className='text-lg font-bold mb-2'>2. Use Hashtags Efficiently</h3>
+                <h2 className='text-lg font-bold mb-2'>2. Use Hashtags Efficiently</h2>
 
                 <figure className='text-sm font-medium mb-10 mt-5'>
                   <Image
@@ -73,7 +75,7 @@ const MoreViews = () => {
                     quality={50}
                     loading='lazy'
                     decoding='async'
-                    src={require('~/assets/images/blog/hastag_container.webp')} alt='' className='rounded-md' />
+                    src={require('~/assets/images/blog/hastag_container.webp')} alt='' className='rounded-md object-cover' />
                   <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/pt-br/@janbaborak?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jan Baborák</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
@@ -82,7 +84,7 @@ const MoreViews = () => {
               </div>
 
               <div className='mt-16'>
-                <h3 className='text-lg font-bold mb-2'>3. Engage with Your Followers</h3>
+                <h2 className='text-lg font-bold mb-2'>3. Engage with Your Followers</h2>
 
                 <figure className='text-sm font-medium mb-10 mt-5'>
                   <Image
@@ -91,7 +93,7 @@ const MoreViews = () => {
                     quality={50}
                     loading='lazy'
                     decoding='async'
-                    src={require('~/assets/images/blog/followers.webp')} alt='' className='rounded-md' />
+                    src={require('~/assets/images/blog/followers.webp')} alt='' className='rounded-md object-cover' />
                   <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@storyfuel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Melanie Deziel</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
@@ -100,7 +102,7 @@ const MoreViews = () => {
               </div>
 
               <div className='mt-16'>
-                <h3 className='text-lg font-bold mb-2'>4. Post Regularly and on the Optimal Times</h3>
+                <h2 className='text-lg font-bold mb-2'>4. Post Regularly and on the Optimal Times</h2>
 
                 <figure className='text-sm font-medium mb-10 mt-5'>
                   <Image
@@ -109,7 +111,7 @@ const MoreViews = () => {
                     quality={50}
                     loading='lazy'
                     decoding='async'
-                    src={require('~/assets/images/blog/post_regular_time.webp')} alt='' className='rounded-md' />
+                    src={require('~/assets/images/blog/post_regular_time.webp')} alt='' className='rounded-md object-cover' />
                   <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@ikukevk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kevin Ku</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
@@ -118,7 +120,7 @@ const MoreViews = () => {
               </div>
 
               <div className='mt-16'>
-                <h3 className='text-lg font-bold mb-2'>5. Use Instagram Stories </h3>
+                <h2 className='text-lg font-bold mb-2'>5. Use Instagram Stories </h2>
 
                 <figure className='text-sm font-medium mb-10 mt-5'>
                   <Image
@@ -127,7 +129,7 @@ const MoreViews = () => {
                     quality={50}
                     loading='lazy'
                     decoding='async'
-                    src={require('~/assets/images/blog/stories.webp')} alt='' className='rounded-md' />
+                    src={require('~/assets/images/blog/stories.webp')} alt='' className='rounded-md object-cover' />
                   <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@tunahangunkan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tunahan Günkan</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
@@ -136,7 +138,7 @@ const MoreViews = () => {
               </div>
 
               <div className='mt-16'>
-                <h3 className='text-lg font-bold mb-2'>6. Consider Instagram Ads </h3>
+                <h2 className='text-lg font-bold mb-2'>6. Consider Instagram Ads </h2>
                 <figure className='text-sm font-medium mb-10 mt-5'>
                   <Image
                     width={700}
@@ -144,7 +146,7 @@ const MoreViews = () => {
                     quality={50}
                     loading='lazy'
                     decoding='async'
-                    src={require('~/assets/images/blog/ads.webp')} alt='' className='rounded-md' />
+                    src={require('~/assets/images/blog/ads.webp')} alt='' className='rounded-md object-cover' />
                   <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@anthonyrosset?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony Rosset</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
