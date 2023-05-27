@@ -1,7 +1,7 @@
-import hacksImage from '~/assets/images/ten_hacks.jpg';
-import tips from '~/assets/images/instagram_tips.jpg';
-import stroyImage from '~/assets/images/story_ideas.jpg';
-import authProfile from '~/assets/images/blackNinjaProfile.jpg';
+import hacksImage from '~/assets/images/blog/ten_hacks.webp';
+import tips from '~/assets/images/blog/instagram_tips.webp';
+import stroyImage from '~/assets/images/blog/story_ideas.webp';
+import authProfile from '~/assets/images/blog/blackNinjaProfile.webp';
 import { Posts } from './types';
 
 export const blogRoutes: Posts[] = [{

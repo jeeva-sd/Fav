@@ -49,8 +49,8 @@ const MoreViews = () => {
             <div className='mt-10'>
               <div className='mb-4'>
                 <h3 className='text-lg font-bold mb-2'>1. Keep Your Profile Attractive and Consistent</h3>
-                <figure className='text-sm font-medium mt-5 mb-10'><Image src={require('~/assets/images/insight.jpg')} alt='' className='rounded-md' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@georgiadelotz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Georgia de Lotz</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                <figure className='text-sm font-medium mt-5 mb-10'><Image src={require('~/assets/images/blog/insight.webp')} alt='' className='rounded-md' />
+                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@georgiadelotz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Georgia de Lotz</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
                 <p className='text-gray-800'>Your Instagram profile is your digital persona and the first aspect human beings see when visiting your web page. So, it is critical to make it look true and consistent. Choose a profile image that represents your logo or yourself and create a bio that explains what you do and what you provide. Use the same color schemes, fonts, and design elements to your posts to look cohesive and expert.</p>
@@ -59,8 +59,8 @@ const MoreViews = () => {
               <div className='mt-16'>
                 <h3 className='text-lg font-bold mb-2'>2. Use Hashtags Efficiently</h3>
 
-                <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/hastag_container.jpg')} alt='' className='rounded-md' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/pt-br/@janbaborak?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jan Baborák</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/blog/hastag_container.webp')} alt='' className='rounded-md' />
+                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/pt-br/@janbaborak?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jan Baborák</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -70,8 +70,8 @@ const MoreViews = () => {
               <div className='mt-16'>
                 <h3 className='text-lg font-bold mb-2'>3. Engage with Your Followers</h3>
 
-                <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/followers.jpg')} alt='' className='rounded-md' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@storyfuel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Melanie Deziel</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/blog/followers.webp')} alt='' className='rounded-md' />
+                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@storyfuel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Melanie Deziel</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -81,8 +81,8 @@ const MoreViews = () => {
               <div className='mt-16'>
                 <h3 className='text-lg font-bold mb-2'>4. Post Regularly and on the Optimal Times</h3>
 
-                <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/post_regular_time.jpg')} alt='' className='rounded-md' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@ikukevk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kevin Ku</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/blog/post_regular_time.webp')} alt='' className='rounded-md' />
+                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@ikukevk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kevin Ku</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -92,8 +92,8 @@ const MoreViews = () => {
               <div className='mt-16'>
                 <h3 className='text-lg font-bold mb-2'>5. Use Instagram Stories </h3>
 
-                <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/stories.jpg')} alt='' className='rounded-md' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@tunahangunkan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tunahan Günkan</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/blog/stories.webp')} alt='' className='rounded-md' />
+                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@tunahangunkan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tunahan Günkan</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -102,8 +102,8 @@ const MoreViews = () => {
 
               <div className='mt-16'>
                 <h3 className='text-lg font-bold mb-2'>6. Consider Instagram Ads </h3>
-                <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/ads.jpg')} alt='' className='rounded-md' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@anthonyrosset?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony Rosset</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/blog/ads.webp')} alt='' className='rounded-md' />
+                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@anthonyrosset?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony Rosset</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 

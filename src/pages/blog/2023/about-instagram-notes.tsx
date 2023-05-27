@@ -2,7 +2,7 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import BlogLayout from '~/components/blog/BlogLayout';
-import notesImage from '~/assets/images/notes_image.jpg';
+import notesImage from '~/assets/images/blog/notes_image.webp';
 
 const Image = dynamic(() => import('next/image'));
 const ShareButtons = dynamic(() => import('~/components/common/Share'));
@@ -30,7 +30,7 @@ const InstaNotes = () => {
             </div>
           </header>
 
-          <figure className='text-sm font-medium my-10'><Image src={notesImage} alt='' className='rounded-md' />
+          <figure className='text-sm font-medium my-10'><Image src={notesImage} alt='Instagram Notes ideas' className='rounded-md aspect-video' />
             <figcaption>Photo by <a className='underline text-blue-600' href='https://unsplash.com/ja/@freegraphictoday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>AbsolutVision</a> on <a className='underline text-blue-600' href='https://unsplash.com/photos/82TpEld0_e4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a></figcaption>
           </figure>
 

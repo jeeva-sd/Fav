@@ -5,6 +5,7 @@ import HeadSection from '~/components/seo';
 import BlogLayout from '~/components/blog/BlogLayout';
 import { SeoParams } from '~/components/seo/types';
 
+const Image = dynamic(() => import('next/image'));
 const ShareButtons = dynamic(() => import('~/components/common/Share'));
 const AuthorSection = dynamic(() => import('~/components/common/AuthorSection'));
 
@@ -35,12 +36,20 @@ const ApproachInfluencers = () => {
               <AuthorSection date={'15 May 2023'}/>
               <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white'>How to Approach Instagram Influencers for Your Business</h1>
             </header>
+
+
             <Paragraph>
                         Instagram influencers have turned out to be an critical part of many groups&apos; marketing strategies.
                         These people have the ability to reach a huge target market and sell your logo to their fans.
                         However, drawing close an influencer may be intimidating, especially in case you&apos;re new to the arena of influencer advertising.
                         In this blog post, we&apos;re going to speak a way to method Instagram influencers in your business and construct a courting with them that advantages both events.
             </Paragraph>
+
+            <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/blog/approach.webp')} alt='Approach Instagram Influencers' className='rounded-md aspect-video' />
+              <figcaption>
+                Photo by <a href="https://unsplash.com/@jannerboy62?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Fewings</a> on <a href="https://unsplash.com/photos/2ykkF3oQb_c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              </figcaption>
+            </figure>
 
             <div className='lg:bg-slate-50 lg:border lg:my-10 lg:p-10 rounded-md'>
               <SubHeading>Do&apos;s and Don&apos;ts While Approaching Influencers</SubHeading>

@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import Headsection from '~/components/seo/Headsection';
 import BlogLayout from '~/components/blog/BlogLayout';
 import { SeoParams } from '~/components/seo/types';
-import stroyImage from '~/assets/images/story_ideas.jpg';
+import stroyImage from '~/assets/images/blog/story_ideas.webp';
 
 const Image = dynamic(() => import('next/image'));
 const ShareButtons = dynamic(() => import('~/components/common/Share'));
@@ -37,19 +37,22 @@ const StoryIdeas = () => {
               Instagram Stories allows users to share temporary photos and videos that disappear after 24 hours. And this article is to make the most out of Instagram Stories and improve engagement with your audience.
             </p>
 
-            <figure className='text-sm font-medium my-10'><Image src={stroyImage} alt='' className='rounded-md' />
-              <figcaption>Photo by <a className='underline text-blue-600' href='https://unsplash.com/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Brett Jordan</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
-              </figcaption>
-            </figure>
-
             <>
               <div className='my-24'>
                 <h2 className='text-xl font-bold my-5'>1. Creative Ways to Use Instagram Stories</h2>
+
+
                 <p className='mb-4'>
                   Instagram Stories is a well-liked function on the social networking site that enables users to publish transient images and videos that vanish after 24 hours. These suggestions can help you create better Instagram Stories.
                 </p>
 
-                <div className='my-16'>
+                <figure className='text-sm font-medium mb-10 mt-5'><Image src={stroyImage} alt='Instagram Stories' className='rounded-md aspect-video' />
+                  <figcaption>
+                    Photo by <a href="https://unsplash.com/@emilymorter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emily Morter</a> on <a href="https://unsplash.com/photos/8xAA0f9yQnE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                  </figcaption>
+                </figure>
+
+                <div className='mb-12'>
                   <span className='font-bold'>Overview</span>
                   <li>Showcasing Product Demos</li>
                   <li>About your product</li>
@@ -77,7 +80,13 @@ const StoryIdeas = () => {
                   Use Poll  and other interactive tools in your stories about your content, services, and your products to get feedback about your content, service or about your product. This is an great technique to gain feedback from the targeted users which helps you to enhance your brand.
                 </p>
 
-                <div className='my-16'>
+                <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/blog/question.webp')} alt='Fun and Interactive Polls or Quizzes on Your Instagram Story' className='rounded-md aspect-video' />
+                  <figcaption>
+                    Photo by <a href="https://unsplash.com/@emilymorter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emily Morter</a> on <a href="https://unsplash.com/photos/8xAA0f9yQnE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                  </figcaption>
+                </figure>
+
+                <div className='mb-16'>
                   <span className='font-bold'>Overview</span>
                   <li>Quizzes</li>
                   <li>Stickers and other Story materials</li>
@@ -103,7 +112,13 @@ const StoryIdeas = () => {
                   Instagram Stories is a well-liked function on the social networking site that enables users to publish transient images and videos that vanish after 24 hours. These suggestions can help you create better Instagram Stories.
                 </p>
 
-                <div className='my-16'>
+                <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/blog/behind_the_scene.webp')} alt='Behind-the-Scenes' className='rounded-md aspect-video' />
+                  <figcaption>
+                    Photo by <a href="https://unsplash.com/@henmankk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Keagan Henman</a> on <a href="https://unsplash.com/photos/pPxJTtxfV1A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                  </figcaption>
+                </figure>
+
+                <div className='mb-16'>
                   <span className='font-bold'>Overview</span>
                   <li>Behind The Scenes</li>
                   <li>Reveal Your Team Members</li>

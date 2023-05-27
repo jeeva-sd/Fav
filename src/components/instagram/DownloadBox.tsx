@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import cricket from '../../assets/images/cricket-shot-mud.jpg';
+import cricket from '../../assets/images/blog/cricket-shot-mud.webp';
 import Image from 'next/image';
 
 const DownloadBox = ({post = {}}:any) => {

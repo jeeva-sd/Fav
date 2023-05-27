@@ -14,7 +14,7 @@ const AboutHastag = () => {
           <div className='grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8'>
             <div className='h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100'>
               <Image
-                src={require('../../assets/images/with_like.jpg')}
+                src={require('../../assets/images/blog/with_like.webp')}
                 alt='Instagram like'
                 quality={100}
                 className='h-full w-full'
@@ -23,7 +23,7 @@ const AboutHastag = () => {
             <div className='h-64 w-44 overflow-hidden rounded-lg'>
               <Image
                 quality={100}
-                src={require('../../assets/images/money_girl.jpg')}
+                src={require('../../assets/images/blog/money_girl.webp')}
                 alt='Earn through Instagram'
                 className='h-full w-full object-cover object-center'
               />
@@ -33,21 +33,21 @@ const AboutHastag = () => {
           <div className='grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8'>
             <div className='h-64 w-44 overflow-hidden rounded-lg'>
               <Image
-                src={require('../../assets/images/mobile_in_desk.jpg')}
+                src={require('../../assets/images/blog/mobile_in_desk.webp')}
                 alt='Instagram App'
                 className='h-full object-cover object-center'
               />
             </div>
             <div className='h-64 w-44 overflow-hidden rounded-lg'>
               <Image
-                src={require('../../assets/images/insta_girl.jpg')}
+                src={require('../../assets/images/blog/insta_girl.webp')}
                 alt='Content creator in Instagram'
                 className='h-full w-full object-cover'
               />
             </div>
             <div className='h-64 w-44 overflow-hidden rounded-lg'>
               <Image
-                src={require('../../assets/images/instagram_mobile.jpg')}
+                src={require('../../assets/images/blog/instagram_mobile.webp')}
                 alt='Instagram Logo'
                 className='h-full object-cover object-center'
               />
@@ -57,14 +57,14 @@ const AboutHastag = () => {
           <div className='grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8'>
             <div className='h-64 w-44 overflow-hidden rounded-lg'>
               <Image
-                src={require('../../assets/images/content_light.jpg')}
+                src={require('../../assets/images/blog/content_light.webp')}
                 alt='Content creator in Instagram'
                 className='h-full object-cover object-center'
               />
             </div>
             <div className='h-64 w-44 overflow-hidden rounded-lg'>
               <Image
-                src={require('../../assets/images/hastag.jpg')}
+                src={require('../../assets/images/blog/hastag.webp')}
                 alt='Hastag generator Instagram'
                 className='h-full w-full object-cover object-center'
               />
