@@ -37,7 +37,7 @@ const ExploreFav = () => {
     {
       title: 'About Instagram Notes',
       icon: <FcAbout />,
-      description: 'A blog post about Instagram Notes which give you a clear idea about Instagram notes and how to use it effectively.',
+      description: 'A blog post about Instagram Notes that provides a clear understanding of what Instagram Notes are and offers effective tips on how to use them.',
       isLive: true,
       path: '/blog/2023/about-instagram-notes'
     },
@@ -58,13 +58,15 @@ const ExploreFav = () => {
   ];
 
   return (
-    <section className='dark:bg-gray-900 bg-gradient-to-r min-h-screen flex items-center overflow-hidden border'>
+    <section className='dark:bg-gray-900 bg-gradient-to-r min-h-screen flex items-center overflow-hidden border shadow-inner'>
       <div className='py-8 px-4 mx-auto w-full sm:py-16 lg:px-6'>
 
         <div className='relative py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 rounded-md'>
           <div className='relative max-w-screen-md mb-8 lg:mb-16'>
-            <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>Explore <span className='text-indigo-600 mx-2'>#FavInsta</span></h2>
-            <p className='text-gray-500 sm:text-xl dark:text-gray-400'>By utilizing FavInsta, you can incraese your profile visibility, product awarness, gain organic followers and more.</p>
+            <h2 className='mb-4 text-4xl sm:text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>Explore <span className='text-indigo-600 mx-2'>#FavInsta</span></h2>
+            <p className='text-gray-500 sm:text-xl dark:text-gray-400'>
+              Explore FavInsta and get some cool and creative ideas to boost your success in Instagram.We provide valuable content which fills out your missing gaps in your content creation and helps you to reach a wider audience and engage your followers
+            </p>
           </div>
 
           <div className='relative space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0'>
@@ -76,7 +78,7 @@ const ExploreFav = () => {
                   <div className='flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900 text-3xl'>
                     {icon}
                   </div>
-                  <div className='flex items-center'><h3 className='mb-2 text-xl font-bold dark:text-white'>{title}</h3> {isNew && <span className='animate-bounce mx-3 bg-orange-400 px-2 rounded-md text-white'>New</span>}</div>
+                  <div className='flex items-center'><h3 className='mb-2 text-xl font-bold dark:text-white'>{title}</h3> {isNew && <span className='animate-bounce mx-3 bg-red-700 px-2 rounded-md text-white'>New</span>}</div>
                   <p className='text-gray-500 dark:text-gray-400'>{description}</p>
                   <div className='mt-3 text-sm text-gray-600'>{isLive ? <div className='w-fit flex justify-start items-center cursor-pointer text-indigo-600 hover:underline' onClick={() => push(path)}>Explore <BsArrowRight className='ml-2' /></div> : <span className='cursor-not-allowed'>Coming soon</span>}</div>
                 </div>

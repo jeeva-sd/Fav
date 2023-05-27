@@ -1,7 +1,8 @@
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
-  devtool: 'hidden-source-map',
   env: {
     API_BASE_URL: process.env.API_BASE_URL,
     SITE_URL: process.env.SITE_URL,
@@ -10,7 +11,16 @@ const nextConfig = {
     APP_MODE: process.env.APP_MODE,
   },
   images: {
-    domains: ['tailwindui.com','media.ssyoutube.com', 'flowbite.s3.amazonaws.com'],
+    domains: ['tailwindui.com', 'media.ssyoutube.com', 'flowbite.s3.amazonaws.com'],
+  },
+  webpack(config, { dev, isServer }) {
+    // Add the ForkTsCheckerWebpackPlugin to the webpack plugins array
+    if (dev && !isServer) {
+      config.plugins.push(new ForkTsCheckerWebpackPlugin());
+    }
+
+    // Return the modified webpack configuration
+    return config;
   },
 };
 

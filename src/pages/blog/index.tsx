@@ -1,5 +1,6 @@
 import { memo } from 'react';
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { TiSocialInstagramCircular } from 'react-icons/ti';
 import { BsFilePostFill } from 'react-icons/bs';
@@ -32,8 +33,8 @@ const BlogIndex = () => {
 
       <div className='flex flex-wrap justify-center min-h-screen'>
         <div className='flex items-center justify-around w-full h-auto py-40'>
-          <DynamicImage src={beam} alt='' className='fixed z-[-10] [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] top-40 left-2/4 -translate-x-2/3 -translate-y-1/2 max-w-none' />
-          <DynamicImage src={grid} alt='' className='absolute [mask-image:linear-gradient(90deg,white,rgba(255,255,255,0))] top-0 left-0 -translate-y-28 w-[1500px] h-full opacity-5' />
+          <Image src={beam} alt='' className='fixed z-[-10] [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] top-40 left-2/4 -translate-x-2/3 -translate-y-1/2 max-w-none' draggable={false}  priority={true} />
+          <Image src={grid} alt='' className='absolute [mask-image:linear-gradient(90deg,white,rgba(255,255,255,0))] top-0 left-0 -translate-y-28 w-[1500px] h-full opacity-5' priority={true} draggable={false}/>
           <div className='lg:w-6/12 w-full flex justify-center'>
             <div className=' text-indigo-600 absolute lg:top-20 lg:flex hidden pr-96'>
               {/* <FaInstagramSquare className='origin-center rotate-45' fontSize={300} /> */}
@@ -88,7 +89,7 @@ const BlogIndex = () => {
                       <p className='mb-5 font-light text-gray-500 dark:text-gray-400 line-clamp-3'>{page.description}</p>
                       <div className='flex justify-between items-center'>
                         <div className='flex items-center space-x-4'>
-                          <DynamicImage width={100} height={100} className='w-7 h-7 rounded-full' src={(page.authorImage as any)} alt='Jese Leos avatar' />
+                          <DynamicImage width={100} height={100} className='w-7 h-7 rounded-full' src={(page.authorImage as any)} alt='Fav Insta author' />
                           <span className='font-medium dark:text-white'>
                             {page.author}
                           </span>

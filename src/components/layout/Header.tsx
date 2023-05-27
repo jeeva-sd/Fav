@@ -40,7 +40,7 @@ const Header = () => {
           </div>
           <div className='hidden lg:flex lg:gap-x-6  lg:justify-end'>
             {pages.map((item) => (
-              <a key={item.name} href={item.href} className='text-xs font-bold leading-6 antialiased text-gray-800 uppercase hover:text-indigo-600 tracking-wide'>
+              <a key={item.name} href={item.href} className='no-underline text-xs font-bold leading-6 antialiased text-gray-800 uppercase hover:text-indigo-600 tracking-wide'>
                 {item.name}
               </a>
             ))}

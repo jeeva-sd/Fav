@@ -1,28 +1,28 @@
 {
-    "manifest_version": 3,
-    "name": "Fav Insta",
-    "description": "We covers everything from Instagram tips and tricks to hashtag generators. So get the most out of Instagram with our blog posts.",
-    "version": "1.0",
-    "display": "fullscreen",
-    "orientation": "portrait",
-    "splash_pages": null,
-    "background_color": "#4f46e5",
-    "icons": {
+  "manifest_version": 3,
+  "name": "Fav Insta",
+  "description": "We cover everything from Instagram tips and tricks to hashtag generators. Get the most out of Instagram with our blog posts.",
+  "version": "1.0",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "splash_pages": null,
+  "background_color": "#4f46e5",
+  "icons": [
+    { "src": "favIcons/favicon-16x16.png", "sizes": "16x16", "type": "image/png" },
+    { "src": "favIcons/favicon-32x32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "pwa/maskable_icon_x48.png", "sizes": "48x48", "type": "image/png" },
+    { "src": "pwa/maskable_icon_x128.png", "sizes": "128x128", "type": "image/png" }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
       "16": "favIcons/favicon-16x16.png",
       "32": "favIcons/favicon-32x32.png",
       "48": "pwa/maskable_icon_x48.png",
       "128": "pwa/maskable_icon_x128.png"
-    },
-    "background": {
-      "service_worker": "background.js"
-    },
-    "action": {
-      "default_icon": {
-      "16": "favIcons/favicon-16x16.png",
-      "32": "favIcons/favicon-32x32.png",
-      "48": "pwa/maskable_icon_x48.png",
-      "128": "pwa/maskable_icon_x128.png"
-      }
-    },
-    "permissions": ["scripting", "activeTab"]
-  }
+    }
+  },
+  "permissions": ["scripting", "activeTab"]
+}

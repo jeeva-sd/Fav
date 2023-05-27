@@ -3,15 +3,8 @@ import Head from 'next/head';
 import { HeadSectionProps } from './types';
 
 const HeadSection: React.FC<HeadSectionProps> = ({seoParams}) => {
-  const {title, description, keywords, pageUrl, canonical = true} = seoParams;
+  const {title, description, keywords, pageUrl, canonical = false} = seoParams;
   const fullUrl = `${process.env.SITE_URL}${pageUrl}`;
-
-  // const seoParams: SeoParams= {
-  //   title: 'aaaaaaaaaaaaaaa',
-  //   description: 'aaaaaaaaaaaaaaa',
-  //   keywords: 'aaa',
-  //   pageUrl: 'aaaaaaaaaaaaaaa',
-  // };
 
   return (
     <Head>

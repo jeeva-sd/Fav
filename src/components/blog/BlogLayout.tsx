@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import BreadCrumbs from '~/widgets/BreadCrumbs';
 import beam from '../../assets/images/breams/beams.jpg';
-// import grid from '../../assets/images/breams/grid-01.png';
 import Dgrid from '../../assets/images/breams/3dgrid.png';
 
 const BlogLayout = ({ children }: React.PropsWithChildren) => {
