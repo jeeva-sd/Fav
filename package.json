@@ -18,7 +18,8 @@
     "dev": "next dev -p 3600",
     "start": "next start -p 3600",
     "build": "npx tailwindcss -o build.css --minify && next build",
-    "postbuild": "next-sitemap --config sitemap.config.js"
+    "postbuild": "next-sitemap --config sitemap.config.js",
+    "clean": "rm -rf .next"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.13",

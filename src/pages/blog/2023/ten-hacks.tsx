@@ -44,10 +44,16 @@ const TenHacks = () => {
                 <div className='my-16'>
                   <h2 className='mt-10 mb-2'><strong>1. Automating Scheduling and Posting on Instagram</strong></h2>
 
-                  <figure className='text-sm font-medium mb-10 mt-5'><Image width={1000} height={600} src={require('~/assets/images/blog/schedule.webp')} alt='Instagram post scheduling' className='rounded-md aspect-video' />
-                    <figcaption>
+                  <figure className='text-sm font-medium mb-10 mt-5'> <Image
+                    width={700}
+                    height={450}
+                    quality={50}
+                    loading='lazy'
+                    decoding='async'
+                    src={require('~/assets/images/blog/schedule.webp')} alt='Instagram post scheduling' className='rounded-md aspect-video' />
+                  <figcaption>
                       Photo by <a href="https://unsplash.com/@tunahangunkan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tunahan Günkan</a> on <a href="https://unsplash.com/photos/MSNlQmqRX1w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                    </figcaption>
+                  </figcaption>
                   </figure>
 
                   <p className='mb-4'>
@@ -60,8 +66,14 @@ const TenHacks = () => {
 
                 <div className='my-16'>
                   <h2 className='mt-10 mb-2'><strong>2. Analyzing Your Performance with Instagram Insights</strong></h2>
-                  <figure className='text-sm font-medium mb-10 mt-5'><Image width={1000} height={600} src={require('~/assets/images/blog/insight.webp')} alt='Instagram Insight' className='rounded-md aspect-video' />
-                    <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@georgiadelotz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Georgia de Lotz</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a></figcaption>
+                  <figure className='text-sm font-medium mb-10 mt-5'> <Image
+                    width={700}
+                    height={450}
+                    quality={50}
+                    loading='lazy'
+                    decoding='async'
+                    src={require('~/assets/images/blog/insight.webp')} alt='Instagram Insight' className='rounded-md aspect-video' />
+                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@georgiadelotz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Georgia de Lotz</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a></figcaption>
                   </figure>
                   <p>
                   A built-in analytics tool called Instagram Insights gives you useful information about how you&apos;re doing on the site. You can improve your understanding of what material resonates with your audience and adjust your strategy by keeping an eye on metrics like engagement, reach, and impressions. However, those who are not accustomed with data analysis may find Insights confusing.
@@ -71,8 +83,14 @@ const TenHacks = () => {
                 <div className='my-16'>
                   <h2 className='mt-10 mb-2'><strong>3. Utilizing Instagram Ads to Increase Visibility and Sales</strong></h2>
 
-                  <figure className='text-sm font-medium mb-10 mt-5'><Image width={1000} height={600} src={require('~/assets/images/blog/ads.webp')} alt='Instagram Ads' className='rounded-md aspect-video' />
-                    <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@anthonyrosset?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony Rosset</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a></figcaption>
+                  <figure className='text-sm font-medium mb-10 mt-5'> <Image
+                    width={700}
+                    height={450}
+                    quality={50}
+                    loading='lazy'
+                    decoding='async'
+                    src={require('~/assets/images/blog/ads.webp')} alt='Instagram Ads' className='rounded-md aspect-video' />
+                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@anthonyrosset?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony Rosset</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a></figcaption>
                   </figure>
 
                   <p className='mb-4'>
@@ -89,10 +107,16 @@ const TenHacks = () => {
                 <div className='my-16'>
                   <h2 className='mt-10 mb-2'><strong>4. Use of Shopping Features to Promote Products</strong></h2>
 
-                  <figure className='text-sm font-medium mb-10 mt-5'><Image width={1000} height={600} src={require('~/assets/images/blog/promote.webp')} alt='Instagram promotion' className='rounded-md aspect-video' />
-                    <figcaption>
+                  <figure className='text-sm font-medium mb-10 mt-5'> <Image
+                    width={700}
+                    height={450}
+                    quality={50}
+                    loading='lazy'
+                    decoding='async'
+                    src={require('~/assets/images/blog/promote.webp')} alt='Instagram promotion' className='rounded-md aspect-video' />
+                  <figcaption>
                       Photo by <a href="https://unsplash.com/@possessedphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Possessed Photography</a> on <a href="https://unsplash.com/photos/tiNCpHudGrw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                    </figcaption>
+                  </figcaption>
                   </figure>
 
                   <p>
@@ -103,10 +127,16 @@ const TenHacks = () => {
                 <div className='my-16'>
                   <h2 className='mt-10 mb-2'><strong>5. Understanding Instagram&apos;s Algorithm</strong></h2>
 
-                  <figure className='text-sm font-medium mb-10 mt-5'><Image width={1000} height={600} src={require('~/assets/images/blog/algorithm.webp')} alt='Instagram Algorithm' className='rounded-md aspect-video' />
-                    <figcaption>
+                  <figure className='text-sm font-medium mb-10 mt-5'> <Image
+                    width={700}
+                    height={450}
+                    quality={50}
+                    loading='lazy'
+                    decoding='async'
+                    src={require('~/assets/images/blog/algorithm.webp')} alt='Instagram Algorithm' className='rounded-md aspect-video' />
+                  <figcaption>
                     Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/photos/iar-afB0QQw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                    </figcaption>
+                  </figcaption>
                   </figure>
 
                   <p>
@@ -118,7 +148,13 @@ const TenHacks = () => {
                   <h2 className='mt-10 mb-2'><strong>6. Crafting Engaging Stories for Your Brand</strong></h2>
 
                   <figure className='text-sm font-medium my-10'>
-                    <Image width={1000} height={600} src={hacksImage} alt='Instagram story' className='rounded-md aspect-video' />
+                    <Image
+                      width={700}
+                      height={450}
+                      quality={50}
+                      loading='lazy'
+                      decoding='async'
+                      src={hacksImage} alt='Instagram story' className='rounded-md aspect-video' />
                     <figcaption>Photo by <a className='underline text-blue-600' href='https://unsplash.com/@alexbemore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Alexander Shatov</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                     </figcaption>
                   </figure>
@@ -131,10 +167,16 @@ const TenHacks = () => {
                 <div className='my-16'>
                   <h2 className='mt-10 mb-2'><strong>7. Influencer Marketing on Instagram: The Dos and Dont&apos;s</strong></h2>
 
-                  <figure className='text-sm font-medium mb-10 mt-5'><Image width={1000} height={600} src={require('~/assets/images/blog/influencer.webp')} alt='Instagram influencer' className='rounded-md aspect-video' />
-                    <figcaption>
+                  <figure className='text-sm font-medium mb-10 mt-5'> <Image
+                    width={700}
+                    height={450}
+                    quality={50}
+                    loading='lazy'
+                    decoding='async'
+                    src={require('~/assets/images/blog/influencer.webp')} alt='Instagram influencer' className='rounded-md aspect-video' />
+                  <figcaption>
                     Photo by <a href="https://unsplash.com/@maddibazzocco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maddi Bazzocco</a> on <a href="https://unsplash.com/photos/Vbt1zTCsSNA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                    </figcaption>
+                  </figcaption>
                   </figure>
 
                   <p className='mb-4'>
@@ -175,9 +217,15 @@ const TenHacks = () => {
                 <div className='my-16'>
                   <h2 className='mt-10 mb-2'><strong>8. Maximizing Your Reach on Instagram With Hashtags and Location Tagging</strong></h2>
 
-                  <figure className='text-sm font-medium mb-10 mt-5'><Image width={1000} height={600} src={require('~/assets/images/blog/hastag_container.webp')} alt='Instagram Hastags' className='rounded-md aspect-video' />
-                    <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/pt-br/@janbaborak?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jan Baborák</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
-                    </figcaption>
+                  <figure className='text-sm font-medium mb-10 mt-5'> <Image
+                    width={700}
+                    height={450}
+                    quality={50}
+                    loading='lazy'
+                    decoding='async'
+                    src={require('~/assets/images/blog/hastag_container.webp')} alt='Instagram Hastags' className='rounded-md aspect-video' />
+                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/pt-br/@janbaborak?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jan Baborák</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                  </figcaption>
                   </figure>
 
                   <p>
@@ -188,10 +236,16 @@ const TenHacks = () => {
                 <div className='my-16'>
                   <h2 className='mt-10 mb-2'><strong>9. Instagram vs TikTok: Which Platform is Right for Your Business?</strong></h2>
 
-                  <figure className='text-sm font-medium mb-10 mt-5'><Image width={1000} height={600} src={require('~/assets/images/blog/tiktok.webp')} alt='Tik tok' className='rounded-md aspect-video' />
-                    <figcaption>
+                  <figure className='text-sm font-medium mb-10 mt-5'> <Image
+                    width={700}
+                    height={450}
+                    quality={50}
+                    loading='lazy'
+                    decoding='async'
+                    src={require('~/assets/images/blog/tiktok.webp')} alt='Tik tok' className='rounded-md aspect-video' />
+                  <figcaption>
                       Photo by <a href="https://unsplash.com/ko/@solenfeyissa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Solen Feyissa</a> on <a href="https://unsplash.com/photos/Yaw9mfG9QfQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                    </figcaption>
+                  </figcaption>
                   </figure>
 
                   <p>
@@ -202,10 +256,16 @@ const TenHacks = () => {
                 <div className='my-16'>
                   <h2 className='mt-10 mb-2'><strong>10. Using the &quot;Explore&quot; Tab on Instagram to Discover New Content</strong></h2>
 
-                  <figure className='text-sm font-medium mb-10 mt-5'><Image width={1000} height={600} src={require('~/assets/images/blog/explore.webp')} alt='Instagram explore tab' className='rounded-md aspect-video' />
-                    <figcaption>
+                  <figure className='text-sm font-medium mb-10 mt-5'> <Image
+                    width={700}
+                    height={450}
+                    quality={50}
+                    loading='lazy'
+                    decoding='async'
+                    src={require('~/assets/images/blog/explore.webp')} alt='Instagram explore tab' className='rounded-md aspect-video' />
+                  <figcaption>
                       Photo by <a href="https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Neel</a> on <a href="https://unsplash.com/photos/z55CR_d0ayg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                    </figcaption>
+                  </figcaption>
                   </figure>
 
                   <p>

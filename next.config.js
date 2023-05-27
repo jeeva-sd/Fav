@@ -11,15 +11,12 @@ const nextConfig = {
     APP_MODE: process.env.APP_MODE,
   },
   images: {
-    domains: ['tailwindui.com', 'media.ssyoutube.com', 'flowbite.s3.amazonaws.com'],
+    domains: [],
+    deviceSizes: [320, 640, 768, 1024, 1280],
+    imageSizes: [16, 32, 48, 64, 96],
   },
   webpack(config, { dev, isServer }) {
-    // Add the ForkTsCheckerWebpackPlugin to the webpack plugins array
-    if (dev && !isServer) {
-      config.plugins.push(new ForkTsCheckerWebpackPlugin());
-    }
-
-    // Return the modified webpack configuration
+    if (dev && !isServer)  config.plugins.push(new ForkTsCheckerWebpackPlugin());
     return config;
   },
 };

@@ -46,7 +46,14 @@ const StoryIdeas = () => {
                   Instagram Stories is a well-liked function on the social networking site that enables users to publish transient images and videos that vanish after 24 hours. These suggestions can help you create better Instagram Stories.
                 </p>
 
-                <figure className='text-sm font-medium mb-10 mt-5'><Image width={1000} height={600} src={stroyImage} alt='Instagram Stories' className='rounded-md aspect-video' />
+                <figure className='text-sm font-medium mb-10 mt-5'>
+                  <Image
+                    width={700}
+                    height={450}
+                    quality={50}
+                    loading='lazy'
+                    decoding='async'
+                    src={stroyImage} alt='Instagram Stories' className='rounded-md aspect-video' />
                   <figcaption>
                     Photo by <a href="https://unsplash.com/@emilymorter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emily Morter</a> on <a href="https://unsplash.com/photos/8xAA0f9yQnE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                   </figcaption>
@@ -80,7 +87,14 @@ const StoryIdeas = () => {
                   Use Poll  and other interactive tools in your stories about your content, services, and your products to get feedback about your content, service or about your product. This is an great technique to gain feedback from the targeted users which helps you to enhance your brand.
                 </p>
 
-                <figure className='text-sm font-medium mb-10 mt-5'><Image width={1000} height={600} src={require('~/assets/images/blog/question.webp')} alt='Fun and Interactive Polls or Quizzes on Your Instagram Story' className='rounded-md aspect-video' />
+                <figure className='text-sm font-medium mb-10 mt-5'>
+                  <Image
+                    width={700}
+                    height={450}
+                    quality={50}
+                    loading='lazy'
+                    decoding='async'
+                    src={require('~/assets/images/blog/question.webp')} alt='Fun and Interactive Polls or Quizzes on Your Instagram Story' className='rounded-md aspect-video' />
                   <figcaption>
                     Photo by <a href="https://unsplash.com/@emilymorter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emily Morter</a> on <a href="https://unsplash.com/photos/8xAA0f9yQnE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                   </figcaption>
@@ -112,7 +126,14 @@ const StoryIdeas = () => {
                   Instagram Stories is a well-liked function on the social networking site that enables users to publish transient images and videos that vanish after 24 hours. These suggestions can help you create better Instagram Stories.
                 </p>
 
-                <figure className='text-sm font-medium mb-10 mt-5'><Image width={1000} height={600} src={require('~/assets/images/blog/behind_the_scene.webp')} alt='Behind-the-Scenes' className='rounded-md aspect-video' />
+                <figure className='text-sm font-medium mb-10 mt-5'>
+                  <Image
+                    width={700}
+                    height={450}
+                    quality={50}
+                    loading='lazy'
+                    decoding='async'
+                    src={require('~/assets/images/blog/behind_the_scene.webp')} alt='Behind-the-Scenes' className='rounded-md aspect-video' />
                   <figcaption>
                     Photo by <a href="https://unsplash.com/@henmankk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Keagan Henman</a> on <a href="https://unsplash.com/photos/pPxJTtxfV1A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                   </figcaption>

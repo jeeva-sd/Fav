@@ -30,7 +30,14 @@ const InstaNotes = () => {
             </div>
           </header>
 
-          <figure className='text-sm font-medium my-10'><Image width={1000} height={600} src={notesImage} alt='Instagram Notes ideas' className='rounded-md aspect-video' />
+          <figure className='text-sm font-medium my-10'>
+            <Image
+              width={700}
+              height={450}
+              quality={50}
+              loading='lazy'
+              decoding='async'
+              src={notesImage} alt='Instagram Notes ideas' className='rounded-md aspect-video' />
             <figcaption>Photo by <a className='underline text-blue-600' href='https://unsplash.com/ja/@freegraphictoday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>AbsolutVision</a> on <a className='underline text-blue-600' href='https://unsplash.com/photos/82TpEld0_e4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a></figcaption>
           </figure>
 
