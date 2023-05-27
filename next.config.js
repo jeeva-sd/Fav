@@ -1,5 +1,5 @@
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-const withImages = require('next-images');
+// const withImages = require('next-images');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -29,4 +29,5 @@ const withPWA = require('next-pwa')({
   sw: 'service-worker.js',
 });
 
-module.exports = withPWA(withImages(nextConfig));
+// module.exports = withPWA(withImages(nextConfig));
+module.exports = withPWA(nextConfig);
