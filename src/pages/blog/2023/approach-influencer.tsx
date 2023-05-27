@@ -45,7 +45,7 @@ const ApproachInfluencers = () => {
                         In this blog post, we&apos;re going to speak a way to method Instagram influencers in your business and construct a courting with them that advantages both events.
             </Paragraph>
 
-            <figure className='text-sm font-medium mb-10 mt-5'><Image src={require('~/assets/images/blog/approach.webp')} alt='Approach Instagram Influencers' className='rounded-md aspect-video' />
+            <figure className='text-sm font-medium mb-10 mt-5'><Image width={1000} height={600} src={require('~/assets/images/blog/approach.webp')} alt='Approach Instagram Influencers' className='rounded-md aspect-video' />
               <figcaption>
                 Photo by <a href="https://unsplash.com/@jannerboy62?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Fewings</a> on <a href="https://unsplash.com/photos/2ykkF3oQb_c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
               </figcaption>
