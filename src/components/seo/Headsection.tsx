@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { HeadSectionProps } from './types';
 
 const HeadSection: React.FC<HeadSectionProps> = ({seoParams}) => {
-  const {title, description, keywords, pageUrl, canonical = false} = seoParams;
+  const { title, description, keywords, pageUrl } = seoParams;
   const fullUrl = `${process.env.SITE_URL || 'https://www.favinsta.com'}${pageUrl}`;
 
   return (
@@ -16,7 +16,6 @@ const HeadSection: React.FC<HeadSectionProps> = ({seoParams}) => {
       <title>{title}</title>
       <meta name='description' content={description} />
       <meta name='keywords' content={keywords} />
-      {canonical && <meta name='canonical' content={fullUrl} />}
 
       <meta name='application-name' content='FavInsta.com'/>
       <meta name='robots' content='index,follow'/>
@@ -42,6 +41,7 @@ const HeadSection: React.FC<HeadSectionProps> = ({seoParams}) => {
       <meta name='twitter:card' content='summary_large_image'/>
       <meta name='twitter:image' content='https://www.favinsta.com/favIcons/android-chrome-192x192.png'/>
 
+      <link rel="canonical" href={fullUrl} />
       <link rel='manifest' href='/manifest.json'/>
       <link rel='shortcut icon' href='/favIcons/favicon-16x16.png'/>
       <link rel='icon' type='image/png' sizes='32x32' href='/favIcons/favicon-32x32.png'/>
