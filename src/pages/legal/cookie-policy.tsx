@@ -19,7 +19,7 @@ const CookiePolicy: React.FC = () => {
       <Headsection seoParams={seoParams}/>
 
       <PageContainer>
-        <div className="py-8">
+        <div className="py-8 overflow-hidden">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl font-bold mb-4">Cookie Policy</h2>
             <p className="mb-4">Effective Date: 05 May 2023</p>

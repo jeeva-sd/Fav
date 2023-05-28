@@ -4,7 +4,7 @@ import { HeadSectionProps } from './types';
 
 const HeadSection: React.FC<HeadSectionProps> = ({seoParams}) => {
   const {title, description, keywords, pageUrl, canonical = false} = seoParams;
-  const fullUrl = `${process.env.SITE_URL}${pageUrl}`;
+  const fullUrl = `${process.env.SITE_URL || 'https://www.favinsta.com'}${pageUrl}`;
 
   return (
     <Head>
@@ -18,7 +18,7 @@ const HeadSection: React.FC<HeadSectionProps> = ({seoParams}) => {
       <meta name='keywords' content={keywords} />
       {canonical && <meta name='canonical' content={fullUrl} />}
 
-      <meta name='application-name' content={process.env.APP_NAME}/>
+      <meta name='application-name' content='FavInsta.com'/>
       <meta name='robots' content='index,follow'/>
       <meta name='Rating' content='General'/>
       <meta name='audience' content='all'/>
@@ -32,15 +32,15 @@ const HeadSection: React.FC<HeadSectionProps> = ({seoParams}) => {
       <meta property='og:url' content={fullUrl}/>
       <meta property='og:title' content={title}/>
       <meta property='og:description' content={description}/>
-      <meta property='og:site_name' content={process.env.SITE_SHORT_URL}/>
-      <meta property='og:image' content={`${process.env.SITE_URL}/favIcons/android-chrome-192x192.png`}/>
+      <meta property='og:site_name' content='FavInsta.com'/>
+      <meta property='og:image' content='https://www.favinsta.com/favIcons/android-chrome-192x192.png'/>
       <meta property='og:type' content='website' />
 
       <meta name='twitter:url' content={fullUrl}/>
       <meta name='twitter:title' content={title}/>
       <meta name='twitter:description' content={description}/>
       <meta name='twitter:card' content='summary_large_image'/>
-      <meta name='twitter:image' content={`${process.env.SITE_URL}/favIcons/android-chrome-192x192.png`}/>
+      <meta name='twitter:image' content='https://www.favinsta.com/favIcons/android-chrome-192x192.png'/>
 
       <link rel='manifest' href='/manifest.json'/>
       <link rel='shortcut icon' href='/favIcons/favicon-16x16.png'/>
