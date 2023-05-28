@@ -11,17 +11,17 @@
   "start_url": "/",
   "scope": "/",
   "icons": [
-    { "src": "favIcons/favicon-16x16.png", "sizes": "16x16", "type": "image/png" },
-    { "src": "favIcons/favicon-32x32.png", "sizes": "32x32", "type": "image/png" },
-    { "src": "pwa/maskable_icon_x48.png", "sizes": "48x48", "type": "image/png" },
-    { "src": "pwa/maskable_icon_x128.png", "sizes": "128x128", "type": "image/png" }
+    { "src": "/favIcons/favicon-16x16.png", "sizes": "16x16", "type": "image/png" },
+    { "src": "/favIcons/favicon-32x32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/pwa/maskable_icon_x48.png", "sizes": "48x48", "type": "image/png" },
+    { "src": "/pwa/maskable_icon_x128.png", "sizes": "128x128", "type": "image/png" }
   ],
   "action": {
     "default_icon": {
-      "16": "favIcons/favicon-16x16.png",
-      "32": "favIcons/favicon-32x32.png",
-      "48": "pwa/maskable_icon_x48.png",
-      "128": "pwa/maskable_icon_x128.png"
+      "16": "/favIcons/favicon-16x16.png",
+      "32": "/favIcons/favicon-32x32.png",
+      "48": "/pwa/maskable_icon_x48.png",
+      "128": "/pwa/maskable_icon_x128.png"
     }
   },
   "permissions": ["scripting", "activeTab"]

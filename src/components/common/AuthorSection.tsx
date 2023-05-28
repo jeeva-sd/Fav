@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import authProfile from '~/assets/images/blog/blackNinjaProfile.webp';
+import authProfile from '~/assets/images/blog/blackNinjaProfile.jpg';
 
 const AuthorSection = ({date}: any) => {
   return (

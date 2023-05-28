@@ -3,11 +3,11 @@ import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import HeadSection from '~/components/seo';
 import BlogLayout from '~/components/blog/BlogLayout';
+import AuthorSection from '~/components/common/AuthorSection';
 import { SeoParams } from '~/components/seo/types';
 
-const Image = dynamic(() => import('next/image'));
+const Image = dynamic(() => import('next/image'), { ssr:true });
 const ShareButtons = dynamic(() => import('~/components/common/Share'));
-const AuthorSection = dynamic(() => import('~/components/common/AuthorSection'));
 
 const Container = ({ children }: React.PropsWithChildren) => <div className='mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert`'>{children}</div>;
 const SubHeading = ({ children }: React.PropsWithChildren) => <div className='text-2xl font-semibold mb-3`'>{children}</div>;

@@ -65,7 +65,7 @@ const ExploreFav = () => {
           <div className='relative max-w-screen-md mb-8 lg:mb-16'>
             <h2 className='mb-4 lg:text-4xl text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>Explore <span className='text-indigo-600 mx-2'>#FavInsta</span></h2>
             <p className='text-gray-500 sm:text-xl dark:text-gray-400'>
-              Explore FavInsta and get some cool and creative ideas to boost your success in Instagram.We provide valuable content which fills out your missing gaps in your content creation and helps you to reach a wider audience and engage your followers
+              Explore FavInsta and get some cool and creative ideas to boost your success in Instagram.We provide valuable content which fills out your missing gaps in your content creation and helps you to reach a wider audience and engage with your followers.
             </p>
           </div>
 
@@ -80,7 +80,7 @@ const ExploreFav = () => {
                   </div>
                   <div className='flex items-center'><h3 className='mb-2 text-xl font-bold dark:text-white'>{title}</h3> {isNew && <span className='animate-bounce mx-3 bg-red-700 px-2 rounded-md text-white'>New</span>}</div>
                   <p className='text-gray-500 dark:text-gray-400'>{description}</p>
-                  <div className='mt-3 text-sm text-gray-600'>{isLive ? <div className='w-fit flex justify-start items-center cursor-pointer text-indigo-600 hover:underline' onClick={() => push(path)}>Explore <BsArrowRight className='ml-2' /></div> : <span className='cursor-not-allowed'>Coming soon</span>}</div>
+                  <div className='mt-3 text-sm text-gray-600 select-none'>{isLive ? <div className='w-fit flex justify-start items-center cursor-pointer text-indigo-600 hover:underline' onClick={() => push(path)}>Explore <BsArrowRight className='ml-2' /></div> : <span className='cursor-not-allowed'>Coming soon</span>}</div>
                 </div>
               );
             })}

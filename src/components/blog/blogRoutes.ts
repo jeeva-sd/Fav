@@ -1,7 +1,6 @@
 import hacksImage from '~/assets/images/blog/ten_hacks.webp';
-import tips from '~/assets/images/blog/instagram_tips.webp';
-import stroyImage from '~/assets/images/blog/story_ideas.webp';
-import authProfile from '~/assets/images/blog/blackNinjaProfile.webp';
+import stroyImage from '~/assets/images/blog/stories.webp';
+import authProfile from '~/assets/images/blog/blackNinjaProfile.jpg';
 import { Posts } from './types';
 
 export const blogRoutes: Posts[] = [{
@@ -20,7 +19,7 @@ export const blogRoutes: Posts[] = [{
   title: 'Instagram Tips and Tricks - 2023',
   description: 'Here are some complex and dazzling tips and tricks to create gripping and compelling content on Instagram Reels that will leave your audience in awe.',
   path: '/blog/2023/instagram-reel-tips',
-  image: tips,
+  image: null,
   category: 'InstaTips',
   rewards: 'recent',
   createdAt: '27 April 2023',
@@ -73,7 +72,7 @@ export const blogRoutes: Posts[] = [{
   rewards: 'recent',
   createdAt: '30 May 2023',
   type: 'Article',
-  author: 'blackninja',
+  author: 'Black Ninja',
   authorImage: authProfile,
 },
 ];

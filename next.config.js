@@ -1,9 +1,9 @@
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-// const withImages = require('next-images');
 
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
-  reactStrictMode: false,
+  reactStrictMode: true,
   env: {
     API_BASE_URL: process.env.API_BASE_URL,
     SITE_URL: process.env.SITE_URL,
@@ -13,6 +13,7 @@ const nextConfig = {
   },
   images: {
     domains: [],
+    formats: ['image/avif', 'image/webp'],
     deviceSizes: [320, 640, 768, 1024, 1280],
     imageSizes: [16, 32, 48, 64, 96],
   },
@@ -22,12 +23,4 @@ const nextConfig = {
   },
 };
 
-const withPWA = require('next-pwa')({
-  dest: 'public',
-  disable: process.env.NODE_ENV === 'development',
-  register: true,
-  sw: 'service-worker.js',
-});
-
-// module.exports = withPWA(withImages(nextConfig));
-module.exports = withPWA(nextConfig);
+module.exports = nextConfig;

@@ -1,7 +1,7 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
 
-const Image = dynamic(() => import('next/image'));
+const Image = dynamic(() => import('next/image'), { ssr:true });
 
 const AboutHastag = () => {
   return (

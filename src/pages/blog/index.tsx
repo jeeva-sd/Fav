@@ -13,7 +13,7 @@ import { getWeekDifference } from '~/helpers';
 import beam from '~/assets/images/breams/beams.jpg';
 import grid from '~/assets/images/breams/grid-01.png';
 
-const DynamicImage = dynamic(() => import('next/image'));
+const DynamicImage = dynamic(() => import('next/image'), { ssr:true });
 const RightArrow = dynamic(() => import('~/widgets/RightArrow'));
 
 const BlogIndex = () => {
@@ -38,8 +38,8 @@ const BlogIndex = () => {
           <div className='lg:w-6/12 w-full flex justify-center'>
             <div className=' text-indigo-600 absolute lg:top-20 lg:flex hidden pr-96'>
             </div>
-            <div className='antialiased text-4xl font-extrabold sm:text-6xl -skew-y-6'>
-              <div className='lg:w-fit md:w-full w-full bg-white p-5 rounded-2xl shadow-lg'>
+            <div className='antialiased text-4xl font-extrabold sm:text-6xl -skew-y-6 select-none'>
+              <div className='lg:w-fit md:w-full w-full bg-white hover:bg-slate-50 p-5 rounded-2xl shadow-lg'>
                 <span className='text-indigo-600 mx-5'>Fav - </span>
                 <span className='tracking-widest inline-flex align-middle'> BLOG</span>
               </div>
@@ -53,7 +53,7 @@ const BlogIndex = () => {
               <div className='mr-auto place-self-center lg:col-span-7'>
                 <h1 className='max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white uppercase'>Step into the spotlight</h1>
                 <p className='max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>Welcome to the vibrant world where your ideas come alive. Join us,
-            where we decode the secrets to engaging posts, tips and tricks and irresistible story ideass. And make your Instagram dreams a reality!</p>
+                  where we decode the secrets to engaging posts, tips and tricks and irresistible story ideass. And make your Instagram dreams a reality!</p>
               </div>
               <div className='hidden lg:mt-0 lg:col-span-5 lg:flex text-center justify-center items-center'>
                 <TiSocialInstagramCircular color='white' className='animate-spin' fontSize={300} style={{ animation: 'spin 25s linear infinite' }}/>

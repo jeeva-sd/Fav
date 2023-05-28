@@ -5,10 +5,10 @@ import BlogLayout from '~/components/blog/BlogLayout';
 import notesImage from '~/assets/images/blog/notes_image.webp';
 import { SeoParams } from '~/components/seo/types';
 import Headsection from '~/components/seo/Headsection';
+import AuthorSection from '~/components/common/AuthorSection';
 
-const Image = dynamic(() => import('next/image'));
+const Image = dynamic(() => import('next/image'), { ssr:true });
 const ShareButtons = dynamic(() => import('~/components/common/Share'));
-const AuthorSection = dynamic(() => import('~/components/common/AuthorSection'));
 
 const BlogContainer = ({ children }: any) => <div className='mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert`'>{children}</div>;
 

@@ -12,7 +12,7 @@ const Footer = () => {
 
           <div className='flex justify-center items-center gap-5 lg:w-auto md:w-full w-full flex-wrap'>
             <div
-              className='cursor-pointer text-[15px] text-gray-600 hover:text-indigo-600'
+              className='cursor-pointer text-[15px] text-gray-600 hover:text-indigo-600 select-none'
               onClick={() => push({ pathname: '/legal/privacy-policy' })}
             >
               Privacy
@@ -21,7 +21,7 @@ const Footer = () => {
             <div className='font-thin opacity-50'> | </div>
 
             <div
-              className=' cursor-pointer text-[15px] text-gray-600  hover:text-indigo-600'
+              className=' cursor-pointer text-[15px] text-gray-600  hover:text-indigo-600 select-none'
               onClick={() => push({ pathname: '/legal/terms-of-service' })}
             >
               Terms
@@ -31,7 +31,7 @@ const Footer = () => {
 
 
             <div
-              className=' cursor-pointer text-[15px] text-gray-600  hover:text-indigo-600'
+              className=' cursor-pointer text-[15px] text-gray-600  hover:text-indigo-600 select-none'
               onClick={() => push({ pathname: '/legal/cookie-policy' })}
             >
               Cookies
