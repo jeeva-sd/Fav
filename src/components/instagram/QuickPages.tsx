@@ -11,20 +11,20 @@ const QuickPages = () => {
     },
     {
       title: 'Video',
-      icon: <RiVideoFill fontSize={30}/>
+      icon: <RiVideoFill fontSize={30} />
     },
     {
       title: 'Photo',
-      icon: <HiPhotograph fontSize={30}/>
+      icon: <HiPhotograph fontSize={30} />
     },
     {
       title: 'Thumbnail',
-      icon: <MdOutlinePhotoSizeSelectLarge fontSize={30}/>
+      icon: <MdOutlinePhotoSizeSelectLarge fontSize={30} />
     }];
 
   return (
     <div className='flex gap-12 py-4 justify-center'>
-      {pages.map((page:any, index:number) => {
+      {pages.map((page: any, index: number) => {
         return (
           <div key={index} className='flex flex-col gap-2 items-center cursor-pointer'>
             <div className='w-fit p-2 bg-white rounded-md shadow-md'>

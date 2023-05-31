@@ -60,5 +60,5 @@ body {
 }
 
 a {
-  @apply underline text-indigo-600; 
+  @apply underline text-indigo-600;
 }

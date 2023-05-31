@@ -8,7 +8,7 @@ import '~/styles/globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 const Header = dynamic(() => import('~/components/layout/Header'), { ssr: true });
-const Footer = dynamic(() => import('~/components/layout/Footer'), { ssr: true });
+const Footer = dynamic(() => import('~/components/layout/Footer'), { ssr: false });
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (

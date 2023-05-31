@@ -7,7 +7,7 @@ import { BiCookie } from 'react-icons/bi';
 import { FaNewspaper, FaBloggerB } from 'react-icons/fa';
 import { BsFillPersonFill, BsFillTelephoneFill } from 'react-icons/bs';
 
-export default function SideBar({ isOpen, setIsOpen }:any) {
+export default function SideBar({ isOpen, setIsOpen }: any) {
   const { route, push } = useRouter();
   const [open, setOpen] = useState(false);
 
@@ -23,7 +23,7 @@ export default function SideBar({ isOpen, setIsOpen }:any) {
       { title: 'Privacy Policy', selected: false, icon: <MdPrivacyTip />, path: '/legal/privacy-policy' },
       { title: 'Cookie Policy', selected: false, icon: <BiCookie />, path: '/legal/cookie-policy' },
     ];
-  },[]);
+  }, []);
 
   const sideBarNavs = useMemo(() => {
     return navs.map(nav => {

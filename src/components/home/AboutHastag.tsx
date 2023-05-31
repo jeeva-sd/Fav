@@ -1,9 +1,9 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
 
-const Image = dynamic(() => import('next/image'), { ssr:true });
+const Image = dynamic(() => import('next/image'), { ssr: true });
 
-const AboutHastag = () => {
+const AboutHashtag = () => {
   return (
     <div
       aria-hidden='true'
@@ -111,4 +111,4 @@ const AboutHastag = () => {
   );
 };
 
-export default AboutHastag;
+export default AboutHashtag;

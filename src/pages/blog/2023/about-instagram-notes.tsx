@@ -7,34 +7,54 @@ import { SeoParams } from '~/components/seo/types';
 import Headsection from '~/components/seo/Headsection';
 import AuthorSection from '~/components/common/AuthorSection';
 
-const Image = dynamic(() => import('next/image'), { ssr:true });
+const Image = dynamic(() => import('next/image'), { ssr: true });
 const ShareButtons = dynamic(() => import('~/components/common/Share'));
 
 const BlogContainer = ({ children }: any) => <div className='mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert`'>{children}</div>;
 
 const InstaNotes = () => {
   const { pathname } = useRouter();
+  const datePublished = '30 May 2023';
 
-  const seoParams: SeoParams= {
+
+  const richData = {
+    headline: [
+      'What are Instagram Notes?',
+      'Who can see my Instagram Notes?',
+      'Some Instagram notes ideas',
+      'Advantages of Instagram Notes'
+    ],
+    description: [
+      'A brief messages appear at the top of their followers, inboxes, like a thought bubble above their profile photo or icon.',
+      'You can pick who sees your Instagram Notes while you create them.',
+      'Use emojis or other formatting options and Keep your Notes short and candy to make your Notes more visually attractive.',
+      'Instagram Notes allow you to share short updates with specific people, while Stories are visible to all your followers'
+    ],
+    image: notesImage,
+    datePublished
+  };
+
+  const seoParams: SeoParams = {
     title: 'Instagram Notes: A Guide to Using and Sharing Personal Updates in Instagram Notes',
     description: 'Instagram Notes allow you to share short updates with specific people, while Stories are visible to all your followers.',
     keywords: 'instagram, notes, instagram notes, instagram note ideas, instagram notes ideas, instagram reels, instagram stories, notes',
     pageUrl: pathname,
+    richData: richData
   };
 
   return (
     <>
-      <Headsection seoParams={seoParams}/>
+      <Headsection seoParams={seoParams} />
 
       <BlogLayout>
         <main className='pt-8 pb-16 lg:pt-16 lg:px-5 md:px-10 px-5 lg:pb-24 bg-white dark:bg-gray-900'>
 
           <BlogContainer>
             <header className='mb-4 lg:mb-6 not-format'>
-              <AuthorSection date={'30 May 2023'}/>
+              <AuthorSection date={datePublished} />
 
               <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white'>
-                    Instagram Notes: A Guide to Using and Sharing Personal Updates
+                Instagram Notes: A Guide to Using and Sharing Personal Updates
               </h1>
 
               <div className='my-5'>

@@ -6,7 +6,7 @@ import BlogLayout from '~/components/blog/BlogLayout';
 import AuthorSection from '~/components/common/AuthorSection';
 import { SeoParams } from '~/components/seo/types';
 
-const Image = dynamic(() => import('next/image'), { ssr:true });
+const Image = dynamic(() => import('next/image'), { ssr: true });
 const ShareButtons = dynamic(() => import('~/components/common/Share'));
 
 const Container = ({ children }: React.PropsWithChildren) => <div className='mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert`'>{children}</div>;
@@ -18,7 +18,7 @@ const ListItem = ({ children }: React.PropsWithChildren) => <div className='mb-3
 const ApproachInfluencers = () => {
   const { pathname } = useRouter();
 
-  const seoParams: SeoParams= {
+  const seoParams: SeoParams = {
     title: 'How to Approach Instagram Influencers for Your Business',
     description: 'In this blog post, we are going to discuss how to approach Instagram influencers in your business and build a relationship with them that benefits both parties.',
     keywords: 'instagram influencers, influencer marketing, how to approach influencers',
@@ -27,22 +27,22 @@ const ApproachInfluencers = () => {
 
   return (
     <>
-      <HeadSection seoParams={seoParams}/>
+      <HeadSection seoParams={seoParams} />
 
       <BlogLayout>
         <main className='pt-8 pb-16 lg:pt-16 lg:px-5 md:px-10 px-5 lg:pb-24 bg-white dark:bg-gray-900'>
           <Container>
             <header className='mb-4 lg:mb-6 not-format'>
-              <AuthorSection date={'15 May 2023'}/>
+              <AuthorSection date={'15 May 2023'} />
               <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white'>How to Approach Instagram Influencers for Your Business</h1>
             </header>
 
 
             <Paragraph>
-                        Instagram influencers have turned out to be an critical part of many groups&apos; marketing strategies.
-                        These people have the ability to reach a huge target market and sell your logo to their fans.
-                        However, drawing close an influencer may be intimidating, especially in case you&apos;re new to the arena of influencer advertising.
-                        In this blog post, we&apos;re going to speak a way to method Instagram influencers in your business and construct a courting with them that advantages both events.
+              Instagram influencers have turned out to be an critical part of many groups&apos; marketing strategies.
+              These people have the ability to reach a huge target market and sell your logo to their fans.
+              However, drawing close an influencer may be intimidating, especially in case you&apos;re new to the arena of influencer advertising.
+              In this blog post, we&apos;re going to speak a way to method Instagram influencers in your business and construct a courting with them that advantages both events.
             </Paragraph>
 
             <figure className='text-sm font-medium mb-10 mt-5'>
@@ -90,12 +90,12 @@ const ApproachInfluencers = () => {
                 <li className='my-2'>It&apos;s important to choose influencers who align with your brand values, have a genuine following and engagement, and create high-quality and authentic content.</li>
               </ul>
               <span className='font-medium text-lg'>In conclusion,</span> Choosing the right influencer can make a huge difference in the success of your marketing campaign.
-                        Good influencers can help you reach a large and engaged audience, improve your brand credibility, and drive sales and conversions.
-                        On the other hand, bad influencers can hurt your brand reputation, waste your budget, and even lead to legal issues.
-                        It&apos;s important to choose influencers who align with your brand values, have a genuine following and engagement, and create high-quality and authentic content.
+              Good influencers can help you reach a large and engaged audience, improve your brand credibility, and drive sales and conversions.
+              On the other hand, bad influencers can hurt your brand reputation, waste your budget, and even lead to legal issues.
+              It&apos;s important to choose influencers who align with your brand values, have a genuine following and engagement, and create high-quality and authentic content.
             </Paragraph>
 
-            <hr className='mt-10'/>
+            <hr className='mt-10' />
 
             <div>
               <ShareButtons url={pathname} />

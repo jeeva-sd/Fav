@@ -11,24 +11,24 @@ import { ExploreContents } from './types';
 const ExploreFav = () => {
   const { push } = useRouter();
 
-  const contents:ExploreContents[] = [
+  const contents: ExploreContents[] = [
     {
-      title: 'Instagram Hastag Generator',
-      icon: <BiHash color='blue'/>,
-      description: 'Generate effective hastags for your content and increase the chance of getting known by your targeted audience',
+      title: 'Instagram Hashtag Generator',
+      icon: <BiHash color='blue' />,
+      description: 'Generate effective hashtag for your content and increase the chance of getting known by your targeted audience',
       isLive: false,
       path: '',
     },
     {
       title: 'Instagram Camera Effects',
-      icon: <AiFillCamera color='red'/>,
+      icon: <AiFillCamera color='red' />,
       description: 'Create and save your favorite filter from the collection of available filters live with favinsta.com.',
       isLive: false,
       path: ''
     },
     {
       title: 'Fav Blog',
-      icon: <FaBloggerB color='orange'/>,
+      icon: <FaBloggerB color='orange' />,
       description: 'Fav blog contains creative and useful blog posts which helps you and your product to achieve your Instagram goals.',
       isLive: true,
       path: '/blog',
@@ -43,14 +43,14 @@ const ExploreFav = () => {
     },
     {
       title: 'Instagram Tips and Tricks',
-      icon: <MdOutlineTipsAndUpdates color='green'/>,
+      icon: <MdOutlineTipsAndUpdates color='green' />,
       description: 'A blog post which let you know about more cool features of Instagram which helps you to make effective content.',
       isLive: true,
       path: '/blog/2023/ten-hacks'
     },
     {
       title: 'Instagarm Stroy Ideas',
-      icon: <BsClockHistory color='purple'/>,
+      icon: <BsClockHistory color='purple' />,
       description: 'A blog about Instagram stories which makes your Instagram story more effective towards your product or to engage with your followers.',
       isLive: true,
       path: 'blog/2023/story-ideas'
@@ -70,8 +70,8 @@ const ExploreFav = () => {
           </div>
 
           <div className='relative space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0'>
-            {contents.map((content:ExploreContents, index:number) => {
-              const {title, icon, description, isLive, path, isNew} = content;
+            {contents.map((content: ExploreContents, index: number) => {
+              const { title, icon, description, isLive, path, isNew } = content;
 
               return (
                 <div key={index}>

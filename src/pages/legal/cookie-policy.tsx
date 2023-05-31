@@ -7,16 +7,16 @@ import { SeoParams } from '~/components/seo/types';
 const CookiePolicy: React.FC = () => {
   const { pathname, push } = useRouter();
 
-  const seoParams: SeoParams= {
+  const seoParams: SeoParams = {
     title: 'Cookie Policy | FavInsta.com',
-    description: 'Cookie Policy, favinsta, favinsta.com, Cookie Policy, instagram hastag generator, instagram tips, instagram porfile picture, instagram reel',
-    keywords: 'Cookie Policy, favinsta, favinsta.com, Cookie Policy, instagram hastag generator, instagram porfile picture, instagram reels',
+    description: 'Cookie Policy, favinsta, favinsta.com, Cookie Policy, instagram hashtag generator, instagram tips, instagram profile picture, instagram reel',
+    keywords: 'Cookie Policy, favinsta, favinsta.com, Cookie Policy, instagram hashtag generator, instagram profile picture, instagram reels',
     pageUrl: pathname,
   };
 
   return (
     <>
-      <Headsection seoParams={seoParams}/>
+      <Headsection seoParams={seoParams} />
 
       <PageContainer>
         <div className="py-8 overflow-hidden">
@@ -24,17 +24,17 @@ const CookiePolicy: React.FC = () => {
             <h2 className="text-2xl font-bold mb-4">Cookie Policy</h2>
             <p className="mb-4">Effective Date: 05 May 2023</p>
             <p className="mb-4">
-          This Cookie Policy explains how Favinsta.com uses cookies and similar tracking technologies on our website. By accessing or using our website, you consent to the use of cookies as described in this policy.
+              This Cookie Policy explains how Favinsta.com uses cookies and similar tracking technologies on our website. By accessing or using our website, you consent to the use of cookies as described in this policy.
             </p>
 
             <h3 className="text-xl font-bold mb-2">What are Cookies?</h3>
             <p className="mb-4">
-          Cookies are small text files that are stored on your device (computer, smartphone, tablet) when you visit a website. These files enable the website to recognize your device and remember certain information about your preferences or past actions.
+              Cookies are small text files that are stored on your device (computer, smartphone, tablet) when you visit a website. These files enable the website to recognize your device and remember certain information about your preferences or past actions.
             </p>
 
             <h3 className="text-xl font-bold mb-2">Why Do We Use Cookies?</h3>
             <p className="mb-4">
-          We use cookies for various purposes, including:
+              We use cookies for various purposes, including:
             </p>
 
             <ul className="list-disc list-inside mb-4">
@@ -67,31 +67,31 @@ const CookiePolicy: React.FC = () => {
 
             <h3 className="text-xl font-bold mb-2">Managing and Controlling Cookies</h3>
             <p className="mb-4">
-          You have the option to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser settings to decline cookies if you prefer. However, please note that disabling cookies may impact your experience on our website and limit certain features.
+              You have the option to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser settings to decline cookies if you prefer. However, please note that disabling cookies may impact your experience on our website and limit certain features.
             </p>
             <p className="mb-4">
-          To manage cookies, you can:
+              To manage cookies, you can:
             </p>
             <ul className="list-disc list-inside mb-4">
               <li>
-            Adjust your browser settings to block or delete cookies.
+                Adjust your browser settings to block or delete cookies.
               </li>
               <li>
-            Use browser extensions or plugins to control cookie behavior.
+                Use browser extensions or plugins to control cookie behavior.
               </li>
               <li>
-            Opt-out of targeted advertising by visiting the Digital Advertising Alliance&apos;s opt-out page (<a href="http://www.aboutads.info/choices" target="_blank" rel="noopener noreferrer">http://www.aboutads.info/choices</a>) or the Network Advertising Initiative&apos;s opt-out page (<a href="http://www.networkadvertising.org/choices" target="_blank" rel="noopener noreferrer">http://www.networkadvertising.org/choices</a>).
+                Opt-out of targeted advertising by visiting the Digital Advertising Alliance&apos;s opt-out page (<a href="http://www.aboutads.info/choices" target="_blank" rel="noopener noreferrer">http://www.aboutads.info/choices</a>) or the Network Advertising Initiative&apos;s opt-out page (<a href="http://www.networkadvertising.org/choices" target="_blank" rel="noopener noreferrer">http://www.networkadvertising.org/choices</a>).
               </li>
             </ul>
 
             <h3 className="text-xl font-bold mb-2">Contact Us</h3>
             <p className="mb-4">
-          If you have any questions or concerns about our use of cookies or this Cookie Policy, <span onClick={() => push('/legal/contact-us')} className='text-indigo-600 underline cursor-pointer'>please contact us here.</span>
+              If you have any questions or concerns about our use of cookies or this Cookie Policy, <span onClick={() => push('/legal/contact-us')} className='text-indigo-600 underline cursor-pointer'>please contact us here.</span>
             </p>
 
             <h3 className="text-xl font-bold mb-2">Updates to this Cookie Policy</h3>
             <p className="mb-4">
-          We may update this Cookie Policy from time to time to reflect changes in our cookie practices or legal obligations. We encourage you to review this page periodically for the latest information on our use of cookies.
+              We may update this Cookie Policy from time to time to reflect changes in our cookie practices or legal obligations. We encourage you to review this page periodically for the latest information on our use of cookies.
             </p>
           </div>
         </div>

@@ -6,9 +6,9 @@ import { AppState, dispatch } from '~/state/store';
 import SearchInput from '~/widgets/SearchInput';
 
 const Reels = () => {
-  const {loading:isRequesting, post} = useSelector((state:AppState) => state.instagram);
+  const { loading: isRequesting, post } = useSelector((state: AppState) => state.instagram);
 
-  const onSearch = (url:string) => {
+  const onSearch = (url: string) => {
     dispatch(fetchPost(url));
   };
 
@@ -29,7 +29,7 @@ const Reels = () => {
               </h1>
             </div>
             <div>
-              <SearchInput onSearch={onSearch} isRequesting={isRequesting}/>
+              <SearchInput onSearch={onSearch} isRequesting={isRequesting} />
             </div>
 
             <div className='py-4'>
@@ -38,7 +38,7 @@ const Reels = () => {
           </div>
 
           <div className='lg:w-6/12 md:6/12 w-11/12'>
-            <DownloadBox post={post}/>
+            <DownloadBox post={post} />
           </div>
         </div>
 

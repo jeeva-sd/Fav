@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import dynamic from 'next/dynamic';
 
-const AboutHastag = dynamic(() => import('./AboutHastag'));
+const AboutHashtag = dynamic(() => import('./AboutHastag'));
 
 const InstaView = () => {
   return (
@@ -21,7 +21,7 @@ const InstaView = () => {
           </div>
 
           <div className='mt-10'>
-            <AboutHastag />
+            <AboutHashtag />
           </div>
         </div>
       </div>

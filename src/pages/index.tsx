@@ -8,24 +8,24 @@ import { SeoParams } from '~/components/seo/types';
 const TopBlue = dynamic(() => import('~/components/home/TopBlue'), { ssr: true });
 const BottomBlue = dynamic(() => import('~/components/home/BottomBlue'), { ssr: true });
 const ExploreFav = dynamic(() => import('~/components/home/ExploreFav'), { ssr: true });
-const NewsLetter = dynamic(() => import('~/components/home/NewsLetter'), { ssr: true });
+const NewsLetter = dynamic(() => import('~/components/home/NewsLetter'), { ssr: false });
 
 const inter = Inter({ subsets: ['latin'] });
 
 const Home = () => {
-  const {pathname, push} = useRouter();
+  const { pathname, push } = useRouter();
 
-  const seoParams: SeoParams= {
-    title: 'Discover the Latest Instagram Trends and Updates and Generate Instagram Hastags | Fav Insta',
-    description: 'Explore the latest trends and updates on Instagram and get related contents like Instagram tips, Instagram marketing, instagram influencers, influencer marketing, Hastag generators.',
-    keywords: 'Instagram tips, Instagram marketing, instagram influencers, influencer marketing, Hastag generators, Instagram Stories, Instagram Stories.',
+  const seoParams: SeoParams = {
+    title: 'Get more Instagram followers with our hashtag generator and other tools',
+    description: 'Explore the latest updates on Instagram and get its related contents like Instagram tips, Instagram marketing, instagram influencer, influencer marketing, hashtag generators.',
+    keywords: 'Instagram tips, Instagram marketing, instagram influencer, influencer marketing, hashtag generators, Instagram Stories, Instagram Stories.',
     pageUrl: pathname,
     canonical: false
   };
 
   return (
     <>
-      <Headsection seoParams={seoParams}/>
+      <Headsection seoParams={seoParams} />
 
       <main className={inter.className}>
         <div className='flex items-center isolate px-6 pt-14 lg:px-8 min-h-[100vh] max-h-[100vh]'>

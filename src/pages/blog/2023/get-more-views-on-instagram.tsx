@@ -6,13 +6,13 @@ import BlogLayout from '~/components/blog/BlogLayout';
 import AuthorSection from '~/components/common/AuthorSection';
 import { SeoParams } from '~/components/seo/types';
 
-const Image = dynamic(() => import('next/image'), { ssr:true });
+const Image = dynamic(() => import('next/image'), { ssr: true });
 const ShareButtons = dynamic(() => import('~/components/common/Share'));
 const Container = ({ children }: React.PropsWithChildren) => <div className='mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert`'>{children}</div>;
 
 const MoreViews = () => {
   const { pathname } = useRouter();
-  const seoParams: SeoParams= {
+  const seoParams: SeoParams = {
     title: 'How to Get More Views and Followers on Instagram?',
     description: 'By following these tips, you can get more views and followers on Instagram and grow your audience.',
     keywords: 'instagram, views, followers, tips, tricks, engagement, hashtags, posting, profile, bio, content, social media',
@@ -21,19 +21,19 @@ const MoreViews = () => {
 
   return (
     <>
-      <Headsection seoParams={seoParams}/>
+      <Headsection seoParams={seoParams} />
 
       <BlogLayout>
         <main className='pt-8 pb-16 lg:pt-16 lg:px-5 md:px-10 px-5 lg:pb-24 bg-white dark:bg-gray-900'>
           <Container>
             <header className='mb-4 lg:mb-6 not-format'>
-              <AuthorSection date={'23 May 2023'}/>
+              <AuthorSection date={'23 May 2023'} />
               <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white'>
-                            How to get more views and followers in Instagram ?
+                How to get more views and followers in Instagram ?
               </h1>
 
               <div className='my-5'>
-                            Instagram is a famous social media platform that has received massive reputation over the years. With over 1 billion monthly active users, it has become a hub for sharing snap shots, motion pictures, and testimonies. Whether you&apos;re a commercial enterprise owner or a casual user, it&apos;s helpful to know some key notes about Instagram. This will help you get the maximum out of the platform. Here are some guidelines and tricks to don&apos;t forget when the usage of Instagram:
+                Instagram is a famous social media platform that has received massive reputation over the years. With over 1 billion monthly active users, it has become a hub for sharing snap shots, motion pictures, and testimonies. Whether you&apos;re a commercial enterprise owner or a casual user, it&apos;s helpful to know some key notes about Instagram. This will help you get the maximum out of the platform. Here are some guidelines and tricks to don&apos;t forget when the usage of Instagram:
                 <div className='my-5 mb-10'>
                   <ul>
                     <li className='p-1 text-gray-800 font-medium'>Keep Your Profile Attractive and Consistent</li>
@@ -156,7 +156,7 @@ const MoreViews = () => {
 
               <div className='my-10'>
                 <p className='text-gray-800'>
-                    Finally, these are some important Instagram tips that can help you get the most out of the platform. By following these tips and tricks, you can build a strong brand presence, connect with your followers, and reach a larger audience. Remember to stay consistent, be creative, and have fun!
+                  Finally, these are some important Instagram tips that can help you get the most out of the platform. By following these tips and tricks, you can build a strong brand presence, connect with your followers, and reach a larger audience. Remember to stay consistent, be creative, and have fun!
                 </p>
               </div>
             </div>

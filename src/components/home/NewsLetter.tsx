@@ -5,17 +5,17 @@ import { AppState, dispatch } from '~/state/store';
 import { subscribeRequest } from '~/state/duck/instagram';
 
 const NewsLetter = () => {
-  const {push} = useRouter();
+  const { push } = useRouter();
   const emailRef = useRef(null);
-  const {isSubscribing, subscribed, message} = useSelector((state:AppState) => state.instagram.subscribe);
+  const { isSubscribing, subscribed, message } = useSelector((state: AppState) => state.instagram.subscribe);
 
-  const handleSubmit = useCallback((e:any) => {
+  const handleSubmit = useCallback((e: any) => {
     e.preventDefault();
-    const emailInput:any= emailRef.current;
+    const emailInput: any = emailRef.current;
     const value = emailInput['emailInput'].value;
 
-    dispatch(subscribeRequest({email: value}));
-  },[emailRef]);
+    dispatch(subscribeRequest({ email: value }));
+  }, [emailRef]);
 
   return (
     <section className='dark:bg-gray-900 lg:pt-10 lg:pb-16 md:pt-10 md:pb-16 pt-20 pb-24 shadow-inner px-4'>
@@ -23,7 +23,7 @@ const NewsLetter = () => {
         <div className='mx-auto max-w-screen-md sm:text-center'>
           <h2 className='mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white'>Sign up for our <span className='text-indigo-600'>newsletter</span></h2>
           <p className='mx-auto mb-8 max-w-2xl font-light text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400'>Stay up to date with the latest posts, announcements and exclusive discounts feel free to sign up with your email.</p>
-          <form ref={emailRef} onSubmit={(e:any) => handleSubmit(e)}>
+          <form ref={emailRef} onSubmit={(e: any) => handleSubmit(e)}>
             <div className='items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0'>
               <div className='relative w-full'>
                 {subscribed && <div className='bg-indigo-300 p-3 rounded-md text-white'>{message}</div>}

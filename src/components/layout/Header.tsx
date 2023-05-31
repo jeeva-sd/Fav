@@ -23,7 +23,7 @@ const Header = () => {
     <div className='bg-white z-50'>
       <header className='absolute inset-x-0 top-0 z-50'>
         <nav className='flex items-center justify-between p-6 lg:px-8' aria-label='Global'>
-          <div className='flex lg:flex-1 cursor-pointer select-none' onClick={()=> push('/')}>
+          <div className='flex lg:flex-1 cursor-pointer select-none' onClick={() => push('/')}>
             <span className='sr-only'>FavInsta</span>
             <span className='w-auto font-bold text-2xl mx-2'><span className='text-indigo-600'>Fav</span><span>Insta</span></span>
           </div>
@@ -51,7 +51,7 @@ const Header = () => {
           </div> */}
         </nav>
 
-        <SideBar isOpen={mobileMenuOpen} setIsOpen={setMobileMenuOpen}/>
+        <SideBar isOpen={mobileMenuOpen} setIsOpen={setMobileMenuOpen} />
       </header>
     </div>
   );

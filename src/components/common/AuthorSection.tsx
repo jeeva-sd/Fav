@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import authProfile from '~/assets/images/blog/blackNinjaProfile.jpg';
 
-const AuthorSection = ({date}: any) => {
+const AuthorSection = ({ date }: any) => {
   return (
     <address className='flex items-center mb-6 not-italic border rounded-md pb-3 bg-slate-50 p-5 shadow-inner'>
       <div className='inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white'>

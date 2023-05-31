@@ -7,13 +7,13 @@ import AuthorSection from '~/components/common/AuthorSection';
 import { SeoParams } from '~/components/seo/types';
 import stroyImage from '~/assets/images/blog/story_ideas.webp';
 
-const Image = dynamic(() => import('next/image'), { ssr:true });
+const Image = dynamic(() => import('next/image'), { ssr: true });
 const ShareButtons = dynamic(() => import('~/components/common/Share'));
 
 const StoryIdeas = () => {
   const { pathname } = useRouter();
 
-  const seoParams: SeoParams= {
+  const seoParams: SeoParams = {
     title: 'How to Use Instagram Stories Creatively to Increase Engagement and Reach',
     description: 'Discover creative techniques to leverage Instagram Stories for increased engagement and reach. Learn how to showcase products, host Q&A sessions, and use interactive polls and quizzes.',
     keywords: 'instagram, stories, creative, tips, tricks, engagement, polls, quizzes, behind-the-scenes, Increase reach, sales, q&a, products, services, visuals, calls-to-action',
@@ -22,13 +22,13 @@ const StoryIdeas = () => {
 
   return (
     <>
-      <Headsection seoParams={seoParams}/>
+      <Headsection seoParams={seoParams} />
 
       <BlogLayout>
         <main className='pt-8 pb-16 lg:pt-16 lg:px-5 md:px-10 px-5 lg:pb-24 bg-white dark:bg-gray-900'>
           <article className='mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert'>
             <header className='mb-4 lg:mb-6 not-format'>
-              <AuthorSection date={'05 May 2023'}/>
+              <AuthorSection date={'05 May 2023'} />
               <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-3xl dark:text-white'>How to Use Instagram Stories Creatively to Increase Engagement and Reach</h1>
             </header>
 

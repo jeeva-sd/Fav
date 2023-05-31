@@ -13,13 +13,13 @@ import { getWeekDifference } from '~/helpers';
 import beam from '~/assets/images/breams/beams.jpg';
 import grid from '~/assets/images/breams/grid-01.png';
 
-const DynamicImage = dynamic(() => import('next/image'), { ssr:true });
+const DynamicImage = dynamic(() => import('next/image'), { ssr: true });
 const RightArrow = dynamic(() => import('~/widgets/RightArrow'));
 
 const BlogIndex = () => {
   const { pathname, push } = useRouter();
 
-  const seoParams: SeoParams= {
+  const seoParams: SeoParams = {
     title: 'How to Grow Your Instagram Following with Fav Blog',
     description: 'Fav Blog is a website dedicated to helping you grow your Instagram following. We offer a variety of resources, including articles, tutorials, and infographics, that can help you improve your Instagram strategy. Whether you\'re a beginner or a seasoned pro, we have something for you.',
     keywords: 'Instagram blog, engaging posts, tips and tricks, marketing, branding, sales, increase followers, increase engagement, Instagram success, latest posts, lifestyle, fashion, travel, expert authors, Instagram goals',
@@ -29,12 +29,12 @@ const BlogIndex = () => {
 
   return (
     <>
-      <Headsection seoParams={seoParams}/>
+      <Headsection seoParams={seoParams} />
 
       <div className='flex flex-wrap justify-center min-h-screen'>
         <div className='flex items-center justify-around w-full h-auto py-40'>
-          <Image src={beam} alt='' className='fixed z-[-10] [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] top-40 left-2/4 -translate-x-2/3 -translate-y-1/2 max-w-none' draggable={false}  priority={true} />
-          <Image src={grid} alt='' className='absolute [mask-image:linear-gradient(90deg,white,rgba(255,255,255,0))] top-0 left-0 -translate-y-28 h-full opacity-5' priority={true} draggable={false} width={1920} height={1080}/>
+          <Image src={beam} alt='' className='fixed z-[-10] [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] top-40 left-2/4 -translate-x-2/3 -translate-y-1/2 max-w-none' draggable={false} priority={true} />
+          <Image src={grid} alt='' className='absolute [mask-image:linear-gradient(90deg,white,rgba(255,255,255,0))] top-0 left-0 -translate-y-28 h-full opacity-5' priority={true} draggable={false} width={1920} height={1080} />
           <div className='lg:w-6/12 w-full flex justify-center'>
             <div className=' text-indigo-600 absolute lg:top-20 lg:flex hidden pr-96'>
             </div>
@@ -56,7 +56,7 @@ const BlogIndex = () => {
                   where we decode the secrets to engaging posts, tips and tricks and irresistible story ideass. And make your Instagram dreams a reality!</p>
               </div>
               <div className='hidden lg:mt-0 lg:col-span-5 lg:flex text-center justify-center items-center'>
-                <TiSocialInstagramCircular color='white' className='animate-spin' fontSize={300} style={{ animation: 'spin 25s linear infinite' }}/>
+                <TiSocialInstagramCircular color='white' className='animate-spin' fontSize={300} style={{ animation: 'spin 25s linear infinite' }} />
               </div>
             </div>
           </section>

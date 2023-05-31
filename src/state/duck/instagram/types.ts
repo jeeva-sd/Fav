@@ -20,9 +20,9 @@ export interface Subscribe {
 }
 
 export interface contactParams {
-   name: string;
-   email: string;
-   message: string;
+  name: string;
+  email: string;
+  message: string;
 }
 
 export interface WebApiResult {

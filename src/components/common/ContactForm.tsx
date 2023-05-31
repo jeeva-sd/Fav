@@ -10,7 +10,7 @@ const ContactForm: React.FC = () => {
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [submitError, setSubmitError] = useState('');
 
-  const {sent, sending, submitted, error} = useSelector((state: AppState) => state.instagram.contact);
+  const { sent, sending, submitted, error } = useSelector((state: AppState) => state.instagram.contact);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -25,7 +25,7 @@ const ContactForm: React.FC = () => {
       setSubmitSuccess(true);
     }
 
-    if(error) setSubmitError('An error occurred while sending the message. Please try again later.');
+    if (error) setSubmitError('An error occurred while sending the message. Please try again later.');
   }, [sent, sending, submitted, error]);
 
   return (

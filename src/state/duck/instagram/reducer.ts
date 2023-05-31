@@ -52,7 +52,7 @@ const InstaSlice = createSlice({
       state.contact.error = false;
       state.subscribe.message = null;
     },
-    messageSent: (state: InstaState,  action: PayloadAction<WebApiResult>) => {
+    messageSent: (state: InstaState, action: PayloadAction<WebApiResult>) => {
       state.contact.sending = false;
       state.contact.sent = true;
       state.subscribe.message = action?.payload?.message;

@@ -13,11 +13,11 @@ export function* fetchPostSaga(action: ReturnType<any>): Generator {
 }
 
 export function* subscribe(action: ReturnType<any>): Generator {
-  let result:any = initialAPIResult;
+  let result: any = initialAPIResult;
 
   try {
     result = yield call(api.instagram.subscribeEmail, action.payload);
-    if(result.code === 103) put(subscribtionError(result));
+    if (result.code === 103) put(subscribtionError(result));
 
     yield put(subscribtionDone(result));
   } catch (error) {
@@ -27,8 +27,8 @@ export function* subscribe(action: ReturnType<any>): Generator {
 }
 
 export function* contact(action: ReturnType<any>): Generator {
-  let result:any = initialAPIResult;
-  if(result.code === 103) put(contactError(result));
+  let result: any = initialAPIResult;
+  if (result.code === 103) put(contactError(result));
 
   try {
     result = yield call(api.instagram.contact, action.payload);

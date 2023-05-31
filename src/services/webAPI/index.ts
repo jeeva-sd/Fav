@@ -35,7 +35,7 @@ webAPI.interceptors.request.use(
 );
 
 webAPI.interceptors.response.use(
-  (response:any) => {
+  (response: any) => {
     removePendingRequest(response.config);
     return response.data;
   },

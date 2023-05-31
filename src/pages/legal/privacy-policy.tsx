@@ -7,10 +7,10 @@ import { SeoParams } from '~/components/seo/types';
 const PrivacyPolicy: React.FC = () => {
   const { pathname, push } = useRouter();
 
-  const seoParams: SeoParams= {
+  const seoParams: SeoParams = {
     title: 'Privacy Policy | FavInsta.com',
-    description: 'Privacy Policy, favinsta, favinsta.com, Privacy Policy, increase followers in instagram, instagram tips, instagram porfile picture, instagram reel',
-    keywords: 'Privacy Policy, favinsta, favinsta.com, Privacy Policy, increase followers in instagram, instagram porfile picture, instagram reels',
+    description: 'Privacy Policy, favinsta, favinsta.com, Privacy Policy, increase followers in instagram, instagram tips, instagram profile picture, instagram reel',
+    keywords: 'Privacy Policy, favinsta, favinsta.com, Privacy Policy, increase followers in instagram, instagram profile picture, instagram reels',
     pageUrl: pathname,
   };
 
