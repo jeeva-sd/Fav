@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import Headsection from '~/components/seo/Headsection';
 import BlogLayout from '~/components/blog/BlogLayout';
 import AuthorSection from '~/components/common/AuthorSection';
+import { SD_increaseViews } from '~/content/structuredData';
 import { SeoParams } from '~/components/seo/types';
 
 const Image = dynamic(() => import('next/image'), { ssr: true });
@@ -17,6 +18,7 @@ const MoreViews = () => {
     description: 'By following these tips, you can get more views and followers on Instagram and grow your audience.',
     keywords: 'instagram, views, followers, tips, tricks, engagement, hashtags, posting, profile, bio, content, social media',
     pageUrl: pathname,
+    structuredData: SD_increaseViews
   };
 
   return (

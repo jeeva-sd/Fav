@@ -1,12 +1,10 @@
-import React, { memo, useMemo } from 'react';
+import React, { memo } from 'react';
 import Head from 'next/head';
 import { HeadSectionProps } from './types';
 
 const HeadSection: React.FC<HeadSectionProps> = ({ seoParams }) => {
   const { title, description, keywords, pageUrl, structuredData } = seoParams;
-
   const fullUrl = `${process.env.SITE_URL || 'https://www.favinsta.com'}${pageUrl}`;
-  const formattedLD = useMemo(() => structuredData ? { __html: JSON.stringify(structuredData) } : null, [structuredData]);
 
   return (
     <Head>
@@ -53,11 +51,12 @@ const HeadSection: React.FC<HeadSectionProps> = ({ seoParams }) => {
       <link rel='apple-touch-icon' sizes='180x180' href='/favIcons/apple-touch-icon.png' />
       <link rel='mask-icon' href='/pwa/maskable_icon_x512.png' color='#4f46e5' />
 
-      {formattedLD &&
+      {structuredData && structuredData.map((data: any, index: number) =>
         <script
+          key={index}
           type="application/ld+json"
-          dangerouslySetInnerHTML={formattedLD}
-          key="jsonLD" />}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+        />)}
     </Head>
   );
 };

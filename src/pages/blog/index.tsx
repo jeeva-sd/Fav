@@ -8,6 +8,7 @@ import { BsFilePostFill } from 'react-icons/bs';
 import Headsection from '~/components/seo/Headsection';
 import { blogRoutes } from '~/components/blog/blogRoutes';
 import { Posts } from '~/components/blog/types';
+import { SD_blogIndex } from '~/content/structuredData';
 import { SeoParams } from '~/components/seo/types';
 import { getWeekDifference } from '~/helpers';
 import beam from '~/assets/images/breams/beams.jpg';
@@ -24,7 +25,8 @@ const BlogIndex = () => {
     description: 'Fav Blog is a website dedicated to helping you grow your Instagram following. We offer a variety of resources, including articles, tutorials, and infographics, that can help you improve your Instagram strategy. Whether you\'re a beginner or a seasoned pro, we have something for you.',
     keywords: 'Instagram blog, engaging posts, tips and tricks, marketing, branding, sales, increase followers, increase engagement, Instagram success, latest posts, lifestyle, fashion, travel, expert authors, Instagram goals',
     pageUrl: pathname,
-    canonical: false
+    canonical: false,
+    structuredData: SD_blogIndex
   };
 
   return (

@@ -5,6 +5,7 @@ import Headsection from '~/components/seo/Headsection';
 import BlogLayout from '~/components/blog/BlogLayout';
 import AuthorSection from '~/components/common/AuthorSection';
 import { SeoParams } from '~/components/seo/types';
+import { SD_tenHacks } from '~/content/structuredData';
 import hacksImage from '~/assets/images/blog/ten_hacks.webp';
 
 const Image = dynamic(() => import('next/image'), { ssr: true });
@@ -18,6 +19,7 @@ const TenHacks = () => {
     description: 'Discover 10 ingenious Instagram hacks that will elevate your Instagram game. From automating scheduling and posting to analyzing performance with Instagram Insights, this article covers a range of tips and tricks to help you unlock the true potential of the platform.',
     keywords: 'Instagram hacks, Instagram tips and tricks, social media, brand promotion, personal branding, Instagram Insights, Instagram ads, shopping features, Instagram algorithm, engaging stories, influencer marketing, hashtags, location tagging, Instagram vs TikTok, Explore tab',
     pageUrl: pathname,
+    structuredData: SD_tenHacks
   };
 
   return (
@@ -180,7 +182,7 @@ const TenHacks = () => {
                   </figure>
 
                   <p className='mb-4'>
-                    Influencer marketing on Instagram has become an increasingly popular strategy for brands looking to reach new audiences and boost their social media presence. This marketing technique involves collaborating with influential social media users, known as &quot;influencers&quot; to promote products or services to their followers on Instagram.
+                    Influencer marketing on Instagram has become an increasingly popular strategy for brands looking to reach new audiences and boost their social media presence. This marketing technique involves collaborating with influential social media users, known as &quot;Influencer&quot; to promote products or services to their followers on Instagram.
                   </p>
                   <p className='mb-4'>
                     While influencer marketing can be an effective way to connect with potential customers and drive sales, it&apos;s essential to follow certain dos and don&apos;ts to ensure that your campaign is successful and avoids any potential pitfalls.
@@ -189,9 +191,9 @@ const TenHacks = () => {
                   <div className='my-5'>
                     <div className='text-base font-semibold'>Dos:</div>
                     <ol className='indent-2'>
-                      <li className='my-2'>1. Identify relevant and credible influencers in your industry or niche.</li>
+                      <li className='my-2'>1. Identify relevant and credible Influencer in your industry or niche.</li>
                       <li className='my-2'>2. Establish clear goals and objectives for your campaign.</li>
-                      <li className='my-2'>3. Set a realistic budget and negotiate with influencers to ensure fair compensation.</li>
+                      <li className='my-2'>3. Set a realistic budget and negotiate with Influencer to ensure fair compensation.</li>
                       <li className='my-2'>4. Provide clear guidelines and expectations for the content and messaging.</li>
                       <li className='my-2'>5. Monitor and track the performance of your campaign to measure its effectiveness.</li>
                     </ol>
@@ -201,7 +203,7 @@ const TenHacks = () => {
                   <div className='my-5'>
                     <div className='text-base font-semibold'>Don&apos;ts:</div>
                     <ol className='indent-2'>
-                      <li className='my-2'>1. Don&apos;t work with influencers who have fake followers or engage in fraudulent practices.</li>
+                      <li className='my-2'>1. Don&apos;t work with Influencer who have fake followers or engage in fraudulent practices.</li>
                       <li className='my-2'>2. Don&apos;t rely solely on the number of followers as an indicator of an influencer&apos;s impact.</li>
                       <li className='my-2'> 3. Don&apos;t be overly controlling or micromanage the influencer&apos;s content.</li>
                       <li className='my-2'>4. Don&apos;t violate Instagram&apos;s policies, such as by not disclosing sponsored content or using inappropriate tactics to gain engagement.</li>

@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import Headsection from '~/components/seo/Headsection';
 import BlogLayout from '~/components/blog/BlogLayout';
 import AuthorSection from '~/components/common/AuthorSection';
+import { SD_InstagramStory } from '~/content/structuredData';
 import { SeoParams } from '~/components/seo/types';
 import stroyImage from '~/assets/images/blog/story_ideas.webp';
 
@@ -18,6 +19,7 @@ const StoryIdeas = () => {
     description: 'Discover creative techniques to leverage Instagram Stories for increased engagement and reach. Learn how to showcase products, host Q&A sessions, and use interactive polls and quizzes.',
     keywords: 'instagram, stories, creative, tips, tricks, engagement, polls, quizzes, behind-the-scenes, Increase reach, sales, q&a, products, services, visuals, calls-to-action',
     pageUrl: pathname,
+    structuredData: SD_InstagramStory
   };
 
   return (

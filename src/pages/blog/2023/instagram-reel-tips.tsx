@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import Headsection from '~/components/seo/Headsection';
 import BlogLayout from '~/components/blog/BlogLayout';
 import AuthorSection from '~/components/common/AuthorSection';
+import { SD_InstagramTips } from '~/content/structuredData';
 import { SeoParams } from '~/components/seo/types';
 
 const Image = dynamic(() => import('next/image'), { ssr: true });
@@ -17,6 +18,7 @@ const InstagramReelTips = () => {
     description: 'This article is about how to Create Engaging Instagram Reels? By following these tips, you can create engaging Instagram Reels that will help you connect with your audience and grow your following.',
     keywords: 'instagram, reels, tips, tricks, engagement, music, short, sweet, planning, text, captions, personality, filters, effects, collaboration, behind-the-scenes',
     pageUrl: pathname,
+    structuredData: SD_InstagramTips
   };
 
   return (
