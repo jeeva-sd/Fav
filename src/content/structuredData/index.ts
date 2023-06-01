@@ -496,7 +496,7 @@ export const SD_increaseViews = [
         "text": "Instagram ads are an effective way to reach a large audience and promote your brand or product. You can create ads that appear in people's feeds, stories, and page reviews. Instagram's advertising platform allows you to target specific audiences based on location, interests, demographics, and more."
       }
     ]
-  },{
+  }, {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "How to Get More Views and Followers on Instagram?",
