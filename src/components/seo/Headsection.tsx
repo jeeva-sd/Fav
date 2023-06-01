@@ -3,54 +3,10 @@ import Head from 'next/head';
 import { HeadSectionProps } from './types';
 
 const HeadSection: React.FC<HeadSectionProps> = ({ seoParams }) => {
-  const { title, description, keywords, pageUrl } = seoParams;
+  const { title, description, keywords, pageUrl, structuredData } = seoParams;
+
   const fullUrl = `${process.env.SITE_URL || 'https://www.favinsta.com'}${pageUrl}`;
-
-  const formattedLD = useMemo(() => {
-    const { richData }: any = seoParams;
-    if (!richData) return null;
-
-    const structuredData = {
-      __html: `
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": ${fullUrl}
-        },
-        "headline": "${richData.headline}",
-        "description": "${richData.description}",
-        "image": {
-          "@type": "ImageObject",
-          "url": "${richData.image}",
-          "width": 1200,
-          "height": 800
-        },
-        "datePublished": "${richData.datePublished}",
-        "dateModified": "${richData.datePublished}",
-        "author": {
-          "@type": "Person",
-          "name": "Black Ninja"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "${process.env.SITE_SHORT_URL}",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://favinsta.com/favIcons/android-chrome-192x192.png",
-            "width": 192,
-            "height": 192
-          }
-        }
-      }
-  `,
-    };
-
-    console.log(structuredData, 'structuredData');
-
-    return structuredData;
-  }, [seoParams, fullUrl]);
+  const formattedLD = useMemo(() => structuredData ? { __html: JSON.stringify(structuredData) } : null, [structuredData]);
 
   return (
     <Head>
@@ -97,11 +53,11 @@ const HeadSection: React.FC<HeadSectionProps> = ({ seoParams }) => {
       <link rel='apple-touch-icon' sizes='180x180' href='/favIcons/apple-touch-icon.png' />
       <link rel='mask-icon' href='/pwa/maskable_icon_x512.png' color='#4f46e5' />
 
-      {formattedLD && <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={formattedLD}
-        key="jsonLD"
-      />}
+      {formattedLD &&
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={formattedLD}
+          key="jsonLD" />}
     </Head>
   );
 };

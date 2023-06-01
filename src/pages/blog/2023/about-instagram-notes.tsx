@@ -3,9 +3,10 @@ import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import BlogLayout from '~/components/blog/BlogLayout';
 import notesImage from '~/assets/images/blog/notes_image.webp';
-import { SeoParams } from '~/components/seo/types';
 import Headsection from '~/components/seo/Headsection';
 import AuthorSection from '~/components/common/AuthorSection';
+import { SD_instagramNotes } from '~/content/structuredData';
+import { SeoParams } from '~/components/seo/types';
 
 const Image = dynamic(() => import('next/image'), { ssr: true });
 const ShareButtons = dynamic(() => import('~/components/common/Share'));
@@ -16,15 +17,14 @@ const InstaNotes = () => {
   const { pathname } = useRouter();
   const datePublished = '30 May 2023';
 
-
   const richData = {
-    headline: [
+    questions: [
       'What are Instagram Notes?',
       'Who can see my Instagram Notes?',
       'Some Instagram notes ideas',
       'Advantages of Instagram Notes'
     ],
-    description: [
+    answers: [
       'A brief messages appear at the top of their followers, inboxes, like a thought bubble above their profile photo or icon.',
       'You can pick who sees your Instagram Notes while you create them.',
       'Use emojis or other formatting options and Keep your Notes short and candy to make your Notes more visually attractive.',
@@ -39,7 +39,8 @@ const InstaNotes = () => {
     description: 'Instagram Notes allow you to share short updates with specific people, while Stories are visible to all your followers.',
     keywords: 'instagram, notes, instagram notes, instagram note ideas, instagram notes ideas, instagram reels, instagram stories, notes',
     pageUrl: pathname,
-    richData: richData
+    richData: richData,
+    structuredData: SD_instagramNotes
   };
 
   return (

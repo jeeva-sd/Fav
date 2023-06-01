@@ -5,6 +5,7 @@ export interface SeoParams {
     pageUrl: string;
     canonical?: boolean;
     richData?: {};
+    structuredData?: any;
 }
 
 export interface HeadSectionProps {
