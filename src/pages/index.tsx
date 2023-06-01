@@ -48,8 +48,8 @@ const Home = () => {
           <BottomBlue />
         </div>
 
-        <div className='bg-gradient-to-r from-pink-50 via-white to-indigo-100'><ExploreFav /></div>
-        <div className='bg-gradient-to-r from-pink-50 via-white to-indigo-100'><NewsLetter /></div>
+        <div className='bg-gradient-to-r from-pink-50 via-white to-indigo-50'><ExploreFav /></div>
+        <div className='bg-gradient-to-r from-pink-50 via-white to-indigo-50'><NewsLetter /></div>
       </main>
     </>
   );
