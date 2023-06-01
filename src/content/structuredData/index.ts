@@ -329,36 +329,36 @@ export const SD_ApproachInfluencer = [
   {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: 'How to Approach Instagram Influencer for Your Business',
-    description: 'In this blog post, we are going to discuss how to approach Instagram Influencer in your business and build a relationship with them that benefits both parties.',
+    name: 'How to Approach Instagram Influencers for Your Business',
+    description: 'In this blog post, we are going to discuss how to approach Instagram influencers in your business and build a relationship with them that benefits both parties.',
     step: [
       {
         '@type': 'HowToStep',
-        name: 'Do your research and identify Influencer in your niche or industry who align with your brand\'s values and aesthetics.',
+        text: 'Do your research and identify influencers in your niche or industry who align with your brand\'s values and aesthetics.',
       },
       {
         '@type': 'HowToStep',
-        name: 'Engage with their content by liking, commenting, sharing, and tagging them on your own posts.',
+        text: 'Engage with their content by liking, commenting, sharing, and tagging them on your own posts.',
       },
       {
         '@type': 'HowToStep',
-        name: 'Be professional and respectful when reaching out to Influencer, and explain why you think they would be a good fit for your business.',
+        text: 'Be professional and respectful when reaching out to influencers, and explain why you think they would be a good fit for your business.',
       },
       {
         '@type': 'HowToStep',
-        name: 'Be transparent about your expectations and budget, and offer fair compensation in the form of cash, free products, or both.',
+        text: 'Be transparent about your expectations and budget, and offer fair compensation in the form of cash, free products, or both.',
       },
       {
         '@type': 'HowToStep',
-        name: 'Be flexible and open to their ideas when negotiating, and trust their instincts on how to promote your brand.',
+        text: 'Be flexible and open to their ideas when negotiating, and trust their instincts on how to promote your brand.',
       },
       {
         '@type': 'HowToStep',
-        name: 'Maintain a positive relationship with the influencer even after the sponsored content has been posted, and show your appreciation for their work.',
+        text: 'Maintain a positive relationship with the influencer even after the sponsored content has been posted, and show your appreciation for their work.',
       },
       {
         '@type': 'HowToStep',
-        name: 'Avoid being too pushy or aggressive, and don\'t expect Influencer to work for free or without proper compensation.',
+        text: 'Avoid being too pushy or aggressive, and don\'t expect influencers to work for free or without proper compensation.',
       },
     ],
   },
