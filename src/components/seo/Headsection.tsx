@@ -51,7 +51,7 @@ const HeadSection: React.FC<HeadSectionProps> = ({ seoParams }) => {
       <link rel='apple-touch-icon' sizes='180x180' href='/favIcons/apple-touch-icon.png' />
       <link rel='mask-icon' href='/pwa/maskable_icon_x512.png' color='#4f46e5' />
 
-      {structuredData && structuredData.splice(1, structuredData.length - 1).map((data: any, index: number) =>
+      {structuredData && structuredData.filter((_e: any, i: number) => i < 1).map((data: any, index: number) =>
         <script
           key={`${index}`}
           type="application/ld+json"
