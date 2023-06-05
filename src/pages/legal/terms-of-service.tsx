@@ -9,8 +9,8 @@ const TermsOfService: React.FC = () => {
 
   const seoParams: SeoParams = {
     title: 'Terms of Service | FavInsta.com',
-    description: 'Terms of Service, favinsta, favinsta.com, Terms of Service, increase followers in instagram, more views in instagram, increase instagram views, instagram reel',
-    keywords: 'Terms of Service, favinsta, favinsta.com, Terms of Service, increase followers in instagram, instagram profile picture, instagram reels',
+    description: 'Terms of Service, favinsta, favinsta.com, Terms of Service, increase followers on Instagram, more views on Instagram, increase instagram views, instagram reel',
+    keywords: 'Terms of Service, favinsta, favinsta.com, Terms of Service, increase followers on Instagram, instagram profile picture, instagram reels',
     pageUrl: pathname,
   };
 

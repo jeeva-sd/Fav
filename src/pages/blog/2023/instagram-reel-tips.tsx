@@ -106,7 +106,7 @@ const InstagramReelTips = () => {
                     height={450}
                     quality={50}
                     loading='lazy'
-                    decoding='async' src={require('~/assets/images/blog/caption.webp')} alt='Use Text and Captions in Instagram' className='rounded-md aspect-video' />
+                    decoding='async' src={require('~/assets/images/blog/caption.webp')} alt='Use Text and Captions on Instagram' className='rounded-md aspect-video' />
                   <figcaption>
                     Photo by <a href="https://unsplash.com/@lemonvlad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vladislav Klapin</a> on <a href="https://unsplash.com/photos/PVr9Gsj93Pc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                   </figcaption>
@@ -186,7 +186,7 @@ const InstagramReelTips = () => {
                     height={450}
                     quality={50}
                     loading='lazy'
-                    decoding='async' src={require('~/assets/images/blog/behind_the_scene.webp')} alt='Share Behind the Scenes in Instagram' className='rounded-md aspect-video' />
+                    decoding='async' src={require('~/assets/images/blog/behind_the_scene.webp')} alt='Share Behind the Scenes on Instagram' className='rounded-md aspect-video' />
                   <figcaption>
                     Photo by <a href="https://unsplash.com/@henmankk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Keagan Henman</a> on <a href="https://unsplash.com/photos/pPxJTtxfV1A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                   </figcaption>

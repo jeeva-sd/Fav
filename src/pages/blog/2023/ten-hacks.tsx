@@ -16,7 +16,7 @@ const TenHacks = () => {
 
   const seoParams: SeoParams = {
     title: 'Secrets to increase your followers and likes on Instagram',
-    description: 'Explore some secrets about Instagram that will increase your followers and likes in Instagram.',
+    description: 'Explore some secrets about Instagram that will increase your followers and likes on Instagram.',
     keywords: 'Instagram hacks, Instagram tips and tricks, social media, brand promotion, personal branding, Instagram Insights, Instagram ads, shopping features, Instagram algorithm, engaging stories, influencer marketing, hashtags, location tagging, Instagram vs TikTok, Explore tab',
     pageUrl: pathname,
     structuredData: SD_tenHacks

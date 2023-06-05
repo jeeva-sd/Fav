@@ -11,7 +11,7 @@ const InstaView = () => {
 
           <div className='sm:max-w-lg'>
             <h2 className='text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white mb-4'>
-              Grow <span className='text-indigo-600 text-5xl mx-2'> #FASTER </span> in Instagram
+              Grow <span className='text-indigo-600 text-5xl mx-2'> #FASTER </span> on Instagram
             </h2>
             <p className='mt-4 text-xl text-gray-500'>
               Unlock the potential of your Instagram account with our expert tips and strategies to supercharge your growth.

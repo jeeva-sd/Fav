@@ -9,8 +9,8 @@ const PrivacyPolicy: React.FC = () => {
 
   const seoParams: SeoParams = {
     title: 'Privacy Policy | FavInsta.com',
-    description: 'Privacy Policy, favinsta, favinsta.com, Privacy Policy, increase followers in instagram, instagram tips, instagram profile picture, instagram reel',
-    keywords: 'Privacy Policy, favinsta, favinsta.com, Privacy Policy, increase followers in instagram, instagram profile picture, instagram reels',
+    description: 'Privacy Policy, favinsta, favinsta.com, Privacy Policy, increase followers on Instagram, instagram tips, instagram profile picture, instagram reel',
+    keywords: 'Privacy Policy, favinsta, favinsta.com, Privacy Policy, increase followers on Instagram, instagram profile picture, instagram reels',
     pageUrl: pathname,
   };
 

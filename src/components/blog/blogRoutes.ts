@@ -52,7 +52,7 @@ export const blogRoutes: Posts[] = [{
   authorImage: authProfile,
 },
 {
-  title: 'How to get more views and followers in Instagram?',
+  title: 'How to get more views and followers on Instagram?',
   description: ' Whether you\'re a commercial enterprise owner or a casual user, it\'s helpful to know some key notes about Instagram. This will help you get the maximum out of the platform.',
   path: '/blog/2023/get-more-views-on-instagram',
   image: null,

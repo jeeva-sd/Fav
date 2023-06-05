@@ -59,7 +59,7 @@ const AboutHashtag = () => {
                 loading='lazy'
                 decoding='async'
                 src={require('../../assets/images/blog/insta_girl.webp')}
-                alt='Content creator in Instagram'
+                alt='Content creator on Instagram'
                 className='h-full w-full object-cover'
               />
             </div>
@@ -86,7 +86,7 @@ const AboutHashtag = () => {
                 loading='lazy'
                 decoding='async'
                 src={require('../../assets/images/blog/content_light.webp')}
-                alt='Content creator in Instagram'
+                alt='Content creator on Instagram'
                 className='h-full object-cover object-center'
               />
             </div>

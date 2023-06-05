@@ -35,7 +35,7 @@ const InstaNotes = () => {
   };
 
   const seoParams: SeoParams = {
-    title: 'Instagram Notes: A Guide to Using and Sharing Personal Updates in Instagram Notes',
+    title: 'Instagram Notes: A Guide to Using and Sharing Personal Updates on Instagram Notes',
     description: 'Instagram Notes allow you to share short updates with specific people, while Stories are visible to all your followers.',
     keywords: 'instagram, notes, instagram notes, instagram note ideas, instagram notes ideas, instagram reels, instagram stories, notes',
     pageUrl: pathname,

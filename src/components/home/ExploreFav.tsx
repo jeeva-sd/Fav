@@ -65,7 +65,7 @@ const ExploreFav = () => {
           <div className='relative max-w-screen-md mb-8 lg:mb-16'>
             <h2 className='mb-4 lg:text-4xl text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>Explore <span className='text-indigo-600 mx-2'>#FavInsta</span></h2>
             <p className='text-gray-500 sm:text-xl dark:text-gray-400'>
-              Explore FavInsta and get some cool and creative ideas to boost your success in Instagram. We provide valuable content which fills out your missing gaps in your content creation and helps you to get more likes and followers.
+              Explore FavInsta and get some cool and creative ideas to boost your success on Instagram. We provide valuable content which fills out your missing gaps in your content creation and helps you to get more likes and followers.
             </p>
           </div>
 
