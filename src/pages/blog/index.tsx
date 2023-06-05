@@ -54,7 +54,7 @@ const BlogIndex = () => {
             <div className='grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12'>
               <div className='mr-auto place-self-center lg:col-span-7'>
                 <h1 className='max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white uppercase'>Step into the spotlight</h1>
-                <p className='max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>Welcome to the vibrant world where your ideas come alive. Join us,
+                <p className='max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>Welcome to the Fav Blog where your ideas come alive. Join us,
                   where we decode the secrets to engaging posts, tips and tricks and irresistible story ideass. And make your Instagram dreams a reality!</p>
               </div>
               <div className='hidden lg:mt-0 lg:col-span-5 lg:flex text-center justify-center items-center'>
@@ -71,7 +71,7 @@ const BlogIndex = () => {
               <div className='mx-auto max-w-screen-lg text-center lg:mb-16 mb-8'>
                 <h2 className='mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>POSTS</h2>
                 <p className='font-light text-gray-500 sm:text-xl dark:text-gray-400'>
-                  we&apos;re passionate about helping you achieve your Instagram goals. Our articles are crafted to provide actionable advice and step-by-step guides, empowering you to increase your followers, engagement, and overall success on this influential platform.
+                  we&apos;re passionate about helping you achieve your Instagram goals. Our articles are provides actionable advices and step-by-step guides, helping you to increase your followers, like, engagement, and overall success on this influential platform.
                 </p>
               </div>
 

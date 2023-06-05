@@ -36,7 +36,7 @@ const Home = () => {
                 <span className='text-indigo-600'>Fav</span>Insta.com
               </h1>
               <p className='mt-6 text-lg leading-8 text-gray-600'>
-                Discover the latest updates and ideas to stay creative on your Instagram journey. Get to know about the latest trends and features that Instagram has rolled out to stay one step ahead from your fellow creator&apos;s
+                Explore the latest updates and ideas to stay creative on your Instagram journey. Get to know about the latest trends and features that Instagram has rolled out and increase your followers and likes on Instagram  &apos;s
               </p>
               <div className='mt-10 flex items-center justify-center gap-x-6 select-none'>
                 <span onClick={() => push('/blog')} className='text-sm font-semibold leading-6 border rounded-xl py-1 px-3 hover:border-indigo-600 hover:text-indigo-600 transition-all cursor-pointer text-gray-900'>
