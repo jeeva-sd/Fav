@@ -25,29 +25,29 @@ const TermsOfService: React.FC = () => {
               Terms of Service
             </h1>
             <p className='mt-6 text-lg leading-7 text-gray-500'>
-              By accessing and using FavInsta.com, you agree to comply with these Terms of Service. If you do not agree with any of the terms, please refrain from using our website.
+              By accessing and using FavInsta.com, you agree to comply with these Terms of Service. If you do not agree with any of the terms mentioned below, please leave our website.
             </p>
 
             <h2 className='text-2xl leading-8 font-bold text-gray-900 mt-8'>
               Intellectual Property
             </h2>
             <p className='mt-4 text-lg leading-7 text-gray-500'>
-              All content, including text, images, graphics, logos, and audio or video materials, found on this website are the intellectual property of FavInsta.com and protected by applicable copyright laws. You may not reproduce, distribute, or modify any content without our prior written consent.
+              All contents including text, images, graphics, logos, and audio or video materials found on this website are the intellectual property of FavInsta.com and protected by applicable copyright laws. You may not reproduce, distribute, or modify any content without our prior written consent.
             </p>
 
             <h2 className='text-2xl leading-8 font-bold text-gray-900 mt-8'>
               User Conduct
             </h2>
-            <p className='mt-4 text-lg leading-7 text-gray-500'>
+            <div className='mt-4 text-lg leading-7 text-gray-500'>
               When using FavInsta.com, you agree to abide by the following guidelines:
               <ul className='list-disc list-inside'>
                 <li>Do not engage in any illegal or unauthorized activities.</li>
                 <li>Do not disrupt or interfere with the functioning of the website.</li>
-                <li>Do not attempt to gain unauthorized access to any part of the website.</li>
-                <li>Do not post or share any content that is offensive, defamatory, or violates the rights of others.</li>
+                <li>Do not attempt to get any unauthorized access to any part of the website.</li>
+                <li>Do not post or share any content in FavInsta.com that is offensive, defamatory, or violates the rights of others.</li>
                 <li>Do not use the website to promote or distribute spam, viruses, or any malicious software.</li>
               </ul>
-            </p>
+            </div>
 
             <h2 className='text-2xl leading-8 font-bold text-gray-900 mt-8'>
               Limitation of Liability
