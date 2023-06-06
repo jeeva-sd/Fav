@@ -15,7 +15,7 @@ const ExploreFav = () => {
     {
       title: 'Instagram Hashtag Generator',
       icon: <BiHash color='blue' />,
-      description: 'Generate effective hashtag for your content and increase the chance of getting known by your targeted audience',
+      description: 'Generate effective hashtag for your content and increase the chance of getting known by your targeted audience.',
       isLive: false,
       path: '',
     },

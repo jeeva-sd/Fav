@@ -7,6 +7,8 @@ const nextConfig = {
   env: {
     API_BASE_URL: process.env.API_BASE_URL,
     SITE_URL: process.env.SITE_URL,
+    SHOW_ADS: process.env.SHOW_ADS,
+    AD_ID: process.env.AD_ID,
     SITE_SHORT_URL: process.env.SITE_SHORT_URL,
     APP_NAME: process.env.APP_NAME,
     APP_MODE: process.env.APP_MODE,
