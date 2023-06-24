@@ -1,9 +1,10 @@
 import { StaticImageData } from 'next/image';
 
 export interface Posts {
+    id: number,
     title: string;
     description: string;
-    image: null | StaticImageData;
+    image: StaticImageData;
     path: string;
     category: string;
     rewards: string;

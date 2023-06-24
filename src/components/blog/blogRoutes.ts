@@ -4,6 +4,7 @@ import authProfile from '~/assets/images/blog/blackNinjaProfile.jpg';
 import { Posts } from './types';
 
 export const blogRoutes: Posts[] = [{
+  id: 1,
   title: '10 Instagram hacks, You should know!',
   description: 'These nifty hacks are sure to elevate your Instagram game, whether you\'re a casual user or a social media savant. From mastering the art of Instagram stories to leveraging the power of hashtags, we\'ve got you covered. So, buckle up and get ready to embark on a journey of discovery that will transform the way you use Instagram forever.',
   path: '/blog/2023/ten-hacks',
@@ -16,10 +17,11 @@ export const blogRoutes: Posts[] = [{
   authorImage: authProfile,
 },
 {
+  id: 2,
   title: 'Instagram Tips and Tricks - 2023',
   description: 'Here are some complex and dazzling tips and tricks to create gripping and compelling content on Instagram Reels that will leave your audience in awe.',
   path: '/blog/2023/instagram-reel-tips',
-  image: null,
+  image: hacksImage,
   category: 'InstaTips',
   rewards: 'recent',
   createdAt: '27 April 2023',
@@ -28,6 +30,7 @@ export const blogRoutes: Posts[] = [{
   authorImage: authProfile,
 },
 {
+  id: 3,
   title: 'Creative Ways to Use Instagram Stories',
   description: 'By using Instagram Stories creatively, you can increase engagement and reach on the platform, build stronger connections with your followers, and ultimately grow your brand.',
   path: '/blog/2023/story-ideas',
@@ -40,10 +43,11 @@ export const blogRoutes: Posts[] = [{
   authorImage: authProfile,
 },
 {
+  id: 4,
   title: 'How to Approach Instagram Influencer?',
   description: 'Good Influencer can help you reach a large and engaged audience, improve your brand awareness and credibility, and drive sales and conversions.',
   path: '/blog/2023/approach-influencer',
-  image: null,
+  image: hacksImage,
   category: 'Advertising',
   rewards: 'recent',
   createdAt: '15 May 2023',
@@ -52,10 +56,11 @@ export const blogRoutes: Posts[] = [{
   authorImage: authProfile,
 },
 {
+  id: 5,
   title: 'How to get more views and followers on Instagram?',
   description: ' Whether you\'re a commercial enterprise owner or a casual user, it\'s helpful to know some key notes about Instagram. This will help you get the maximum out of the platform.',
   path: '/blog/2023/get-more-views-on-instagram',
-  image: null,
+  image: hacksImage,
   category: 'InstaTips',
   rewards: 'recent',
   createdAt: '23 May 2023',
@@ -64,10 +69,11 @@ export const blogRoutes: Posts[] = [{
   authorImage: authProfile,
 },
 {
+  id: 6,
   title: 'Instagram Notes - Sharing Personal Updates',
   description: 'Instagram Notes are an clean way for users to percentage updates with their fans or a choose institution of human beings. These brief messages appear at the top of their followers, inboxes, like a thought bubble above their profile photo or icon.',
   path: '/blog/2023/about-instagram-notes',
-  image: null,
+  image: hacksImage,
   category: 'Article',
   rewards: 'recent',
   createdAt: '30 May 2023',

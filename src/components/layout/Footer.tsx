@@ -4,7 +4,7 @@ const Footer = () => {
   const { push } = useRouter();
 
   return (
-    <footer className='relative bottom-0 h-40 w-full bg-gradient-to-r from-slate-100 via-white to-slate-100 border-t flex items-center'>
+    <footer className='relative bottom-0 h-40 w-full bg-gray-50 border-t flex items-center'>
       <div className='absolute inset-x-0  h-full flex flex-wrap justify-center items-center mt-2'>
         <div className='text-center lg:w-6/12 w-full flex justify-center items-center flex-wrap'>
           <div className='font-semibold w-full tracking-wide'>FavInsta</div>

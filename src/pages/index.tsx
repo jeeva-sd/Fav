@@ -4,10 +4,10 @@ import { useRouter } from 'next/router';
 import { Inter } from 'next/font/google';
 import Headsection from '~/components/seo/Headsection';
 import { SeoParams } from '~/components/seo/types';
+import ExploreFav from '~/components/home/ExploreFav';
 
 const TopBlue = dynamic(() => import('~/components/home/TopBlue'), { ssr: true });
 const BottomBlue = dynamic(() => import('~/components/home/BottomBlue'), { ssr: true });
-const ExploreFav = dynamic(() => import('~/components/home/ExploreFav'), { ssr: true });
 const NewsLetter = dynamic(() => import('~/components/home/NewsLetter'), { ssr: false });
 
 const inter = Inter({ subsets: ['latin'] });
@@ -27,7 +27,7 @@ const Home = () => {
     <>
       <Headsection seoParams={seoParams} />
 
-      <main className={inter.className}>
+      <main className={`${inter.className} bg-gradient-to-r from-pink-50  to-indigo-50`}>
         <div className='flex items-center isolate px-6 pt-14 lg:px-8 min-h-[100vh] max-h-[100vh]'>
           <TopBlue />
           <div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-56'>
@@ -48,8 +48,8 @@ const Home = () => {
           <BottomBlue />
         </div>
 
-        <div className='bg-gradient-to-r from-pink-50 via-white to-indigo-50'><ExploreFav /></div>
-        <div className='bg-gradient-to-r from-pink-50 via-white to-indigo-50'><NewsLetter /></div>
+        <div><ExploreFav /></div>
+        <div><NewsLetter /></div>
       </main>
     </>
   );

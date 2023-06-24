@@ -96,8 +96,6 @@ const ApproachInfluencer = () => {
               It&apos;s important to choose Influencer who align with your brand values, have a genuine following and engagement, and create quality content.
             </Paragraph>
 
-            <hr className='mt-10' />
-
             <div>
               <ShareButtons url={pathname} />
             </div>
