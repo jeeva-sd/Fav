@@ -24,9 +24,9 @@ const RelatedContents = () => {
   }, [pathname]);
 
   return (
-    <section className="bg-white dark:bg-gray-900 border-t border-b">
-      <div className="py-8 px-4 mx-auto w-full lg:py-16 lg:px-6 ">
-        <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+    <section className="bg-white w-full dark:bg-gray-900 border-t border-b">
+      <div className="py-8 mx-auto w-full lg:py-16">
+        <div className="mx-auto text-center mb-8 lg:mb-16">
           <div className="mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">Related Post&apos;s</div>
           <p className="font-light text-gray-500 lg:mb-16 dark:text-gray-400 lg:text-lg sm:text-xl">
 						Take a closer look at these articles to further expand your knowledge and gain additional perspectives on your Instagram journey.
@@ -37,7 +37,7 @@ const RelatedContents = () => {
         {contents.map((content: Posts, index: number) =>
           <div className="flex gap-5 w-full mb-6 lg:mb-8 md:grid-cols-2 cursor-pointer" key={index} onClick={() => push(content.path)}>
             <div className="w-full items-center bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-              <Image className="w-5/12 rounded-lg sm:rounded-none sm:rounded-l-lg h-full" width={200} height={200}
+              <Image className="w-5/12 rounded-lg sm:rounded-none lg:flex md:flex hidden sm:rounded-l-lg h-full" width={200} height={200}
                 src={content.image}
                 alt="Bonnie Avatar" />
               <div className="p-5">

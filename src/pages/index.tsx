@@ -27,7 +27,7 @@ const Home = () => {
     <>
       <Headsection seoParams={seoParams} />
 
-      <main className={`${inter.className} bg-gradient-to-r from-pink-50  to-indigo-50`}>
+      <main className={`${inter.className} `}>
         <div className='flex items-center isolate px-6 pt-14 lg:px-8 min-h-[100vh] max-h-[100vh]'>
           <TopBlue />
           <div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-56'>
@@ -48,7 +48,7 @@ const Home = () => {
           <BottomBlue />
         </div>
 
-        <div><ExploreFav /></div>
+        <div className='rounded-t-[150px] lg:px-20 md:px-20 px-0'><ExploreFav /></div>
         <div><NewsLetter /></div>
       </main>
     </>

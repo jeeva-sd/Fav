@@ -48,7 +48,7 @@ const InstaNotes = () => {
       <Headsection seoParams={seoParams} />
 
       <BlogLayout>
-        <main className='pt-8 pb-16 lg:pt-16 lg:px-5 md:px-10 px-5 lg:pb-24 bg-white dark:bg-gray-900'>
+        <main className='pt-8 pb-16 lg:pt-8 lg:px-5 md:px-10 px-5 lg:pb-8 bg-white dark:bg-gray-900'>
 
           <BlogContainer>
             <header className='mb-4 lg:mb-6 not-format'>
