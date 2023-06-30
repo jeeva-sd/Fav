@@ -15,7 +15,7 @@ const TenHacks = () => {
   const { pathname } = useRouter();
 
   const seoParams: SeoParams = {
-    title: 'Secrets to increase your followers and likes on Instagram',
+    title: 'Instagram hacks to increase your followers and likes on Instagram',
     description: 'Explore some secrets about Instagram that will increase your followers and likes on Instagram.',
     keywords: 'Instagram hacks, Instagram tips and tricks, social media, brand promotion, personal branding, Instagram Insights, Instagram ads, shopping features, Instagram algorithm, engaging stories, influencer marketing, hashtags, location tagging, Instagram vs TikTok, Explore tab',
     pageUrl: pathname,
@@ -31,7 +31,7 @@ const TenHacks = () => {
           <article className='mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert'>
             <header className='mb-4 lg:mb-6 not-format'>
               <AuthorSection date={'17 April 2023'} />
-              <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white'>Secrets to increase your followers and likes on Instagram</h1>
+              <h1 className='mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white'>Instagram hacks to increase your followers and likes</h1>
             </header>
             <p className='lead'>
               Instagram has emerged as one of the most popular social media platforms, known for its unique features for sharing images, videos, and stories. It&apos;s a powerful tool that offers some advantages for social connection, brand promotion, and personal branding. However, despite its widespread popularity, there&apos;s an evident lack of awareness among the majority of users regarding the complete range of tools and tricks that Instagram has to offer.

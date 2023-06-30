@@ -22,9 +22,9 @@ const BlogIndex = () => {
   const { pathname, push } = useRouter();
 
   const seoParams: SeoParams = {
-    title: 'How to Grow Your Instagram Following with Fav Blog',
-    description: 'Fav Blog is a website dedicated to helping you grow your Instagram following. We offer a variety of resources, including articles, tutorials, and infographics, that can help you improve your Instagram strategy. Whether you\'re a beginner or a seasoned pro, we have something for you.',
-    keywords: 'Instagram blog, engaging posts, tips and tricks, marketing, branding, sales, increase followers, increase engagement, Instagram success, latest posts, lifestyle, fashion, travel, expert authors, Instagram goals',
+    title: 'Blog posts about Instagram Related content',
+    description: 'Blog posts about Instagram Related content which covers articel about Instagarm Captions, Instagram Hashtags, Instagram Notes, Instagram stories and FAQ',
+    keywords: 'Instagram blog, blog post, Instagram captions, Instagram Hashtags, Instagram Notes, Instagram stories',
     pageUrl: pathname,
     canonical: false,
     structuredData: SD_blogIndex
@@ -79,7 +79,7 @@ const BlogIndex = () => {
               </div>
 
               <div className='grid gap-8 lg:grid-cols-2'>
-                {blogRoutes.map((page: Posts, index: number) => {
+                {blogRoutes.sort((a: Posts, b: Posts) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()).map((page: Posts, index: number) => {
                   return (
                     <article key={index} className='p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700'>
                       <div className='flex justify-between items-center mb-5 text-gray-500'>

@@ -37,7 +37,7 @@ export default function SideBar({ isOpen, setIsOpen }: any) {
 
   return (
     <Transition.Root show={open} as={Fragment}>
-      <Dialog as='div' className='relative z-[100]' onClose={setOpen}>
+      <Dialog as='div' className='relative z-[100]' onClose={() => setIsOpen(false)}>
         <Transition.Child
           as={Fragment}
           enter='ease-in-out duration-500'

@@ -518,7 +518,7 @@ export const SD_blogIndex = [
     "keywords": "Instagram blog, engaging posts, tips and tricks, marketing, branding, sales, increase followers, increase engagement, Instagram success, latest posts, lifestyle, fashion, travel, expert authors, Instagram goals",
     "url": "https://www.favinsta.com/blog",
     "image": "URL_OF_THE_IMAGE",
-    "datePublished": "17 April 2023",
+    "datePublished": " il 2023",
     "dateModified": "30 May 2023",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -536,5 +536,112 @@ export const SD_blogIndex = [
         "url": "/public/favIcons/android-chrome-512x512.png"
       }
     }
+  }
+];
+
+export const SD_instagramHashtags = [
+  {
+    "@context": "https://schema.org/",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What are Instagram hashtags?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Instagram hashtags are words or phrases preceded by the '#' symbol that categorize and organize content on the platform. They enable users to search and discover posts related to specific topics, themes, or interests."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why use Instagram hashtags?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Instagram hashtags are a great way to increase the discoverability of your content or products across Instagram. By choosing relevant hashtags for your posts, you can expand your reach beyond your existing followers and attract new users who are interested in your niche. Hashtags act as keywords, categorizing your content and making it easier for users to find. They enable you to tap into larger conversations and join communities that share similar interests."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do Instagram hashtags work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When you include hashtags in your Instagram posts, your content becomes searchable by users who follow or search for those hashtags. Hashtags help increase your post's visibility and reach a wider audience beyond your existing followers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many hashtags should I use in a post?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While Instagram allows up to 30 hashtags per post, it's advisable to use a moderate number to maintain readability and avoid appearing spammy. Using 5 to 15 relevant hashtags is generally considered effective."
+        }
+      }
+    ]
+  }
+];
+
+export const SD_optimiseHashtags = [
+  {
+    "@context": "https://schema.org/",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why Are Instagram Hashtags Important?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Instagram hashtags allow users to discover posts related to their interests and enable content creators to reach a wider audience. By optimizing your hashtags, you increase the chances of your content being discovered by users who are not already following you. This increased visibility can lead to higher engagement, more followers, and potentially even collaborations with brands and influencers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to make our post visible in explore tab",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": " By adding relevant hashtags to your Stories, you increase the chances of appearing in the Stories Explore section. This feature exposes your content to a broader audience and offers an excellent opportunity to increase engagement and followers."
+        }
+      },
+    ]
+  }
+];
+
+export const SD_audioInNotes = [
+  {
+    "@context": "https://schema.org/",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What are Songs in Instagram Notes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Songs in Instagram notes refer to the musical element that can be added to your Instagram Notes. By integrating notes into your content, you can create a more immersive experience for your audience. These notes are displayed as a visual representation of sheet music, providing a glimpse into the melody or rhythm of a particular song."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Adding songs or music in Instagarm notes has any Copyright Restrictions?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When adding songs in Instagram notes to your posts, it's essential to consider copyright restrictions. Instagram has partnerships with various music labels and provides a vast library of licensed songs for users to choose from. By selecting songs from this library, you can ensure that your use of music complies with copyright regulations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I Add Multiple Songs in Instagram Notes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As of the latest Instagram update, you can only add one song in Instagram notes to each post. However, you can choose different parts of the song to feature as notes, allowing you to showcase various sections or highlights."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do Songs in Instagram Notes Play Automatically?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, songs in Instagram notes do not play automatically when someone views your post. Viewers have the option to tap on the notes to listen to a preview of the song or visit the full track on a music streaming platform."
+        }
+      }
+    ]
   }
 ];

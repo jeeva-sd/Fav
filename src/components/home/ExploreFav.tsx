@@ -59,7 +59,7 @@ const ExploreFav = () => {
 
   return (
     <section className='dark:bg-gray-900 bg-gradient-to-r lg:rounded-[150px] md:rounded-[150px] rounded-none min-h-screen flex items-center overflow-hidden'>
-      <div className='px-4 mx-auto w-full sm:py-16 lg:px-6 lg:rounded-[150px] md:rounded-[150px] rounded-none bg-gray-50 border lg:py-0 md:py-0 py-20'>
+      <div className='px-4 mx-auto lg:w-11/12 md:w-full w-full sm:py-16 lg:px-6 lg:rounded-[150px] md:rounded-[150px] rounded-none bg-gray-50 border lg:py-0 md:py-0 py-20'>
 
         <div className='relative px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 rounded-md'>
           <div className='relative max-w-screen-md mb-8 lg:mb-16'>
