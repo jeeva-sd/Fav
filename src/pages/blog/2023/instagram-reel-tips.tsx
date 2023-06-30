@@ -47,7 +47,7 @@ const InstagramReelTips = () => {
                     loading='lazy'
                     decoding='async' src={require('~/assets/images/blog/music.webp')} alt='Music' className='rounded-md aspect-video' />
                   <figcaption>
-                    Photo by <a href="https://unsplash.com/@namroud?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Namroud Gorguis</a> on <a href="https://unsplash.com/images/blog/things/music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    Photo by <a href='https://unsplash.com/@namroud?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Namroud Gorguis</a> on <a href='https://unsplash.com/images/blog/things/music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -67,7 +67,7 @@ const InstagramReelTips = () => {
                     loading='lazy'
                     decoding='async' src={require('~/assets/images/blog/short.webp')} alt='Engaging Instagram content' className='rounded-md aspect-video' />
                   <figcaption>
-                    Photo by <a href="https://unsplash.com/@cristian1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cristian Escobar</a> on <a href="https://unsplash.com/wallpapers/cool/good?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    Photo by <a href='https://unsplash.com/@cristian1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Cristian Escobar</a> on <a href='https://unsplash.com/wallpapers/cool/good?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -88,7 +88,7 @@ const InstagramReelTips = () => {
                     loading='lazy'
                     decoding='async' src={require('~/assets/images/blog/plan.webp')} alt='plan your content' className='rounded-md aspect-video' />
                   <figcaption>
-                    Photo by <a href="https://unsplash.com/@glenncarstenspeters?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Glenn Carstens-Peters</a> on <a href="https://unsplash.com/photos/RLw-UC03Gwc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    Photo by <a href='https://unsplash.com/@glenncarstenspeters?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Glenn Carstens-Peters</a> on <a href='https://unsplash.com/photos/RLw-UC03Gwc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -108,7 +108,7 @@ const InstagramReelTips = () => {
                     loading='lazy'
                     decoding='async' src={require('~/assets/images/blog/caption.webp')} alt='Use Text and Captions on Instagram' className='rounded-md aspect-video' />
                   <figcaption>
-                    Photo by <a href="https://unsplash.com/@lemonvlad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vladislav Klapin</a> on <a href="https://unsplash.com/photos/PVr9Gsj93Pc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    Photo by <a href='https://unsplash.com/@lemonvlad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Vladislav Klapin</a> on <a href='https://unsplash.com/photos/PVr9Gsj93Pc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -128,7 +128,7 @@ const InstagramReelTips = () => {
                     loading='lazy'
                     decoding='async' src={require('~/assets/images/blog/personality.webp')} alt='About you' className='rounded-md aspect-video' />
                   <figcaption>
-                    Photo by <a href="https://unsplash.com/@anthonytran?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony Tran</a> on <a href="https://unsplash.com/photos/P_-SnAnRSU4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    Photo by <a href='https://unsplash.com/@anthonytran?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Anthony Tran</a> on <a href='https://unsplash.com/photos/P_-SnAnRSU4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -148,7 +148,7 @@ const InstagramReelTips = () => {
                     loading='lazy'
                     decoding='async' src={require('~/assets/images/blog/filters.webp')} alt='Instagram Filters' className='rounded-md aspect-video' />
                   <figcaption>
-                    Photo by <a href="https://unsplash.com/@iamkendall?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kendall Ruth</a> on <a href="https://unsplash.com/photos/AijuW-HlE30?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    Photo by <a href='https://unsplash.com/@iamkendall?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Kendall Ruth</a> on <a href='https://unsplash.com/photos/AijuW-HlE30?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -168,7 +168,7 @@ const InstagramReelTips = () => {
                     loading='lazy'
                     decoding='async' src={require('~/assets/images/blog/join.webp')} alt='Collaborate with Others' className='rounded-md aspect-video' />
                   <figcaption>
-                    Photo by <a href="https://unsplash.com/@cytonn_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cytonn Photography</a> on <a href="https://unsplash.com/photos/n95VMLxqM2I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    Photo by <a href='https://unsplash.com/@cytonn_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Cytonn Photography</a> on <a href='https://unsplash.com/photos/n95VMLxqM2I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -188,7 +188,7 @@ const InstagramReelTips = () => {
                     loading='lazy'
                     decoding='async' src={require('~/assets/images/blog/behind_the_scene.webp')} alt='Share Behind the Scenes on Instagram' className='rounded-md aspect-video' />
                   <figcaption>
-                    Photo by <a href="https://unsplash.com/@henmankk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Keagan Henman</a> on <a href="https://unsplash.com/photos/pPxJTtxfV1A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    Photo by <a href='https://unsplash.com/@henmankk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Keagan Henman</a> on <a href='https://unsplash.com/photos/pPxJTtxfV1A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 

@@ -57,7 +57,7 @@ const TenHacks = () => {
                 decoding='async'
                 src={popularHashtagImage} alt='choosing right instagram hashtags' className='rounded-md aspect-video' />
               <figcaption>
-                Photo by <a href="https://unsplash.com/@arstyy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Austin Neill</a> on <a href="https://unsplash.com/photos/hgO1wFPXl3I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                Photo by <a href='https://unsplash.com/@arstyy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Austin Neill</a> on <a href='https://unsplash.com/photos/hgO1wFPXl3I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
               </figcaption>
             </figure>
             <p className='lead text-gray-600'>
@@ -69,9 +69,9 @@ const TenHacks = () => {
             </p>
 
             <>
-              <div className="max-w-3xl mx-auto pb-8">
-                <h2 className="text-2xl font-bold mb-2 mt-10">Some of most popular Hashtags</h2>
-                <div className="mb-4 text-gray-600 flex flex-wrap w-full my-4 p-5 rounded-md border bg-indigo-50 shadow-inner">
+              <div className='max-w-3xl mx-auto pb-8'>
+                <h2 className='text-2xl font-bold mb-2 mt-10'>Some of most popular Hashtags</h2>
+                <div className='mb-4 text-gray-600 flex flex-wrap w-full my-4 p-5 rounded-md border bg-indigo-50 shadow-inner'>
                   {popularHashtags.sort().map((data: any, index: number) => {
                     return (
                       <div key={index} className='w-5/12 flex m-1 font-light'>
@@ -81,7 +81,7 @@ const TenHacks = () => {
                   })}
                 </div>
 
-                <h2 className="text-2xl font-bold mb-2 mt-10">Related trending hashtags</h2>
+                <h2 className='text-2xl font-bold mb-2 mt-10'>Related trending hashtags</h2>
                 <p className='text-gray-600 text-base'>Here some of its related hashtags which might be useful for your reach. These related hashtags are trending across Instagram
                   so there is a great chance that your profile get viewd by your targeted audience</p>
                 <div>
@@ -92,7 +92,7 @@ const TenHacks = () => {
                     className='border my-5 border-gray-300 focus:outline-none focus:border-indigo-600 w-full rounded-md p-2'
                   />
                 </div>
-                <div className="mb-4 text-gray-600 flex flex-wrap justify-evenly gap-2">
+                <div className='mb-4 text-gray-600 flex flex-wrap justify-evenly gap-2'>
                   {hashtagList.map((data: any, index: number) => {
                     return (
                       <div key={index} className='lg:w-5/12 md:w-full w-full py-5'>

@@ -54,7 +54,7 @@ const TenHacks = () => {
                     decoding='async'
                     src={require('~/assets/images/blog/schedule.webp')} alt='Instagram post scheduling' className='rounded-md aspect-video' />
                   <figcaption>
-                      Photo by <a href="https://unsplash.com/@tunahangunkan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tunahan Günkan</a> on <a href="https://unsplash.com/photos/MSNlQmqRX1w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                      Photo by <a href='https://unsplash.com/@tunahangunkan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Tunahan Günkan</a> on <a href='https://unsplash.com/photos/MSNlQmqRX1w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                   </figure>
 
@@ -62,7 +62,7 @@ const TenHacks = () => {
                     Instagram does not include built-in functionality for automatic or pre-planned post publishing. But, users can automate and schedule your Instagram posts using third-party apps and services. In order to make and schedule posts using these tools, users normally need to link your Instagram account. Posts created using these tools are then automatically uploaded to Instagram at the scheduled time.
                   </p>
                   <p className='mb-4'>
-                     Additionally, some automation programmes provide features like hashtag recommendations, analytics, and post optimisation suggestions, which improve the user&apos;s capacity to generate engaging material.
+                    Additionally, some automation programmes provide features like hashtag recommendations, analytics, and post optimisation suggestions, which improve the user&apos;s capacity to generate engaging material.
                   </p>
                 </div>
 
@@ -75,7 +75,7 @@ const TenHacks = () => {
                     loading='lazy'
                     decoding='async'
                     src={require('~/assets/images/blog/insight.webp')} alt='Instagram Insight' className='rounded-md aspect-video' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@georgiadelotz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Georgia de Lotz</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a></figcaption>
+                  <figcaption>Photo by <a className='underline text-blue-600' href='https://unsplash.com/@georgiadelotz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Georgia de Lotz</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a></figcaption>
                   </figure>
                   <p>
                     A built-in analytics tool called Instagram Insights gives you useful information about how you&apos;re doing on Instagram. You can improve your understanding of what type of content your followers like the most and adjust your strategy by keeping an eye on metrics like engagement, reach, and impressions.
@@ -92,7 +92,7 @@ const TenHacks = () => {
                     loading='lazy'
                     decoding='async'
                     src={require('~/assets/images/blog/ads.webp')} alt='Instagram Ads' className='rounded-md aspect-video' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@anthonyrosset?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony Rosset</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a></figcaption>
+                  <figcaption>Photo by <a className='underline text-blue-600' href='https://unsplash.com/@anthonyrosset?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Anthony Rosset</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a></figcaption>
                   </figure>
 
                   <p className='mb-4'>
@@ -117,7 +117,7 @@ const TenHacks = () => {
                     decoding='async'
                     src={require('~/assets/images/blog/promote.webp')} alt='Instagram promotion' className='rounded-md aspect-video' />
                   <figcaption>
-                      Photo by <a href="https://unsplash.com/@possessedphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Possessed Photography</a> on <a href="https://unsplash.com/photos/tiNCpHudGrw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                      Photo by <a href='https://unsplash.com/@possessedphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Possessed Photography</a> on <a href='https://unsplash.com/photos/tiNCpHudGrw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                   </figure>
 
@@ -137,7 +137,7 @@ const TenHacks = () => {
                     decoding='async'
                     src={require('~/assets/images/blog/algorithm.webp')} alt='Instagram Algorithm' className='rounded-md aspect-video' />
                   <figcaption>
-                      Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/photos/iar-afB0QQw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                      Photo by <a href='https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Markus Spiske</a> on <a href='https://unsplash.com/photos/iar-afB0QQw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                   </figure>
 
@@ -177,7 +177,7 @@ const TenHacks = () => {
                     decoding='async'
                     src={require('~/assets/images/blog/influencer.webp')} alt='Instagram influencer' className='rounded-md aspect-video' />
                   <figcaption>
-                      Photo by <a href="https://unsplash.com/@maddibazzocco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maddi Bazzocco</a> on <a href="https://unsplash.com/photos/Vbt1zTCsSNA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                      Photo by <a href='https://unsplash.com/@maddibazzocco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Maddi Bazzocco</a> on <a href='https://unsplash.com/photos/Vbt1zTCsSNA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                   </figure>
 
@@ -226,7 +226,7 @@ const TenHacks = () => {
                     loading='lazy'
                     decoding='async'
                     src={require('~/assets/images/blog/hastag_container.webp')} alt='Instagram hashtag' className='rounded-md aspect-video' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/pt-br/@janbaborak?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jan Baborák</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                  <figcaption>Photo by <a className='underline text-blue-600' href='https://unsplash.com/pt-br/@janbaborak?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Jan Baborák</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                   </figure>
 
@@ -246,7 +246,7 @@ const TenHacks = () => {
                     decoding='async'
                     src={require('~/assets/images/blog/tiktok.webp')} alt='Tik tok' className='rounded-md aspect-video' />
                   <figcaption>
-                      Photo by <a href="https://unsplash.com/ko/@solenfeyissa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Solen Feyissa</a> on <a href="https://unsplash.com/photos/Yaw9mfG9QfQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                      Photo by <a href='https://unsplash.com/ko/@solenfeyissa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Solen Feyissa</a> on <a href='https://unsplash.com/photos/Yaw9mfG9QfQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                   </figure>
 
@@ -266,7 +266,7 @@ const TenHacks = () => {
                     decoding='async'
                     src={require('~/assets/images/blog/explore.webp')} alt='Instagram explore tab' className='rounded-md aspect-video' />
                   <figcaption>
-                      Photo by <a href="https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Neel</a> on <a href="https://unsplash.com/photos/z55CR_d0ayg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                      Photo by <a href='https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Andrew Neel</a> on <a href='https://unsplash.com/photos/z55CR_d0ayg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                   </figure>
 

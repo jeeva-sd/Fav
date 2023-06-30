@@ -48,38 +48,38 @@ const TenHacks = () => {
                 decoding='async'
                 src={singing} alt='choosing right instagram hashtags' className='rounded-md aspect-video' />
               <figcaption>
-                Photo by <a href="https://unsplash.com/@arstyy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Austin Neill</a> on <a href="https://unsplash.com/photos/hgO1wFPXl3I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                Photo by <a href='https://unsplash.com/@arstyy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Austin Neill</a> on <a href='https://unsplash.com/photos/hgO1wFPXl3I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
               </figcaption>
             </figure>
             <>
-              <div className="max-w-3xl mx-auto pb-3">
-                <h2 className="text-xl font-bold mb-2 mt-10">What are Songs in Instagram Notes?</h2>
-                <p className="mb-4 text-gray-600">
+              <div className='max-w-3xl mx-auto pb-3'>
+                <h2 className='text-xl font-bold mb-2 mt-10'>What are Songs in Instagram Notes?</h2>
+                <p className='mb-4 text-gray-600'>
                   Songs in Instagram notes refer to the musical element that can be added to your Instagram Notes. By integrating notes into your content, you can create a more immersive experience for your audience. These notes are displayed as a visual representation of sheet music, providing a glimpse into the melody or rhythm of a particular song.
                 </p>
-                <h2 className="text-xl font-bold mb-2 mt-10">Why to Add Songs in Instagram Notes?</h2>
-                <p className="mb-4 text-gray-600">
+                <h2 className='text-xl font-bold mb-2 mt-10'>Why to Add Songs in Instagram Notes?</h2>
+                <p className='mb-4 text-gray-600'>
                   There are many reasons for adding songs in your Instagram Notes, but generally for:
                 </p>
-                <ol className="list-decimal list-outside ml-6 mb-4">
+                <ol className='list-decimal list-outside ml-6 mb-4'>
                   <li className='text-gray-600'>Engaging Your Audience with Musical Visuals</li>
                   <li className='text-gray-600'>Conveying Emotions through Music</li>
                   <li className='text-gray-600'>Showcasing Your Personality and Style</li>
                 </ol>
-                <h2 className="text-xl font-bold mb-2 mt-10">Are There Any Copyright Restrictions?</h2>
-                <p className="mb-4 text-gray-600">
+                <h2 className='text-xl font-bold mb-2 mt-10'>Are There Any Copyright Restrictions?</h2>
+                <p className='mb-4 text-gray-600'>
                   When adding songs in Instagram notes to your posts, it&apos;s essential to consider copyright restrictions. Instagram has partnerships with various music labels and provides a vast library of licensed songs for users to choose from. By selecting songs from this library, you can ensure that your use of music complies with copyright regulations.
                 </p>
-                <h2 className="text-xl font-bold mb-2 mt-10">Can I Add Multiple Songs in Instagram Notes?</h2>
-                <p className="mb-4 text-gray-600">
+                <h2 className='text-xl font-bold mb-2 mt-10'>Can I Add Multiple Songs in Instagram Notes?</h2>
+                <p className='mb-4 text-gray-600'>
                   As of the latest Instagram update, you can only add one song in Instagram notes to each post. However, you can choose different parts of the song to feature as notes, allowing you to showcase various sections or highlights.
                 </p>
-                <h2 className="text-xl font-bold mb-2 mt-10">Do Songs in Instagram Notes Play Automatically?</h2>
-                <p className="mb-4 text-gray-600">
+                <h2 className='text-xl font-bold mb-2 mt-10'>Do Songs in Instagram Notes Play Automatically?</h2>
+                <p className='mb-4 text-gray-600'>
                   No, songs in Instagram notes do not play automatically when someone views your post. Viewers have the option to tap on the notes to listen to a preview of the song or visit the full track on a music streaming platform.
                 </p>
-                <h2 className="text-xl font-bold mb-2 mt-10">How to Add Songs in Instagram Notes?</h2>
-                <ol className="list-decimal list-outside ml-6 mb-4 gap-3 flex flex-wrap">
+                <h2 className='text-xl font-bold mb-2 mt-10'>How to Add Songs in Instagram Notes?</h2>
+                <ol className='list-decimal list-outside ml-6 mb-4 gap-3 flex flex-wrap'>
                   <li className='text-gray-600'>Open the Instagram app on your mobile device.</li>
                   <li className='text-gray-600'>Tap on the &quot;+&quot; button to create a new post.</li>
                   <li className='text-gray-600'>Select or capture the desired image or video for your post.</li>

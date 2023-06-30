@@ -56,7 +56,7 @@ const StoryIdeas = () => {
                     decoding='async'
                     src={stroyImage} alt='Instagram Stories' className='rounded-md aspect-video object-cover' />
                   <figcaption>
-                    Photo by <a href="https://unsplash.com/@emilymorter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emily Morter</a> on <a href="https://unsplash.com/photos/8xAA0f9yQnE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    Photo by <a href='https://unsplash.com/@emilymorter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Emily Morter</a> on <a href='https://unsplash.com/photos/8xAA0f9yQnE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -99,7 +99,7 @@ const StoryIdeas = () => {
                     decoding='async'
                     src={require('~/assets/images/blog/question.webp')} alt='Fun and Interactive Polls or Quizzes on Your Instagram Story' className='rounded-md aspect-video object-cover' />
                   <figcaption>
-                    Photo by <a href="https://unsplash.com/@emilymorter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emily Morter</a> on <a href="https://unsplash.com/photos/8xAA0f9yQnE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    Photo by <a href='https://unsplash.com/@emilymorter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Emily Morter</a> on <a href='https://unsplash.com/photos/8xAA0f9yQnE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -140,7 +140,7 @@ const StoryIdeas = () => {
                     decoding='async'
                     src={require('~/assets/images/blog/behind_the_scene.webp')} alt='Behind-the-Scenes' className='rounded-md aspect-video object-cover' />
                   <figcaption>
-                    Photo by <a href="https://unsplash.com/@henmankk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Keagan Henman</a> on <a href="https://unsplash.com/photos/pPxJTtxfV1A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    Photo by <a href='https://unsplash.com/@henmankk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Keagan Henman</a> on <a href='https://unsplash.com/photos/pPxJTtxfV1A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 

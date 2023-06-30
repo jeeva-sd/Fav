@@ -36,9 +36,9 @@ const MoreViews = () => {
 
               <div className='my-5'>
                 Instagram is a famous social media platform over the years. With over 1 billion monthly active users,
-                 it has become a hub for sharing posts and short contents. Whether you&apos;re a commercial enterprise owner or a casual user,
-                  it&apos;s helpful to know some key notes about Instagram. This will help you get the maximum benifits through this platform.
-                   Here are some guidelines and tricks to don&apos;t forget when the usage of Instagram:
+                it has become a hub for sharing posts and short contents. Whether you&apos;re a commercial enterprise owner or a casual user,
+                it&apos;s helpful to know some key notes about Instagram. This will help you get the maximum benifits through this platform.
+                Here are some guidelines and tricks to don&apos;t forget when the usage of Instagram:
                 <div className='my-5 mb-10'>
                   <ul>
                     <li className='p-1 text-gray-800 font-medium'>1. Keep Your Profile Attractive and Consistent</li>
@@ -64,11 +64,11 @@ const MoreViews = () => {
                     loading='lazy'
                     decoding='async'
                     src={require('~/assets/images/blog/insight.webp')} alt='' className='rounded-md object-cover' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@georgiadelotz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Georgia de Lotz</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                  <figcaption>Photo by <a className='underline text-blue-600' href='https://unsplash.com/@georgiadelotz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Georgia de Lotz</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
                 <p className='text-gray-800'>Your Instagram profile page is the first view about your content for the users when they are visiting your page. So, it is important to make it look true, good and consistent.
-                Choose a profile image that represents your logo or yourself and create a bio that explains what you do and what you provide. Use the same color schemes, fonts, and design elements to your posts which may sell your name or your content to your followers easily.</p>
+                  Choose a profile image that represents your logo or yourself and create a bio that explains what you do and what you provide. Use the same color schemes, fonts, and design elements to your posts which may sell your name or your content to your followers easily.</p>
               </div>
 
               <div className='mt-16'>
@@ -82,12 +82,12 @@ const MoreViews = () => {
                     loading='lazy'
                     decoding='async'
                     src={require('~/assets/images/blog/hastag_container.webp')} alt='' className='rounded-md object-cover' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/pt-br/@janbaborak?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jan Baborák</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                  <figcaption>Photo by <a className='underline text-blue-600' href='https://unsplash.com/pt-br/@janbaborak?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Jan Baborák</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
                 <p className='text-gray-800'>Hashtags are the effective equipment on Instagram, and they can help you reach a much wider audience. Use relevant hashtags for your posts and stories to lead them to discoverable by new users who may interested in your area of interest.
-                 You also can create a branded hashtag to sell your logo and encourage your fans to use it.</p>
+                  You also can create a branded hashtag to sell your logo and encourage your fans to use it.</p>
               </div>
 
               <div className='mt-16'>
@@ -101,7 +101,7 @@ const MoreViews = () => {
                     loading='lazy'
                     decoding='async'
                     src={require('~/assets/images/blog/followers.webp')} alt='' className='rounded-md object-cover' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@storyfuel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Melanie Deziel</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                  <figcaption>Photo by <a className='underline text-blue-600' href='https://unsplash.com/@storyfuel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Melanie Deziel</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -119,7 +119,7 @@ const MoreViews = () => {
                     loading='lazy'
                     decoding='async'
                     src={require('~/assets/images/blog/post_regular_time.webp')} alt='' className='rounded-md object-cover' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@ikukevk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kevin Ku</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                  <figcaption>Photo by <a className='underline text-blue-600' href='https://unsplash.com/@ikukevk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Kevin Ku</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -137,7 +137,7 @@ const MoreViews = () => {
                     loading='lazy'
                     decoding='async'
                     src={require('~/assets/images/blog/stories.webp')} alt='' className='rounded-md object-cover' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@tunahangunkan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tunahan Günkan</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                  <figcaption>Photo by <a className='underline text-blue-600' href='https://unsplash.com/@tunahangunkan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Tunahan Günkan</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 
@@ -154,7 +154,7 @@ const MoreViews = () => {
                     loading='lazy'
                     decoding='async'
                     src={require('~/assets/images/blog/ads.webp')} alt='' className='rounded-md object-cover' />
-                  <figcaption>Photo by <a className='underline text-blue-600' href="https://unsplash.com/@anthonyrosset?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony Rosset</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+                  <figcaption>Photo by <a className='underline text-blue-600' href='https://unsplash.com/@anthonyrosset?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Anthony Rosset</a> on <a className='underline text-blue-600' href='https://unsplash.com/images/blog/apps/instagram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                   </figcaption>
                 </figure>
 

@@ -47,13 +47,13 @@ const TenHacks = () => {
                 decoding='async'
                 src={captions} alt='choosing right instagram hashtags' className='rounded-md aspect-video' />
               <figcaption>
-								Photo by <a href="https://unsplash.com/@monicadear?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Monica Flores</a> on <a href="https://unsplash.com/photos/p4mFOzM-asQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+								Photo by <a href='https://unsplash.com/@monicadear?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Monica Flores</a> on <a href='https://unsplash.com/photos/p4mFOzM-asQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
               </figcaption>
             </figure>
 
             <>
-              <div className="max-w-3xl mx-auto pb-4">
-                <h2 className="text-2xl font-bold mt-5 mb-5">Here are some of captions which may enhance your Instagram post</h2>
+              <div className='max-w-3xl mx-auto pb-4'>
+                <h2 className='text-2xl font-bold mt-5 mb-5'>Here are some of captions which may enhance your Instagram post</h2>
 
                 {postCaptions.map((captionObj: any, index: number) => {
                   return (

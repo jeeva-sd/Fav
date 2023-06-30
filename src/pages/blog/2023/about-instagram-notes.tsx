@@ -79,7 +79,7 @@ const InstaNotes = () => {
             <div className='container mx-auto'>
               <h2 className='text-xl font-bold mb-2'>What are Instagram Notes?</h2>
               <p className='mb-4'>Instagram Notes are a new way for users to share updates with all followers or a share between particular followers. These brief messages appear at the top of your followers, inboxes, like a bubble above your profile photo or icon.
-               Notes may be custom designed with textual content and/or emojis which restrict of 60 characters or much less.</p>
+                Notes may be custom designed with textual content and/or emojis which restrict of 60 characters or much less.</p>
 
               <h2 className='text-xl font-bold mb-2'>How to create an Instagram Note?</h2>
               <p className='mb-4'>To create an Instagram Note, follow these simple steps:</p>
@@ -106,11 +106,11 @@ const InstaNotes = () => {
               <ul className='list-disc ml-6 space-y-2'>
                 <li className='pb-5'>
                   <span className='font-bold'>Personalization: </span>
-                   Instagram Notes allow you to share short updates with specific people, while Stories are visible to all your followers. This means that Notes provide a more personalized way to share something with your close friends or family.
+                  Instagram Notes allow you to share short updates with specific people, while Stories are visible to all your followers. This means that Notes provide a more personalized way to share something with your close friends or family.
                 </li>
                 <li className='pb-5'>
                   <span className='font-bold'>Longer lifespan: </span>
-                   Instagram Stories are only visible for 24 hours, after that they disappear. Notes, on the other hand, remain visible until you delete them. This means that your message will be available to your followers for a longer time.
+                  Instagram Stories are only visible for 24 hours, after that they disappear. Notes, on the other hand, remain visible until you delete them. This means that your message will be available to your followers for a longer time.
                 </li>
                 <li className='pb-5'>
                   <span className='font-bold'>Direct messaging: </span>

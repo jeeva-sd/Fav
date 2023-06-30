@@ -55,7 +55,7 @@ const ApproachInfluencer = () => {
                 decoding='async'
                 src={require('~/assets/images/blog/approach.webp')} alt='Approach Instagram Influencer' className='rounded-md aspect-video object-cover' />
               <figcaption>
-                Photo by <a href="https://unsplash.com/@jannerboy62?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Fewings</a> on <a href="https://unsplash.com/photos/2ykkF3oQb_c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                Photo by <a href='https://unsplash.com/@jannerboy62?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Nick Fewings</a> on <a href='https://unsplash.com/photos/2ykkF3oQb_c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
               </figcaption>
             </figure>
 

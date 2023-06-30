@@ -52,43 +52,43 @@ const InstagramHashtags = () => {
                   decoding='async'
                   src={hashtag_black} alt='Instagram Notes ideas' className='rounded-md aspect-video' />
                 <figcaption>
-                  Photo by <a href="https://unsplash.com/pt-br/@gui_horovitz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Guilherme Lahmann</a> on <a href="https://unsplash.com/photos/c0xrT0QykL8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                  Photo by <a href='https://unsplash.com/pt-br/@gui_horovitz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Guilherme Lahmann</a> on <a href='https://unsplash.com/photos/c0xrT0QykL8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
                 </figcaption>
               </figure>
             </header>
 
             <div>
-              <p className="my-10">
+              <p className='my-10'>
                 <strong className='text-lg w-full'>What are Instagram hashtags?</strong>
                 <p className='text-gray-600'>Instagram hashtags are words or phrases preceded by the &apos;#&apos; symbol that categorize and organize content on the platform. They enable users to search and discover posts related to specific topics, themes, or interests.</p>
               </p>
-              <p className="my-10">
+              <p className='my-10'>
                 <strong className='text-lg'>Why to use Instagram hashtags?</strong>
                 <p className='text-gray-600'>Instagram hashtags are a great way to increase the discoverability of your content or products across Instagram. By choosing relevant hashtags for your posts, you can expand your reach beyond your existing followers and attract new users who are interested in your niche. Hashtags act as keywords, categorizing your content and making it easier for users to find. They enable you to tap into larger conversations and join communities that share similar interests.</p>
               </p>
-              <p className="my-10">
+              <p className='my-10'>
                 <strong className='text-lg'>How do Instagram hashtags work?</strong>
                 <p className='text-gray-600'>When you include hashtags in your Instagram posts, your content becomes searchable by users who follow or search for those hashtags. Hashtags help increase your post&apos;s visibility and reach a wider audience beyond your existing followers.</p>
               </p>
-              <p className="my-10">
+              <p className='my-10'>
                 <strong className='text-lg'>How many hashtags should I use in a post?</strong>
                 <p className='text-gray-600'>While Instagram allows up to 30 hashtags per post, it&apos;s advisable to use a moderate number to maintain readability and avoid appearing spammy. Using 5 to 15 relevant hashtags is generally considered effective.</p>
               </p>
-              <p className="my-10">
+              <p className='my-10'>
                 <strong className='text-lg'>How to Choose the Right Hashtags for Instagram?</strong>
                 <p className='text-gray-600'>When selecting hashtags for your Instagram posts, it&apos;s important to strike a balance between popularity and specificity. Using highly popular hashtags may expose your content to a larger audience, but it also means facing tough competition. On the other hand, using niche-specific hashtags allows you to target a more specific audience who are more likely to engage with your content. It&apos;s recommended to use a combination of both popular and niche hashtags to maximize your visibility while maintaining relevance.</p>
               </p>
-              <p className="my-10">
+              <p className='my-10'>
                 <strong className='text-lg'>The Do&apos;s and Don&apos;ts of Using Instagram Hashtags</strong>
                 <p className='text-gray-600'>To make the most out of your Instagram hashtag strategy, it&apos;s essential to understand the do&apos;s and don&apos;ts of using hashtags. Here are some guidelines to keep in mind:</p>
               </p>
-              <ul className="list-disc list-inside my-10 border p-5 rounded-md bg-green-50 shadow-inner">
+              <ul className='list-disc list-inside my-10 border p-5 rounded-md bg-green-50 shadow-inner'>
                 <li className='text-gray-600'>Do use relevant hashtags that accurately describe your content.</li>
                 <li className='text-gray-600'>Do research and experiment with different hashtag combinations.</li>
                 <li className='text-gray-600'>Do create branded hashtags to foster community engagement.</li>
                 <li className='text-gray-600'>Do analyze hashtag performance and make adjustments accordingly.</li>
               </ul>
-              <ul className="list-disc list-inside my-10 border p-5 rounded-md bg-red-50 shadow-inner">
+              <ul className='list-disc list-inside my-10 border p-5 rounded-md bg-red-50 shadow-inner'>
                 <li className='text-gray-600 mb-5'>Don&apos;t use too many hashtags in a single post. Stick to a reasonable number (between 5 to 15) to maintain readability.</li>
                 <li className='text-gray-600'>Don&apos;t use banned or restricted hashtags. These are hashtags that violate Instagram&apos;s community guidelines and could result in your content being hidden or removed.</li>
               </ul>
