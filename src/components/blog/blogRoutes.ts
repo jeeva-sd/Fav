@@ -52,7 +52,7 @@ export const blogRoutes: Posts[] = [{
 },
 {
   id: 4,
-  title: 'Approach influencer on Instagram?',
+  title: 'Approach influencer on Instagram',
   description: 'Good Influencer can help you reach a large and engaged audience, improve your brand awareness and credibility, and drive sales and conversions.',
   path: '/blog/2023/approach-influencer',
   image: influencer,
@@ -65,7 +65,7 @@ export const blogRoutes: Posts[] = [{
 },
 {
   id: 5,
-  title: 'Get more likes and followers on Instagram?',
+  title: 'Get more likes and followers on Instagram',
   description: 'Whether you\'re a commercial enterprise owner or a casual user, it\'s helpful to know some key notes about Instagram. This will help you get the maximum out of the platform.',
   path: '/blog/2023/get-more-views-on-instagram',
   image: question,
@@ -104,7 +104,7 @@ export const blogRoutes: Posts[] = [{
 },
 {
   id: 8,
-  title: 'Effective ways to use hashtags on Instagram?',
+  title: 'Effective ways to use hashtags on Instagram',
   description: 'An Article about how to choose right hashtags for Insatgram. Choosing a right hashtags for your content is important because hashtags lets you to reach wider audience',
   path: '/blog/2023/optimising-instagram-hashtags',
   image: choose,
@@ -117,7 +117,7 @@ export const blogRoutes: Posts[] = [{
 },
 {
   id: 9,
-  title: 'Add music to notes in Instagram?',
+  title: 'Add music to notes in Instagram',
   description: 'Instagram has recently announced the music feature in notes. So this article guides you to add music to your Instagram notes and make your notes better',
   path: '/blog/2023/audio-in-instagram-notes',
   image: singing,
@@ -143,7 +143,7 @@ export const blogRoutes: Posts[] = [{
 },
 {
   id: 11,
-  title: 'Instagram captions',
+  title: 'Creative Instagram captions',
   description: 'Well-crafted captions can capture attention, evoke emotions, and encourage users to interact with your posts through likes, comments, and shares.',
   path: '/blog/2023/post-captions',
   image: popularHashtagImage,
